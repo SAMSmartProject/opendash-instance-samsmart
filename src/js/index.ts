@@ -75,26 +75,11 @@ init("opendash", async (factory) => {
   );
 
   await factory.use(new TimeseriesPlugin());
+  await factory.use(new MonitoringPlugin());
 
   await factory.use(
     new ParseMonitoringPlugin({
       liveQueries: false,
-    })
-  );
-
-  await factory.use(
-    new MonitoringPlugin({
-      hideMonitoringOnFrontPage: false,
-      autoCreateInitialDashboard: true,
-      autoCreateWidgetOptions: {
-        autoCreateWidgets: false,
-        autoCreateWidgetsForSource: false,
-        autoCreateWidgetsContent: "dimension",
-        autoCreateWidgetsContentForSource: "source",
-        autoCreateWidgetsType: "opendash-widget-hc-kpi",
-        autoCreateWidgetsForSourceType: "opendash-widget-hc-kpi",
-        limitAutoCreateWidgets: 100,
-      },
     })
   );
 
