@@ -13,54 +13,54 @@ importers:
         version: 7.22.3(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@opendash/core':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+        version: 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       '@opendash/i18n':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@opendash/icons':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@opendash/plugin-bde':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(c769233273249334ea64c151bd8632ca)
+        version: 3.0.0-nightly.1742453642(e714f5c5b064d0a2a56844c44945bcf5)
       '@opendash/plugin-feedback':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(c9feecbb937e9722fdfe0c485a976565)
+        version: 3.0.0-nightly.1742453642(a5a710baf3e599c72d290a16b743575a)
       '@opendash/plugin-geo':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(830a624bf71afc30d6ce2b057acb47f9)
+        version: 3.0.0-nightly.1742453642(1c2950a585bc9d39a3515221199cbced)
       '@opendash/plugin-highcharts':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(672f703415b7a03bde46be2f678b1fd1)
+        version: 3.0.0-nightly.1742453642(47b85e6744f17daa37dec2c6e0b1c97d)
       '@opendash/plugin-monitoring':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+        version: 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       '@opendash/plugin-openservice':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(29823574ab3492e38679514696183c3c)
+        version: 3.0.0-nightly.1742453642(ae0196a8a48c763e78d40cb76c976998)
       '@opendash/plugin-openware':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(355018629fe93546bd706412b3e76712)
+        version: 3.0.0-nightly.1742453642(cb28f6050ed1075f53a896b41b2f4f35)
       '@opendash/plugin-parse':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(0c49f330b2ccd1321d6a2fab1890811d)
+        version: 3.0.0-nightly.1742453642(87575fabc86567867d332af85a1b9610)
       '@opendash/plugin-parse-monitoring':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(@opendash/core@3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)))(@opendash/plugin-monitoring@3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)))(@opendash/plugin-parse-schema@3.0.0-nightly.1742305650(parse@3.5.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@opendash/plugin-parse@3.0.0-nightly.1742305650(0c49f330b2ccd1321d6a2fab1890811d))(parse@3.5.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.0.0-nightly.1742453642(@opendash/core@3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)))(@opendash/plugin-monitoring@3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)))(@opendash/plugin-parse-schema@3.0.0-nightly.1742305650(parse@3.5.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@opendash/plugin-parse@3.0.0-nightly.1742453642(87575fabc86567867d332af85a1b9610))(parse@3.5.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@opendash/plugin-timeseries':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+        version: 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       '@opendash/state':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@opendash/ui':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+        version: 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       '@turf/turf':
         specifier: ^6.5.0
         version: 6.5.0
       antd:
-        specifier: ^5.24.3
+        specifier: ^5.24.4
         version: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       dayjs:
         specifier: ^1.11.13
@@ -87,7 +87,7 @@ importers:
         specifier: ^2.15.0
         version: 2.15.0
       mobx:
-        specifier: ^6.13.6
+        specifier: ^6.13.7
         version: 6.13.7
       mobx-react-lite:
         specifier: ^3.4.3
@@ -140,13 +140,13 @@ importers:
     devDependencies:
       '@opendash/cli':
         specifier: nightly
-        version: 3.0.0-nightly.1742305650(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
+        version: 3.0.0-nightly.1742453642(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@types/parse':
         specifier: ^2.18.18
         version: 2.18.18
       '@types/react':
-        specifier: ^18.3.18
-        version: 18.3.18
+        specifier: ^18.3.19
+        version: 18.3.19
       '@types/styled-components':
         specifier: ^5.1.34
         version: 5.1.34
@@ -257,8 +257,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
 
-  '@babel/helper-define-polyfill-provider@0.6.3':
-    resolution: {integrity: sha512-HK7Bi+Hj6H+VTHA3ZvBis7V/6hu9QuTrnMXNybfUf2iiuU/N97I8VjB+KbhFF8Rld/Lx5MzoCwPCpPjfK+n8Cg==}
+  '@babel/helper-define-polyfill-provider@0.6.4':
+    resolution: {integrity: sha512-jljfR1rGnXXNWnmQg2K3+bvhkxB51Rl32QRaOTuwwjviGrHzIbSc8+x9CpraDtbT7mfyjXObULP4w/adunNwAw==}
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
@@ -1106,12 +1106,12 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@opendash/cli@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-llZsMsV50RJthAhl83TGDcRXoxipwGhsdhW9qs519CRARM589bbtUhaMh3tbzCC6zQhSvja0oSzewry/qlj0ZA==}
+  '@opendash/cli@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-VLmBj9RlbXvs0jp3JTFY22zkYhPKNJXxeK2PaExkyMl89RdqlIclopbZ4mUzHkrg1FJsnABekkw2GDKT6vRIwg==}
     hasBin: true
 
-  '@opendash/core@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-Q+b4AcsHOAh9hfAtSJH6l1rPE2vVxhYMA3k+wnZKPMMgm2CQuCpDjFYLiR3QasKUM1jvQ337p/qnUGlLwlhD1Q==}
+  '@opendash/core@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-uzujRasxGkWmBChc4tonSvzN+aTKhmCnTuVE9oODn1VMo+ldzUcjXxLP2bgAIwLkXxBpOvVJcxiUohucKznbJQ==}
     peerDependencies:
       antd: ^5.20.0
       dayjs: ^1.11.13
@@ -1119,38 +1119,38 @@ packages:
       react-dom: ^18.2.0
       styled-components: ^5.2.1
 
-  '@opendash/i18n@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-hDiEToTjF7S2XA6yK4gpLfZfXdRYzfd/HybSNQZCrlYdQI0EerrAaqfl7AqNyRmBwfrVOJpAjp1hAHVIz10zzw==}
+  '@opendash/i18n@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-p315cT0LGFhFvYnrm+G5W7ljar2O2eVLUmFeihO8d+imLG2lMqwyRbAWCfs06tsSWRMTNXaVsvMVDQ44RevHrw==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@opendash/icons@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-YqKvPed2ds9cM8LdwHl0HeOxlcoYC2YrXeL8XCPtdU0sRJgmlyURk36Dg2123evfOHb4iKdEjKW5G3Jz/lXFFg==}
+  '@opendash/icons@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-9zm8VSlgyaPvDrJUMhzAorCL9J6PrxYa8yxi/mm6VceWMHv5s6WYFbY2zLv/KbSkh5hw52BrlWCVXqwn13pefA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@opendash/plugin-bde@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-A8JpJMtAqjA+qrp+ngipVkgdWOvIzzx3EoJp0zQf0H2gPy3iJSTNFbeHj8YP+vXFidl34i0gO2RZQG9SIZh5gQ==}
+  '@opendash/plugin-bde@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-lY+OcGaxihXW5AmRfqQfUxy7kCQMXytxDresogkHmTipptEtPyznZ2W0RSUVuSmRy9CCFA9wOIWqHbedlbSXdA==}
     peerDependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650
-      '@opendash/icons': 3.0.0-nightly.1742305650
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650
-      '@opendash/plugin-timeseries': 3.0.0-nightly.1742305650
-      '@opendash/ui': 3.0.0-nightly.1742305650
+      '@opendash/core': 3.0.0-nightly.1742453642
+      '@opendash/icons': 3.0.0-nightly.1742453642
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642
+      '@opendash/plugin-timeseries': 3.0.0-nightly.1742453642
+      '@opendash/ui': 3.0.0-nightly.1742453642
       parse: ^3.1.0
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@opendash/plugin-feedback@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-0QhLGe+Hu+s/ibWMQWtGgBSej0Omgf4jwk8ecdxjY4+FdAh0dA6QK9832cJDiuPmOli+4Zf75SkPholoz7rzew==}
+  '@opendash/plugin-feedback@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-hHn2KoSAZ9HqS/+wMNQgmorfspSh0a1Ta6ig5jBahbU1mI0WiVyET2gYajl+o+MxNAMaz+egrYpt/rITw/phnQ==}
     peerDependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650
-      '@opendash/i18n': 3.0.0-nightly.1742305650
-      '@opendash/icons': 3.0.0-nightly.1742305650
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650
-      '@opendash/ui': 3.0.0-nightly.1742305650
+      '@opendash/core': 3.0.0-nightly.1742453642
+      '@opendash/i18n': 3.0.0-nightly.1742453642
+      '@opendash/icons': 3.0.0-nightly.1742453642
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642
+      '@opendash/ui': 3.0.0-nightly.1742453642
       antd: ^5.20.0
       dayjs: ^1.11.13
       mobx: ^6.6.0
@@ -1161,37 +1161,37 @@ packages:
       react-dom: ^18.2.0
       styled-components: ^5.3.0
 
-  '@opendash/plugin-geo@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-R3fHFbbNwG17M6RcOBsdwkcPU42ZHJwcBeTU4vrHZz3Wl1qcqKKf5Vgj1FBdMtmEV0NI7ytYczhP5OlUPXMDGA==}
+  '@opendash/plugin-geo@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-VVwQnVY/F3NRU75sMyCdAaWSfvDqKoAWbYvk1M61dOBO3RsqfRPv78bguqCWKWXp1KqdLxOusXdeBUHMPDoeTQ==}
     peerDependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650
-      '@opendash/icons': 3.0.0-nightly.1742305650
-      '@opendash/state': 3.0.0-nightly.1742305650
-      '@opendash/ui': 3.0.0-nightly.1742305650
+      '@opendash/core': 3.0.0-nightly.1742453642
+      '@opendash/icons': 3.0.0-nightly.1742453642
+      '@opendash/state': 3.0.0-nightly.1742453642
+      '@opendash/ui': 3.0.0-nightly.1742453642
       antd: ^5.20.0
       parse: ^3.4.1
       react: ^18.2.0
       react-dom: ^18.2.0
       styled-components: ^5.3.5
 
-  '@opendash/plugin-highcharts@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-81shnwFjGdT7tv5JLf3PvW2M91OFtVrnZAqHtg0uPtdwL0lHTvsN1CThLKpmwmy2W54NioFygOhWaNFUD4dQaA==}
+  '@opendash/plugin-highcharts@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-DgSKJlM2a+ag5itCRaJQ7u6+JWYGsLHwXufL6Wm7cqhTgp0X7GtqLXfJt8EKkrnI7WZksJhzwquZkc+8sL1dMA==}
     peerDependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650
-      '@opendash/i18n': 3.0.0-nightly.1742305650
-      '@opendash/icons': 3.0.0-nightly.1742305650
-      '@opendash/plugin-monitoring': 3.0.0-nightly.1742305650
-      '@opendash/plugin-timeseries': 3.0.0-nightly.1742305650
-      '@opendash/router': 3.0.0-nightly.1742305650
-      '@opendash/ui': 3.0.0-nightly.1742305650
+      '@opendash/core': 3.0.0-nightly.1742453642
+      '@opendash/i18n': 3.0.0-nightly.1742453642
+      '@opendash/icons': 3.0.0-nightly.1742453642
+      '@opendash/plugin-monitoring': 3.0.0-nightly.1742453642
+      '@opendash/plugin-timeseries': 3.0.0-nightly.1742453642
+      '@opendash/router': 3.0.0-nightly.1742453642
+      '@opendash/ui': 3.0.0-nightly.1742453642
       antd: ^5.20.0
       dayjs: ^1.11.13
       react: ^18.2.0
       react-dom: ^18.2.0
       styled-components: ^5.3.5
 
-  '@opendash/plugin-monitoring@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-suQLblwCg6yGlfTj0pPfnY+kBq9f6WEb8vYVhmx+oWqDeabiJFPPkt537oPPvFImNZpK55DIwIMqcOG0bSqJJA==}
+  '@opendash/plugin-monitoring@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-oHvN5EZtQqUAwcfjrSkoPI4lkMAulPjxOyFGn1P08O2AaG1+HZEmBbzMwz2exgysmFGRlsLZpyc9vjKsCcLWWg==}
     peerDependencies:
       antd: ^5.20.0
       dayjs: ^1.11.13
@@ -1199,17 +1199,17 @@ packages:
       react-dom: ^18.2.0
       styled-components: ^5.2.1
 
-  '@opendash/plugin-openservice@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-kWOETrK1GI+ys4d401tPmsgUEWiqQ1xSL9Hx72/x3OPA9oGbx4Sv634Cvk1UKZunYyIW+b6CjaY+addpOJYByQ==}
+  '@opendash/plugin-openservice@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-EPtD/TRIGXznbDcBlwywqTRNk+NevYKJiHidRGYsXflHT/Gj4mi9EvZ6btpJ9tsH4SrnS5YbNMPLDboyxxwxUg==}
     peerDependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650
-      '@opendash/i18n': 3.0.0-nightly.1742305650
-      '@opendash/icons': 3.0.0-nightly.1742305650
-      '@opendash/plugin-highcharts': 3.0.0-nightly.1742305650
-      '@opendash/plugin-monitoring': 3.0.0-nightly.1742305650
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650
-      '@opendash/plugin-timeseries': 3.0.0-nightly.1742305650
-      '@opendash/ui': 3.0.0-nightly.1742305650
+      '@opendash/core': 3.0.0-nightly.1742453642
+      '@opendash/i18n': 3.0.0-nightly.1742453642
+      '@opendash/icons': 3.0.0-nightly.1742453642
+      '@opendash/plugin-highcharts': 3.0.0-nightly.1742453642
+      '@opendash/plugin-monitoring': 3.0.0-nightly.1742453642
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642
+      '@opendash/plugin-timeseries': 3.0.0-nightly.1742453642
+      '@opendash/ui': 3.0.0-nightly.1742453642
       antd: ^5.20.0
       dayjs: ^1.11.13
       mobx: ^6.6.0
@@ -1219,28 +1219,28 @@ packages:
       react-dom: ^18.2.0
       styled-components: ^5.3.0
 
-  '@opendash/plugin-openware@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-qJLeIuYpaz9q5tlmnyFEEPGqfD1tsV8EfeV71MyRt4qnADki+S0JPrCtlenchIlz2UoU5ZigL+GV9d69MK3aIA==}
+  '@opendash/plugin-openware@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-HxsxldfUscZ+5VTI/rPwbvUEqJJgG4wLcu/q0Y8pc+xa6wVL2iF9ZLT3gCxQsVLhR1f6d3c+O2JkUFoMZbh2hg==}
     peerDependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650
-      '@opendash/i18n': 3.0.0-nightly.1742305650
-      '@opendash/icons': 3.0.0-nightly.1742305650
-      '@opendash/plugin-bde': 3.0.0-nightly.1742305650
-      '@opendash/plugin-monitoring': 3.0.0-nightly.1742305650
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650
-      '@opendash/plugin-timeseries': 3.0.0-nightly.1742305650
-      '@opendash/ui': 3.0.0-nightly.1742305650
+      '@opendash/core': 3.0.0-nightly.1742453642
+      '@opendash/i18n': 3.0.0-nightly.1742453642
+      '@opendash/icons': 3.0.0-nightly.1742453642
+      '@opendash/plugin-bde': 3.0.0-nightly.1742453642
+      '@opendash/plugin-monitoring': 3.0.0-nightly.1742453642
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642
+      '@opendash/plugin-timeseries': 3.0.0-nightly.1742453642
+      '@opendash/ui': 3.0.0-nightly.1742453642
       parse: ^3.1.0
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@opendash/plugin-parse-monitoring@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-eW30FVzUIQ9eF3A/xS7xbslYVzhaR8qv7gYnSr3L55RPS88L07lOWnWEO0tT90HBbyJtyvHgqFiz/vufyBrkSQ==}
+  '@opendash/plugin-parse-monitoring@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-nDLQPvOnUrJb6zNvQmizr4sN2Jtakiz6sVPBgAWrqg6motwsI2qzGo1zllKCXFZBZGGFiQ5Z4zH0+bwx3FVYFg==}
     peerDependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650
-      '@opendash/plugin-monitoring': 3.0.0-nightly.1742305650
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650
-      '@opendash/plugin-parse-schema': 3.0.0-nightly.1742305650
+      '@opendash/core': 3.0.0-nightly.1742453642
+      '@opendash/plugin-monitoring': 3.0.0-nightly.1742453642
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642
+      '@opendash/plugin-parse-schema': 3.0.0-nightly.1742453642
       parse: ^3.1.0
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -1252,21 +1252,21 @@ packages:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@opendash/plugin-parse@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-mkLI5fqtyCXGmCf9fFWAdAIEGnch1tODwnM+ZnRQgBQAymtKdxgv4yeENH9VCwEkrASy2cFUKohXCpgNj/zvFg==}
+  '@opendash/plugin-parse@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-gO/RIYg05PhLrdK8nezkWbftqJkOfPBvazELTxQbBxheECLTTULxdGYPGHcAz56gpTcPr4BQzJ9DQZBMui+RsA==}
     peerDependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650
-      '@opendash/i18n': 3.0.0-nightly.1742305650
-      '@opendash/icons': 3.0.0-nightly.1742305650
-      '@opendash/plugin-geo': 3.0.0-nightly.1742305650
-      '@opendash/state': 3.0.0-nightly.1742305650
-      '@opendash/ui': 3.0.0-nightly.1742305650
+      '@opendash/core': 3.0.0-nightly.1742453642
+      '@opendash/i18n': 3.0.0-nightly.1742453642
+      '@opendash/icons': 3.0.0-nightly.1742453642
+      '@opendash/plugin-geo': 3.0.0-nightly.1742453642
+      '@opendash/state': 3.0.0-nightly.1742453642
+      '@opendash/ui': 3.0.0-nightly.1742453642
       parse: ^3.1.0
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@opendash/plugin-timeseries@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-Y8WzgeMkrO2TD6/F35XbT/prDd0NRcePVnidA35RGei7chKVfPt3XWABPU8MuOq7xjyZfE3wvip1WF5KwM1vwQ==}
+  '@opendash/plugin-timeseries@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-nYU4UcZ6Z1DscLGSvXb/Dv3KhX2b5sy+EAfhQjHu8pV1h+6Ap+jIETfyqCoTSGcdE8BGs/rTLvu43rZIFEfDQg==}
     peerDependencies:
       antd: ^5.20.0
       dayjs: ^1.11.13
@@ -1274,19 +1274,19 @@ packages:
       react-dom: ^18.2.0
       styled-components: ^5.2.1
 
-  '@opendash/router@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-qZKB0xUrdX8Z9FpwqGCx01sxVKPXHyArdOG7060+j9E6o4qogSq5yrDcrIrGU3l9rif4PGQn5XW9gm7u+HrGRw==}
+  '@opendash/router@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-zl/4jSoCZ2uUIMRHmHrVZsi7tjypQMUiiMjwlUpE/noto2G5UYidRygUqtRqoX/xpNntVoy1GB1te/O4Yc4WTA==}
     peerDependencies:
       react: ^18.2.0
 
-  '@opendash/state@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-+YXwbXGvwV6m1cLbFX7F9ixxE6IIt6wN1HEgcbpGzyjYQ/h9nEW+ThjW53rEosp1rQ2xkG4GxWq5JviMDnp+dA==}
+  '@opendash/state@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-S22dp9kCYgqIngS8UDzwx/f7EKTc5k0q9FETxW3xbTDr5hia21Z5tyWiQqojYSrvgcQJK4Tuu/0w1nJgUVww7Q==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@opendash/ui@3.0.0-nightly.1742305650':
-    resolution: {integrity: sha512-6Vet15QknshRS+n8o+JRSttBudKpfdOTaOPbS9FkQA++ro+CBZ3UCk6jhKupHaN946tGtR/vAyVaAxXVbGP3Cw==}
+  '@opendash/ui@3.0.0-nightly.1742453642':
+    resolution: {integrity: sha512-jYEjXOxKtQfXegp2p/S2c6PrFPj6YBKv0zm0tLiNjrw3ATNCxL0aLUR+ZTubqq3HpaAfoYe632+t+TplgFY8tg==}
     peerDependencies:
       antd: ^5.20.0
       react: ^18.2.0
@@ -1884,8 +1884,8 @@ packages:
   '@types/react-redux@7.1.34':
     resolution: {integrity: sha512-GdFaVjEbYv4Fthm2ZLvj1VSCedV7TqE5y1kNwnjSdBOTXuRSgowux6J8TAct15T3CKBr63UMk+2CO7ilRhyrAQ==}
 
-  '@types/react@18.3.18':
-    resolution: {integrity: sha512-t4yC+vtgnkYjNSKlFx1jkAhH8LgTo2N/7Qvi83kdEaUtMDiwpbLAktKDaAMlRcJ5eSxZkH74eEGt1ky31d7kfQ==}
+  '@types/react@18.3.19':
+    resolution: {integrity: sha512-fcdJqaHOMDbiAwJnXv6XCzX0jDW77yI3tJqYh1Byn8EL5/S628WRx9b/y3DnNe55zTukUQKrfYxiZls2dHcUMw==}
 
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -2118,8 +2118,8 @@ packages:
   b4a@1.6.7:
     resolution: {integrity: sha512-OnAYlL5b7LEkALw87fUVafQw5rVR9RjwGd4KUwNQ6DrrNmaVaUCgLipfVlzrPQ4tWOR9P0IXGNOx50jYCCdSJg==}
 
-  babel-plugin-polyfill-corejs2@0.4.12:
-    resolution: {integrity: sha512-CPWT6BwvhrTO2d8QVorhTCQw9Y43zOu7G9HigcfxvepOU6b8o3tcWad6oVgZIsZCTt42FFv97aA7ZJsbM4+8og==}
+  babel-plugin-polyfill-corejs2@0.4.13:
+    resolution: {integrity: sha512-3sX/eOms8kd3q2KZ6DAhKPc0dgm525Gqq5NtWKZ7QYYZEv57OQ54KtblzJzH1lQF/eQxO8KjWGIK9IPUJNus5g==}
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
@@ -2128,8 +2128,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-regenerator@0.6.3:
-    resolution: {integrity: sha512-LiWSbl4CRSIa5x/JAU6jZiG9eit9w6mz+yVMFwDE83LAWvt0AfGBoZ7HS/mkhrKuh2ZlzfVZYKoLjXdqw6Yt7Q==}
+  babel-plugin-polyfill-regenerator@0.6.4:
+    resolution: {integrity: sha512-7gD3pRadPrbjhjLyxebmx/WrFYcuSjZ0XbdUujQMZ/fcE9oeewk2U/7PCvez84UeuK3oSjmPZ0Ch0dlupQvGzw==}
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
@@ -2786,8 +2786,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.120:
-    resolution: {integrity: sha512-oTUp3gfX1gZI+xfD2djr2rzQdHCwHzPQrrK0CD7WpTdF0nPdQ/INcRVjWgLdCT4a9W3jFObR9DAfsuyFQnI8CQ==}
+  electron-to-chromium@1.5.122:
+    resolution: {integrity: sha512-EML1wnwkY5MFh/xUnCvY8FrhUuKzdYhowuZExZOfwJo+Zu9OsNCI23Cgl5y7awy7HrUHSwB1Z8pZX5TI34lsUg==}
 
   elliptic@6.6.1:
     resolution: {integrity: sha512-RaddvvMatK2LJHqFJ+YA4WysVN5Ita9E35botqIYspQ4TkRAlCicdzKOjlyv/1Za5RyTNn7di//eEV0uTAfe3g==}
@@ -6057,7 +6057,7 @@ snapshots:
       regexpu-core: 6.2.0
       semver: 6.3.1
 
-  '@babel/helper-define-polyfill-provider@0.6.3(@babel/core@7.26.10)':
+  '@babel/helper-define-polyfill-provider@0.6.4(@babel/core@7.26.10)':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/helper-compilation-targets': 7.26.5
@@ -6591,9 +6591,9 @@ snapshots:
       '@babel/plugin-transform-unicode-regex': 7.25.9(@babel/core@7.26.10)
       '@babel/plugin-transform-unicode-sets-regex': 7.25.9(@babel/core@7.26.10)
       '@babel/preset-modules': 0.1.6-no-external-plugins(@babel/core@7.26.10)
-      babel-plugin-polyfill-corejs2: 0.4.12(@babel/core@7.26.10)
+      babel-plugin-polyfill-corejs2: 0.4.13(@babel/core@7.26.10)
       babel-plugin-polyfill-corejs3: 0.11.1(@babel/core@7.26.10)
-      babel-plugin-polyfill-regenerator: 0.6.3(@babel/core@7.26.10)
+      babel-plugin-polyfill-regenerator: 0.6.4(@babel/core@7.26.10)
       core-js-compat: 3.41.0
       semver: 6.3.1
     transitivePeerDependencies:
@@ -6916,7 +6916,7 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
 
-  '@opendash/cli@3.0.0-nightly.1742305650(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)':
+  '@opendash/cli@3.0.0-nightly.1742453642(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)':
     dependencies:
       commander: 12.1.0
       copy-webpack-plugin: 12.0.2(webpack@5.98.0)
@@ -6933,7 +6933,7 @@ snapshots:
       mkdirp: 3.0.1
       node-fetch: 2.6.12
       node-polyfill-webpack-plugin: 4.1.0(webpack@5.98.0)
-      react-hot-loader: 4.13.1(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-hot-loader: 4.13.1(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       rimraf: 4.4.1
       serve-handler: 6.1.6
       sharp: 0.33.5
@@ -6967,24 +6967,24 @@ snapshots:
       - utf-8-validate
       - webpack-cli
 
-  '@opendash/core@3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))':
+  '@opendash/core@3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))':
     dependencies:
-      '@opendash/i18n': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/router': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/ui': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/i18n': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/router': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/ui': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       async-validator: 3.5.2
       dayjs: 1.11.13
       immer: 9.0.21
-      kbar: 0.1.0-beta.40(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      kbar: 0.1.0-beta.40(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lodash.throttle: 4.1.1
       mobx: 6.13.7
       mobx-react-lite: 3.4.3(mobx@6.13.7)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       picomatch: 2.3.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-markdown: 6.0.3(@types/react@18.3.18)(react@18.3.1)
+      react-markdown: 6.0.3(@types/react@18.3.19)(react@18.3.1)
       rison: 0.1.1
       styled-components: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
@@ -6994,26 +6994,26 @@ snapshots:
       - react-native
       - supports-color
 
-  '@opendash/i18n@3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@opendash/i18n@3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@opendash/icons@3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@opendash/icons@3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@opendash/plugin-bde@3.0.0-nightly.1742305650(c769233273249334ea64c151bd8632ca)':
+  '@opendash/plugin-bde@3.0.0-nightly.1742453642(e714f5c5b064d0a2a56844c44945bcf5)':
     dependencies:
       '@ant-design/icons': 5.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@ant-design/pro-layout': 7.22.3(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/core': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650(0c49f330b2ccd1321d6a2fab1890811d)
-      '@opendash/plugin-timeseries': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/router': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/ui': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/core': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642(87575fabc86567867d332af85a1b9610)
+      '@opendash/plugin-timeseries': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/router': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/ui': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       date-fns: 2.30.0
       lodash: 4.17.21
@@ -7033,13 +7033,13 @@ snapshots:
       - react-is
       - react-native
 
-  '@opendash/plugin-feedback@3.0.0-nightly.1742305650(c9feecbb937e9722fdfe0c485a976565)':
+  '@opendash/plugin-feedback@3.0.0-nightly.1742453642(a5a710baf3e599c72d290a16b743575a)':
     dependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/i18n': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650(0c49f330b2ccd1321d6a2fab1890811d)
-      '@opendash/ui': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/core': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/i18n': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642(87575fabc86567867d332af85a1b9610)
+      '@opendash/ui': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       dayjs: 1.11.13
       immutability-helper: 3.1.1
@@ -7051,34 +7051,34 @@ snapshots:
       parse-hooks: 0.4.2(parse@3.5.1)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-markdown: 6.0.3(@types/react@18.3.18)(react@18.3.1)
+      react-markdown: 6.0.3(@types/react@18.3.19)(react@18.3.1)
       styled-components: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - supports-color
 
-  '@opendash/plugin-geo@3.0.0-nightly.1742305650(830a624bf71afc30d6ce2b057acb47f9)':
+  '@opendash/plugin-geo@3.0.0-nightly.1742453642(1c2950a585bc9d39a3515221199cbced)':
     dependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/state': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/ui': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/core': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/state': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/ui': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       parse: 3.5.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       styled-components: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)
 
-  '@opendash/plugin-highcharts@3.0.0-nightly.1742305650(672f703415b7a03bde46be2f678b1fd1)':
+  '@opendash/plugin-highcharts@3.0.0-nightly.1742453642(47b85e6744f17daa37dec2c6e0b1c97d)':
     dependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/i18n': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/plugin-monitoring': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650(0c49f330b2ccd1321d6a2fab1890811d)
-      '@opendash/plugin-timeseries': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/router': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/ui': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/core': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/i18n': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/plugin-monitoring': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642(87575fabc86567867d332af85a1b9610)
+      '@opendash/plugin-timeseries': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/router': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/ui': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       dayjs: 1.11.13
       highcharts: 9.3.3
@@ -7098,14 +7098,14 @@ snapshots:
       - react-is
       - react-native
 
-  '@opendash/plugin-monitoring@3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))':
+  '@opendash/plugin-monitoring@3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))':
     dependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/i18n': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/plugin-timeseries': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/router': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/ui': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/core': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/i18n': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/plugin-timeseries': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/router': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/ui': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       async-validator: 3.5.2
       dayjs: 1.11.13
@@ -7119,7 +7119,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-grid-layout: 1.5.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react-markdown: 6.0.3(@types/react@18.3.18)(react@18.3.1)
+      react-markdown: 6.0.3(@types/react@18.3.19)(react@18.3.1)
       react-papaparse: 4.4.0
       react-window: 1.8.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       rison: 0.1.1
@@ -7132,20 +7132,20 @@ snapshots:
       - react-native
       - supports-color
 
-  '@opendash/plugin-openservice@3.0.0-nightly.1742305650(29823574ab3492e38679514696183c3c)':
+  '@opendash/plugin-openservice@3.0.0-nightly.1742453642(ae0196a8a48c763e78d40cb76c976998)':
     dependencies:
       '@dnd-kit/core': 6.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@dnd-kit/sortable': 10.0.0(@dnd-kit/core@6.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@dnd-kit/utilities': 3.2.2(react@18.3.1)
-      '@opendash/core': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/i18n': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/plugin-highcharts': 3.0.0-nightly.1742305650(672f703415b7a03bde46be2f678b1fd1)
-      '@opendash/plugin-monitoring': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650(0c49f330b2ccd1321d6a2fab1890811d)
-      '@opendash/plugin-timeseries': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/router': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/ui': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/core': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/i18n': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/plugin-highcharts': 3.0.0-nightly.1742453642(47b85e6744f17daa37dec2c6e0b1c97d)
+      '@opendash/plugin-monitoring': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642(87575fabc86567867d332af85a1b9610)
+      '@opendash/plugin-timeseries': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/router': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/ui': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       dayjs: 1.11.13
       file-saver: 2.0.5
@@ -7168,20 +7168,20 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@opendash/plugin-openware@3.0.0-nightly.1742305650(355018629fe93546bd706412b3e76712)':
+  '@opendash/plugin-openware@3.0.0-nightly.1742453642(cb28f6050ed1075f53a896b41b2f4f35)':
     dependencies:
       '@ant-design/pro-layout': 7.22.3(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@datasert/cronjs-matcher': 1.2.0
-      '@opendash/core': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/i18n': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/plugin-bde': 3.0.0-nightly.1742305650(c769233273249334ea64c151bd8632ca)
-      '@opendash/plugin-highcharts': 3.0.0-nightly.1742305650(672f703415b7a03bde46be2f678b1fd1)
-      '@opendash/plugin-monitoring': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650(0c49f330b2ccd1321d6a2fab1890811d)
-      '@opendash/plugin-timeseries': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/router': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/ui': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/core': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/i18n': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/plugin-bde': 3.0.0-nightly.1742453642(e714f5c5b064d0a2a56844c44945bcf5)
+      '@opendash/plugin-highcharts': 3.0.0-nightly.1742453642(47b85e6744f17daa37dec2c6e0b1c97d)
+      '@opendash/plugin-monitoring': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642(87575fabc86567867d332af85a1b9610)
+      '@opendash/plugin-timeseries': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/router': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/ui': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       axios: 0.21.4
       cronstrue: 2.56.0
@@ -7204,11 +7204,11 @@ snapshots:
       - react-is
       - react-native
 
-  '@opendash/plugin-parse-monitoring@3.0.0-nightly.1742305650(@opendash/core@3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)))(@opendash/plugin-monitoring@3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)))(@opendash/plugin-parse-schema@3.0.0-nightly.1742305650(parse@3.5.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@opendash/plugin-parse@3.0.0-nightly.1742305650(0c49f330b2ccd1321d6a2fab1890811d))(parse@3.5.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@opendash/plugin-parse-monitoring@3.0.0-nightly.1742453642(@opendash/core@3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)))(@opendash/plugin-monitoring@3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)))(@opendash/plugin-parse-schema@3.0.0-nightly.1742305650(parse@3.5.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@opendash/plugin-parse@3.0.0-nightly.1742453642(87575fabc86567867d332af85a1b9610))(parse@3.5.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/plugin-monitoring': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/plugin-parse': 3.0.0-nightly.1742305650(0c49f330b2ccd1321d6a2fab1890811d)
+      '@opendash/core': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/plugin-monitoring': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/plugin-parse': 3.0.0-nightly.1742453642(87575fabc86567867d332af85a1b9610)
       '@opendash/plugin-parse-schema': 3.0.0-nightly.1742305650(parse@3.5.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       parse: 3.5.1
       react: 18.3.1
@@ -7220,16 +7220,16 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  '@opendash/plugin-parse@3.0.0-nightly.1742305650(0c49f330b2ccd1321d6a2fab1890811d)':
+  '@opendash/plugin-parse@3.0.0-nightly.1742453642(87575fabc86567867d332af85a1b9610)':
     dependencies:
       '@ant-design/pro-layout': 7.22.3(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/core': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/i18n': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/plugin-geo': 3.0.0-nightly.1742305650(830a624bf71afc30d6ce2b057acb47f9)
-      '@opendash/router': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/state': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/ui': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/core': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/i18n': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/plugin-geo': 3.0.0-nightly.1742453642(1c2950a585bc9d39a3515221199cbced)
+      '@opendash/router': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/state': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/ui': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       dayjs: 1.11.13
       parse: 3.5.1
@@ -7246,12 +7246,12 @@ snapshots:
       - react-is
       - react-native
 
-  '@opendash/plugin-timeseries@3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))':
+  '@opendash/plugin-timeseries@3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))':
     dependencies:
-      '@opendash/core': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
-      '@opendash/i18n': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/ui': 3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/core': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(dayjs@1.11.13)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
+      '@opendash/i18n': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/ui': 3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       async-validator: 3.5.2
       dayjs: 1.11.13
@@ -7265,7 +7265,7 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-grid-layout: 1.5.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react-markdown: 6.0.3(@types/react@18.3.18)(react@18.3.1)
+      react-markdown: 6.0.3(@types/react@18.3.19)(react@18.3.1)
       react-window: 1.8.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       rison: 0.1.1
       simple-statistics: 7.8.8
@@ -7277,9 +7277,9 @@ snapshots:
       - react-native
       - supports-color
 
-  '@opendash/router@3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@opendash/router@3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@opendash/state': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/state': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-router: 6.30.0(react@18.3.1)
       react-router-dom: 6.30.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -7287,7 +7287,7 @@ snapshots:
       - react-dom
       - react-native
 
-  '@opendash/state@3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@opendash/state@3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       immer: 9.0.21
       mobx: 6.13.7
@@ -7297,16 +7297,16 @@ snapshots:
     transitivePeerDependencies:
       - react-native
 
-  '@opendash/ui@3.0.0-nightly.1742305650(@types/react@18.3.18)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))':
+  '@opendash/ui@3.0.0-nightly.1742453642(@types/react@18.3.19)(antd@5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1))':
     dependencies:
-      '@opendash/i18n': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@opendash/icons': 3.0.0-nightly.1742305650(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/i18n': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@opendash/icons': 3.0.0-nightly.1742453642(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       antd: 5.24.4(date-fns@2.30.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       cron-schedule: 5.0.4
       lodash.throttle: 4.1.1
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-json-view: 1.21.3(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-json-view: 1.21.3(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       styled-components: 5.3.11(@babel/core@7.26.10)(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
@@ -7325,41 +7325,41 @@ snapshots:
       - bare-buffer
       - supports-color
 
-  '@radix-ui/react-compose-refs@1.1.1(@types/react@18.3.18)(react@18.3.1)':
+  '@radix-ui/react-compose-refs@1.1.1(@types/react@18.3.19)(react@18.3.1)':
     dependencies:
       react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
 
-  '@radix-ui/react-portal@1.1.4(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@radix-ui/react-portal@1.1.4(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@radix-ui/react-primitive': 2.0.2(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@radix-ui/react-use-layout-effect': 1.1.0(@types/react@18.3.18)(react@18.3.1)
+      '@radix-ui/react-primitive': 2.0.2(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-use-layout-effect': 1.1.0(@types/react@18.3.19)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
 
-  '@radix-ui/react-primitive@2.0.2(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@radix-ui/react-primitive@2.0.2(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@radix-ui/react-slot': 1.1.2(@types/react@18.3.18)(react@18.3.1)
+      '@radix-ui/react-slot': 1.1.2(@types/react@18.3.19)(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
 
-  '@radix-ui/react-slot@1.1.2(@types/react@18.3.18)(react@18.3.1)':
+  '@radix-ui/react-slot@1.1.2(@types/react@18.3.19)(react@18.3.1)':
     dependencies:
-      '@radix-ui/react-compose-refs': 1.1.1(@types/react@18.3.18)(react@18.3.1)
+      '@radix-ui/react-compose-refs': 1.1.1(@types/react@18.3.19)(react@18.3.1)
       react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
 
-  '@radix-ui/react-use-layout-effect@1.1.0(@types/react@18.3.18)(react@18.3.1)':
+  '@radix-ui/react-use-layout-effect@1.1.0(@types/react@18.3.19)(react@18.3.1)':
     dependencies:
       react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
 
   '@rc-component/async-validator@5.0.4':
     dependencies:
@@ -8376,7 +8376,7 @@ snapshots:
 
   '@types/hoist-non-react-statics@3.3.6':
     dependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
       hoist-non-react-statics: 3.3.2
 
   '@types/html-minifier-terser@6.1.0': {}
@@ -8420,11 +8420,11 @@ snapshots:
   '@types/react-redux@7.1.34':
     dependencies:
       '@types/hoist-non-react-statics': 3.3.6
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
       hoist-non-react-statics: 3.3.2
       redux: 4.2.1
 
-  '@types/react@18.3.18':
+  '@types/react@18.3.19':
     dependencies:
       '@types/prop-types': 15.7.14
       csstype: 3.1.3
@@ -8455,7 +8455,7 @@ snapshots:
   '@types/styled-components@5.1.34':
     dependencies:
       '@types/hoist-non-react-statics': 3.3.6
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
       csstype: 3.1.3
 
   '@types/trusted-types@2.0.7': {}
@@ -8741,11 +8741,11 @@ snapshots:
 
   b4a@1.6.7: {}
 
-  babel-plugin-polyfill-corejs2@0.4.12(@babel/core@7.26.10):
+  babel-plugin-polyfill-corejs2@0.4.13(@babel/core@7.26.10):
     dependencies:
       '@babel/compat-data': 7.26.8
       '@babel/core': 7.26.10
-      '@babel/helper-define-polyfill-provider': 0.6.3(@babel/core@7.26.10)
+      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.26.10)
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -8753,15 +8753,15 @@ snapshots:
   babel-plugin-polyfill-corejs3@0.11.1(@babel/core@7.26.10):
     dependencies:
       '@babel/core': 7.26.10
-      '@babel/helper-define-polyfill-provider': 0.6.3(@babel/core@7.26.10)
+      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.26.10)
       core-js-compat: 3.41.0
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-regenerator@0.6.3(@babel/core@7.26.10):
+  babel-plugin-polyfill-regenerator@0.6.4(@babel/core@7.26.10):
     dependencies:
       '@babel/core': 7.26.10
-      '@babel/helper-define-polyfill-provider': 0.6.3(@babel/core@7.26.10)
+      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.26.10)
     transitivePeerDependencies:
       - supports-color
 
@@ -8927,7 +8927,7 @@ snapshots:
   browserslist@4.24.4:
     dependencies:
       caniuse-lite: 1.0.30001706
-      electron-to-chromium: 1.5.120
+      electron-to-chromium: 1.5.122
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
 
@@ -9454,7 +9454,7 @@ snapshots:
     dependencies:
       jake: 10.9.2
 
-  electron-to-chromium@1.5.120: {}
+  electron-to-chromium@1.5.122: {}
 
   elliptic@6.6.1:
     dependencies:
@@ -10489,9 +10489,9 @@ snapshots:
       readable-stream: 2.3.8
       setimmediate: 1.0.5
 
-  kbar@0.1.0-beta.40(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  kbar@0.1.0-beta.40(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
-      '@radix-ui/react-portal': 1.1.4(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@radix-ui/react-portal': 1.1.4(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       command-score: 0.1.2
       fast-equals: 2.0.4
       react: 18.3.1
@@ -11653,7 +11653,7 @@ snapshots:
       react-resizable: 3.0.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       resize-observer-polyfill: 1.5.1
 
-  react-hot-loader@4.13.1(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-hot-loader@4.13.1(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       fast-levenshtein: 2.0.6
       global: 4.4.0
@@ -11666,7 +11666,7 @@ snapshots:
       shallowequal: 1.1.0
       source-map: 0.7.4
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
 
   react-indiana-drag-scroll@2.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
@@ -11688,14 +11688,14 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  react-json-view@1.21.3(@types/react@18.3.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-json-view@1.21.3(@types/react@18.3.19)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       flux: 4.0.4(react@18.3.1)
       react: 18.3.1
       react-base16-styling: 0.6.0
       react-dom: 18.3.1(react@18.3.1)
       react-lifecycles-compat: 3.0.4
-      react-textarea-autosize: 8.5.8(@types/react@18.3.18)(react@18.3.1)
+      react-textarea-autosize: 8.5.8(@types/react@18.3.19)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - encoding
@@ -11709,10 +11709,10 @@ snapshots:
 
   react-lifecycles-compat@3.0.4: {}
 
-  react-markdown@6.0.3(@types/react@18.3.18)(react@18.3.1):
+  react-markdown@6.0.3(@types/react@18.3.19)(react@18.3.1):
     dependencies:
       '@types/hast': 2.3.10
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
       '@types/unist': 2.0.11
       comma-separated-tokens: 1.0.8
       prop-types: 15.8.1
@@ -11780,12 +11780,12 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  react-textarea-autosize@8.5.8(@types/react@18.3.18)(react@18.3.1):
+  react-textarea-autosize@8.5.8(@types/react@18.3.19)(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.26.10
       react: 18.3.1
-      use-composed-ref: 1.4.0(@types/react@18.3.18)(react@18.3.1)
-      use-latest: 1.3.0(@types/react@18.3.18)(react@18.3.1)
+      use-composed-ref: 1.4.0(@types/react@18.3.19)(react@18.3.1)
+      use-latest: 1.3.0(@types/react@18.3.19)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
 
@@ -12735,24 +12735,24 @@ snapshots:
       punycode: 1.4.1
       qs: 6.14.0
 
-  use-composed-ref@1.4.0(@types/react@18.3.18)(react@18.3.1):
+  use-composed-ref@1.4.0(@types/react@18.3.19)(react@18.3.1):
     dependencies:
       react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
 
-  use-isomorphic-layout-effect@1.2.0(@types/react@18.3.18)(react@18.3.1):
+  use-isomorphic-layout-effect@1.2.0(@types/react@18.3.19)(react@18.3.1):
     dependencies:
       react: 18.3.1
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
 
-  use-latest@1.3.0(@types/react@18.3.18)(react@18.3.1):
+  use-latest@1.3.0(@types/react@18.3.19)(react@18.3.1):
     dependencies:
       react: 18.3.1
-      use-isomorphic-layout-effect: 1.2.0(@types/react@18.3.18)(react@18.3.1)
+      use-isomorphic-layout-effect: 1.2.0(@types/react@18.3.19)(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.18
+      '@types/react': 18.3.19
 
   use-memo-one@1.1.3(react@18.3.1):
     dependencies:
