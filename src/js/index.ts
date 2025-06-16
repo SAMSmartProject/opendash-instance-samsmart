@@ -33,7 +33,7 @@ init("opendash", async (factory) => {
   factory.registerGlobalComponent(GlobalStyles, {});
 
   // Translations
-  factory.registerLanguage("en", "English");
+  factory.registerLanguage("en", "English", "", false);
   factory.registerLanguage("de", "Deutsch", "en", true);
 
   factory.registerAntDesignTranslation(
