@@ -1,0 +1,14 @@
+{
+  "network": {
+    "graph": {
+      "tooltip": {
+        "connection": {
+          "iptoip": "{{sourceip}} connected to {{targetip}}",
+          "iptoport": "Port {{port}} active on {{ip}}"
+        },
+        "ipaddress": "IP: {{ip}}",
+        "portnumber": "Port: {{port}}"
+      }
+    }
+  }
+}

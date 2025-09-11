@@ -1,0 +1,16 @@
+{
+  "network": {
+    "graph": {
+      "description": "Ein Graph zum Anzeigen von Netzwerkrelationen",
+      "name": "Netzwerkgraph",
+      "tooltip": {
+        "connection": {
+          "iptoip": "{{sourceip}} verbunden zu {{targetip}}",
+          "iptoport": "Port {{port}} aktiv auf {{ip}}"
+        },
+        "ipaddress": "IP: {{ip}}",
+        "portnumber": "Port: {{port}}"
+      }
+    }
+  }
+}
