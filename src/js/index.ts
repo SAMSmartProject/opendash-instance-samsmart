@@ -1,11 +1,10 @@
 import "./highcharts.config";
-import "./parse.config";
 
-import { init, StorageAdapterLS } from "@opendash/core";
+import { ClientSelector, init, StorageAdapterLS } from "@opendash/core";
 import { getCurrentLanguageSync } from "@opendash/i18n";
 import { registerIconPack } from "@opendash/icons";
 import { HighchartsPlugin } from "@opendash/plugin-highcharts";
-import { MonitoringPlugin } from "@opendash/plugin-monitoring";
+import { $monitoring, MonitoringPlugin } from "@opendash/plugin-monitoring";
 import { OpenServicePlugin } from "@opendash/plugin-openservice";
 import { OpenwarePlugin } from "@opendash/plugin-openware";
 import { ParsePlugin } from "@opendash/plugin-parse";
@@ -13,12 +12,19 @@ import { ParseMonitoringPlugin } from "@opendash/plugin-parse-monitoring";
 import { TimeseriesPlugin } from "@opendash/plugin-timeseries";
 import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
-import clientselector from "./config";
 import { GlobalStyles } from "./GlobalStyles";
 
 import timezone from "dayjs/plugin/timezone";
+import Parse from "parse";
+import { clients } from "./clientlist";
+import { ECNetworkGraph } from "./widgets";
 
 init("opendash", async (factory) => {
+  const clientselector = ClientSelector.getInstance(clients);
+
+  Parse.initialize(clientselector.getParseAppId(), "");
+  Parse.serverURL = clientselector.getParseHost();
+
   // @ts-ignore
   registerIconPack(await import("@opendash/icons/dist/fa-regular.json"));
   // @ts-ignore
@@ -56,6 +62,18 @@ init("opendash", async (factory) => {
     "en",
     "parse-custom",
     async () => await import("./translations/en.json")
+  );
+
+  factory.registerTranslationResolver(
+    "de",
+    "echarts",
+    async () => await import("./translations/echarts-de.json")
+  );
+
+  factory.registerTranslationResolver(
+    "en",
+    "echarts",
+    async () => await import("./translations/echarts-en.json")
   );
 
   // Adapter + Plugins
@@ -115,6 +133,11 @@ init("opendash", async (factory) => {
   );
 
   await factory.use(new HighchartsPlugin());
+
+  // Widgets
+  // $monitoring.registerWidget(OpenPorts);
+  // $monitoring.registerWidget(NetworkTopology);
+  $monitoring.registerWidget(ECNetworkGraph);
 }).then((app) => {
   console.log("init open.DASH");
   dayjs.locale(getCurrentLanguageSync());
