@@ -10,5 +10,36 @@
         "portnumber": "Port: {{port}}"
       }
     }
+  },
+  "openports": {
+    "chart": {
+      "title": "Open Ports"
+    },
+    "description": "Displays open ports per IP address at the current time.",
+    "legend": {
+      "dynamic": "Dynamic Ports (49152-65535)",
+      "headline": "Port Categories",
+      "registered": "Registered Ports (1024-49151)",
+      "wellknown": "Well-known Ports (0-1023)"
+    },
+    "name": "Open Ports",
+    "title": "Open Ports by IP Address",
+    "tooltip": {
+      "openports": "Open Ports: {{count}}"
+    }
+  },
+  "pentestresult": {
+    "title": "Results of pentests",
+    "xaxis": {
+      "name": "Time"
+    },
+    "yaxis": {
+      "name": "Properties"
+    }
+  },
+  "pentestresults": {
+    "settings": {
+      "description": "No settings available."
+    }
   }
 }

@@ -1,7 +1,7 @@
 {
   "network": {
     "graph": {
-      "description": "Ein Graph zum Anzeigen von Netzwerkrelationen",
+      "description": "Ein Graph zum Anzeigen von Netzwerkrelationen.",
       "name": "Netzwerkgraph",
       "tooltip": {
         "connection": {
@@ -11,6 +11,41 @@
         "ipaddress": "IP: {{ip}}",
         "portnumber": "Port: {{port}}"
       }
+    }
+  },
+  "openports": {
+    "chart": {
+      "title": "Offene Ports"
+    },
+    "description": "Zeigt offene Ports je IP-Adresse zum aktuellen Zeitpunkt an.",
+    "legend": {
+      "dynamic": "Dynamic Ports (49152-65535)",
+      "headline": "Port-Kategorien",
+      "registered": "Registered Ports (1024-49151)",
+      "wellknown": "Well-known Ports (0-1023)"
+    },
+    "name": "Offene Ports",
+    "title": "Offene Ports je IP-Adresse",
+    "tooltip": {
+      "openports": "Offene Ports: {{count}}"
+    }
+  },
+  "pentestresult": {
+    "title": "Ergebnisse der Pentests",
+    "xaxis": {
+      "name": "Zeit"
+    },
+    "yaxis": {
+      "name": "Eigenschaften"
+    }
+  },
+  "pentestresults": {
+    "graph": {
+      "description": "Ein Graph zum Anzeigen von Ergebnissen der Pentests",
+      "name": "Pentest-Ergebnisse"
+    },
+    "settings": {
+      "description": "Keine Einstellungen vorhanden."
     }
   }
 }
