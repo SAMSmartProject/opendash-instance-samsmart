@@ -17,7 +17,7 @@ import { GlobalStyles } from "./GlobalStyles";
 import timezone from "dayjs/plugin/timezone";
 import Parse from "parse";
 import { clients } from "./clientlist";
-import { ECNetworkGraph } from "./widgets";
+import { ECNetworkGraph, ECPentestResults, OpenPorts } from "./widgets";
 
 init("opendash", async (factory) => {
   const clientselector = ClientSelector.getInstance(clients);
@@ -25,11 +25,8 @@ init("opendash", async (factory) => {
   Parse.initialize(clientselector.getParseAppId(), "");
   Parse.serverURL = clientselector.getParseHost();
 
-  // @ts-ignore
   registerIconPack(await import("@opendash/icons/dist/fa-regular.json"));
-  // @ts-ignore
   registerIconPack(await import("@opendash/icons/dist/fa-solid.json"));
-  // @ts-ignore
   registerIconPack(await import("@opendash/icons/dist/fa-light.json"));
 
   if (clientselector.getLogoImage()) {
@@ -135,9 +132,9 @@ init("opendash", async (factory) => {
   await factory.use(new HighchartsPlugin());
 
   // Widgets
-  // $monitoring.registerWidget(OpenPorts);
-  // $monitoring.registerWidget(NetworkTopology);
+  $monitoring.registerWidget(OpenPorts);
   $monitoring.registerWidget(ECNetworkGraph);
+  $monitoring.registerWidget(ECPentestResults);
 }).then((app) => {
   console.log("init open.DASH");
   dayjs.locale(getCurrentLanguageSync());
