@@ -16,6 +16,7 @@ import { GlobalStyles } from "./GlobalStyles";
 
 import timezone from "dayjs/plugin/timezone";
 import Parse from "parse";
+import { DeanWizardPage } from "../pages/DeanWizardPage";
 import { clients } from "./clientlist";
 import { ECNetworkGraph, ECPentestResults, OpenPorts } from "./widgets";
 
@@ -130,6 +131,28 @@ init("opendash", async (factory) => {
   );
 
   await factory.use(new HighchartsPlugin());
+
+  // Routes
+  factory.registerRoute({
+    path: "/dean/home",
+    component: async () => ({ default: DeanWizardPage }),
+    permission: "",
+    headerSourcePicker: true,
+  });
+
+  // Navigation
+  factory.registerStaticNavigationItem({
+    id: "dean",
+    group: "dean",
+    place: "frontpage",
+    order: 10,
+    color: "#2563eb",
+    label: "Dean Wizard",
+    icon: "fa:hat-wizard",
+    link: "/dean/home",
+    routeCondition: "**",
+    activeCondition: "/dean/home",
+  });
 
   // Widgets
   $monitoring.registerWidget(OpenPorts);
