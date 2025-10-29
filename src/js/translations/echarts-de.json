@@ -45,7 +45,10 @@
       "name": "Pentest-Ergebnisse"
     },
     "settings": {
-      "description": "Keine Einstellungen vorhanden."
+      "description": "Keine Einstellungen vorhanden.",
+      "showLabels": {
+        "label": "Show labels"
+      }
     }
   }
 }

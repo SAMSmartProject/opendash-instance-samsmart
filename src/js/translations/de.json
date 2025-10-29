@@ -1,1 +1,9 @@
-{}
+{
+  "pentestresults": {
+    "settings": {
+      "showLabels": {
+        "label": "Labels anzeigen"
+      }
+    }
+  }
+}
