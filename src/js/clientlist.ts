@@ -14,5 +14,6 @@ export const clients: Client[] = [
     logoImage: "/SAMSmartLogo-Farbe.png",
     documentationURL: null,
     devHost: false,
+    parseJSKey: "",
   },
 ];
