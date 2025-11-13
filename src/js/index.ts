@@ -14,6 +14,7 @@ import dayjs from "dayjs";
 import utc from "dayjs/plugin/utc";
 import { GlobalStyles } from "./GlobalStyles";
 
+import { OpenService } from "@opendash/plugin-openservice/dist/types/config";
 import timezone from "dayjs/plugin/timezone";
 import Parse from "parse";
 import { DeanWizardPage } from "../pages/DeanWizardPage";
@@ -72,6 +73,18 @@ init("opendash", async (factory) => {
     "en",
     "echarts",
     async () => await import("./translations/echarts-en.json")
+  );
+
+  factory.registerTranslationResolver(
+    "de",
+    "maintenance",
+    async () => await import("./translations/maintenance-de.json")
+  );
+
+  factory.registerTranslationResolver(
+    "en",
+    "maintenance",
+    async () => await import("./translations/maintenance-en.json")
   );
 
   // Adapter + Plugins
@@ -152,6 +165,20 @@ init("opendash", async (factory) => {
     link: "/dean/home",
     routeCondition: "**",
     activeCondition: "/dean/home",
+  });
+
+  factory.registerStaticNavigationItem({
+    id: "ticket_create",
+    group: "service",
+    place: "frontpage",
+    order: 150,
+    label: "Aufgabe erstellen",
+    icon: "fa:plus",
+    permission: OpenService.Permissions.Access.global,
+    link: "/openservice/ticket/create",
+    routeCondition: "",
+    activeCondition: "",
+    color: "var(--opendash-colors-primary)",
   });
 
   // Widgets

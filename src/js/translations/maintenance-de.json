@@ -1,0 +1,3239 @@
+{
+  "admin": {
+    "general": {
+      "sampledata": {
+        "label": "Beispieldaten erzeugen"
+      },
+      "schedule": {
+        "meta": {
+          "add": {
+            "label": "Meta-Feld hinzufügen"
+          },
+          "item": {
+            "label": {
+              "allowedValues": "Erlaubte Einträge",
+              "label": "Feld-Name",
+              "onlyOneAllowedValue": "Nur ein Eintrag wählbar?",
+              "required": "Muss dieses Feld angegeben werden?"
+            }
+          },
+          "title": "Meta-Felder für Wartungspläne anlegen"
+        }
+      }
+    },
+    "ticket": {
+      "qr": {
+        "config": {
+          "btn": "Standardwerte definieren"
+        },
+        "tooltip": "Code drucken"
+      }
+    }
+  },
+  "administration": {
+    "create_ticket_form": {
+      "headline": "Aufgabe-Formular bearbeiten",
+      "preview": {
+        "title": "Vorschau des Formulars"
+      }
+    },
+    "general": {
+      "createticketonschedule": {
+        "label": "Aufgabe erstellen, wenn eine Wartung fällig ist."
+      },
+      "headline": "Allgemeine Optionen",
+      "ticket_lifetime": {
+        "label": "Anzeigezeit eines abgeschlossenen Aufgaben",
+        "time_scale": {
+          "days": "Tage",
+          "hours": "Stunden",
+          "weeks": "Wochen"
+        }
+      }
+    },
+    "groups": {
+      "create": {
+        "form": {
+          "label": {
+            "label": "Titel",
+            "rules": {
+              "required": "Bitte geben Sie einen Titel an."
+            }
+          },
+          "roleIsVisible": {
+            "checked": "Sichtbar",
+            "label": "Gruppe ist sichtbar",
+            "unchecked": "Nicht sichtbar"
+          },
+          "roleIsVisibleForTenant": {
+            "checked": "Sichtbar",
+            "label": "Rolle ist sichtbar für den Mandanten",
+            "unchecked": "Nicht sichtbar"
+          },
+          "usersSeeEachOther": {
+            "checked": "Gegenseitig sichtbar",
+            "label": "Benutzer können sich gegenseitig sehen",
+            "unchecked": "Nicht sichtbar"
+          }
+        },
+        "headline": "Neue Gruppe erstellen"
+      },
+      "headline": "Gruppen verwalten",
+      "manage": {
+        "add": "Gruppe hinzufügen",
+        "assign": {
+          "label": "Übergeordnete Gruppen auswählen",
+          "tags": {
+            "no_assignment": "Keine Zuordnung",
+            "title": "Übergeordnete Gruppen"
+          }
+        },
+        "delete": {
+          "confirm": {
+            "title": "Wollen Sie die Gruppe wirklich löschen?"
+          }
+        },
+        "empty": "Keine Gruppen gefunden",
+        "transfer": {
+          "titles": {
+            "left": "Verfügbare Mitarbeiter",
+            "right": "Der Gruppe zugeteilte Mitarbeiter"
+          }
+        }
+      }
+    },
+    "permissions": {
+      "headline": "Berechtigungen",
+      "list": {
+        "assigned": "Zugewiesen",
+        "mandant": "Mandant",
+        "update_tooltip": "Bearbeiten"
+      }
+    },
+    "ticket": {
+      "create": {
+        "form": {
+          "duedate": {
+            "description": "Geben Sie ein Datum an, wann das Aufgabe spätestens abgearbeitet sein soll.",
+            "title": "Fälligkeitsdatum"
+          },
+          "issuecategory": {
+            "description": "Kategorisiere das Aufgabe nach einer Fehlerart.",
+            "title": "Fehlerkategorie"
+          },
+          "material": {
+            "description": "Weise dem Aufgabe ein Artikel zu.",
+            "title": "Artikel"
+          },
+          "media": {
+            "description": "Hänge dem Aufgabe Bilder an.",
+            "title": "Medien"
+          },
+          "meta": {
+            "description": "Konfiguriere die Metadaten des Aufgaben bspw. den Titel.",
+            "title": "Beschreibung"
+          },
+          "overview": {
+            "description": "Zeigt eine Übersicht der eingegebenen Daten an.",
+            "title": "Übersicht"
+          },
+          "priority": {
+            "description": "Stufe die Dringlichkeit mit Hilfe einer Priorität ein.",
+            "title": "Priorität"
+          },
+          "source": {
+            "description": "Weise dem Aufgabe eine bestimmte Anlage zu",
+            "title": "Anlage"
+          }
+        }
+      }
+    }
+  },
+  "article": {
+    "collapsable": {
+      "copy": {
+        "error": "Konnte Nachricht nicht kopieren!",
+        "success": "Nachricht kopiert."
+      },
+      "form": {
+        "asTodo": {
+          "label": "Als Todo"
+        },
+        "date": {
+          "help": "Geben Sie ein Datum an, welches als Erstelldatum genutzt werden soll. Wenn Sie kein Datum angeben, wird das aktuelle genutzt.",
+          "label": "Erstelldatum"
+        },
+        "header_label": "Neue Nachricht eingeben",
+        "rules": {
+          "required": "Bitte geben Sie eine Nachricht ein."
+        }
+      },
+      "headline": "Nachricht hinzufügen"
+    },
+    "create": {
+      "default_subject": {
+        "todo": "Todo",
+        "userinput": "Neue Nachricht"
+      }
+    }
+  },
+  "can-access-admin": {
+    "description": "Kann auf die Administration für open.SERVICE zugreifen.",
+    "label": "open.SERVICE: Administrationszugang"
+  },
+  "can-access-dailySchedule": {
+    "description": "Regelt den Zugriff auf Tagespläne für Aufgaben.",
+    "label": "open.SERVICE: Zugriff auf Tagespläne"
+  },
+  "can-access-global": {
+    "description": "Regelt den globalen Zugriff auf open.SERVICE.",
+    "label": "open.SERVICE: Globaler Zugriff auf das Plugin"
+  },
+  "can-access-knowledge": {
+    "description": "Kann auf das Wissensmanagementplugin zugreifen.",
+    "label": "open.SERVICE: Wissenplugin"
+  },
+  "can-access-material": {
+    "description": "Regelt den Zugriff auf Artikel.",
+    "label": "open.SERVICE: Zugriff auf Artikel"
+  },
+  "can-access-monitor": {
+    "description": "Regelt den vollen Zugriff auf auf die Aufgabeverwaltung. Es können über die Administration zusätzliche Status hinzugefügt werden. ",
+    "label": "open.SERVICE: Aufgabeverwaltung - Zugriff"
+  },
+  "can-access-monitoring": {
+    "description": "Regelt den Zugriff auf das Statistik-Modul - Aktuell noch nicht verfügbar.",
+    "label": "open.SERVICE: Statistikmodul - Zugriff"
+  },
+  "can-create-machinelog-message": {
+    "description": "Regelt ob im Maschinenbuch eigene Einträge hinzugefügt werden können.",
+    "label": "open.SERVICE: Maschinenbuch - Nachricht hinzufügen"
+  },
+  "can-create-machinelog-schedule": {
+    "description": "Regelt ob über das Maschinenbuch Wartungen hinzugefügt werdne können.",
+    "label": "open.SERVICE: Machinenbuch - Wartung hinzufügen"
+  },
+  "can-create-machinelog-ticket": {
+    "description": "Regelt ob über das Maschinenbuch Aufgaben erstellt werden können.",
+    "label": "open.SERVICE: Maschinenbuch - Aufgaben hinzufügen"
+  },
+  "can-create-message": {
+    "description": "Regelt ob Nachrichten hinzugefügt werden können. (Bspw. bei einem Aufgabe)",
+    "label": "open.SERVICE: Nachrichten - Erstellung"
+  },
+  "can-create-schedule": {
+    "description": "Regelt ob Wartungen erstellt werden können.",
+    "label": "open.SERVICE: Wartungen - Erstellung"
+  },
+  "can-create-ticket": {
+    "description": "Regelt ob Aufgaben angelegt werden könnnen.",
+    "label": "open.SERVICE: Aufgabe - Erstellung"
+  },
+  "can-update-kanban-view": {
+    "description": "Regelt ob die Ansicht in der Aufgabeverwaltung geändert werden kann.",
+    "label": "open.SERVICE: Aufgabeverwaltung - Ansicht ändern"
+  },
+  "classes": {
+    "OD3_Company": {
+      "fields": {
+        "contacts": "Kontakte",
+        "name": "Name",
+        "sources": "Datenquellen"
+      },
+      "label": "Unternehmen",
+      "label_plural": "Unternehmen"
+    },
+    "OD3_Contact": {
+      "fields": {
+        "city": "Stadt",
+        "department": "Abteilung",
+        "description": "Beschreibung",
+        "email": "E-Mail",
+        "firstname": "Vorname",
+        "lastname": "Nachname",
+        "phone": "Telefon",
+        "position": "Position",
+        "postal": "PLZ",
+        "street": "Straße",
+        "website": "Website"
+      },
+      "label": "Kontakt",
+      "label_plural": "Kontakte"
+    },
+    "OD3_Maintenance_Issuecategory": {
+      "fields": {
+        "catchall": "Catchall",
+        "enabled": "Aktiviert",
+        "icon": "Icon",
+        "issuecode": "Fehlercode",
+        "name": "Name",
+        "parent": "Übergeordnete Kategorie",
+        "source": "Datenquelle"
+      },
+      "label": "Fehlerkategorie",
+      "label_plural": "Fehlerkategorien"
+    },
+    "OD3_Maintenance_Item": {
+      "fields": {
+        "category": "Kategorie",
+        "description": "Beschreibung",
+        "internalNumber": "Interne Nummer",
+        "name": "Bezeichnung",
+        "orderNumber": "Bestellnummer",
+        "price": "Preis",
+        "sources": "Datenquellen",
+        "stock": "Bestand",
+        "stockAlarmAt": "Bestandsalarm",
+        "stockUnit": "Einheit des Bestands",
+        "storageLocation": "Lagerstandort",
+        "supplier": "Anbieter"
+      },
+      "label": "Artikel",
+      "label_plural": "Artikel"
+    },
+    "OD3_Maintenance_Kanban_State": {
+      "fields": {
+        "color": "Farbe",
+        "description": "Beschreibung",
+        "enabled": "Aktiv",
+        "isFinished": "Ausgang",
+        "isInbox": "Eingang",
+        "label": "Name",
+        "order": "Sortierung"
+      }
+    },
+    "OD3_Maintenance_Project": {
+      "fields": {
+        "assignedRoles": "Rollen",
+        "assignedUsers": "Nutzer",
+        "color": "Farbe",
+        "description": "Beschreibung",
+        "end": "Abschluss",
+        "finished": "Abgeschlossen",
+        "icon": "Symbol",
+        "name": "Name",
+        "parent": "Übergeordnetes Projekt",
+        "start": "Start"
+      }
+    },
+    "OD3_Maintenance_Schedule": {
+      "fields": {
+        "color": "Farbe",
+        "cron": "Zeitintervall",
+        "description": "Beschreibung",
+        "enabled": "Aktiviert",
+        "notifyBeforeDue": "Benachrichtigung vor Ausführung",
+        "source": "Anlage",
+        "steps": "Schritte",
+        "template": "Vorlage",
+        "title": "Titel"
+      },
+      "label": "Wartungsplan",
+      "label_plural": "Wartungspläne"
+    },
+    "OD3_Maintenance_Schedule_Step": {
+      "fields": {
+        "data": "Daten",
+        "description": "Beschreibung",
+        "fields": "Zusätzliche Felder",
+        "order": "Reihenfolge",
+        "roles": "Rollen",
+        "title": "Titel"
+      },
+      "label": "Arbeitsschritt",
+      "label_plural": "Arbeitsschritte"
+    },
+    "OD3_Maintenance_Schedule_Template": {
+      "fields": {
+        "color": "Farbe",
+        "contacts": "Kontakte",
+        "cron": "Zeitinterval",
+        "description": "Beschreibung",
+        "enabled": "Aktiv",
+        "notifyBeforeDue": "Benachrichtigung vor Ausführung",
+        "run_cron": "Interval",
+        "run_enddate": "Enddatum",
+        "run_startdate": "Startdatum",
+        "sources": "Datenquellen",
+        "steps": "Arbeitsschritte",
+        "title": "Titel"
+      },
+      "label": "Wartungsplan-Vorlage",
+      "label_plural": "Wartungsplan-Vorlagen"
+    },
+    "OD3_Maintenance_Ticket_FormConfig": {
+      "fields": {
+        "config": "Konfiguration",
+        "roles": "Rollen",
+        "view": "Ansicht"
+      },
+      "label": "Formular-Konfiguration",
+      "label_plural": "Formular-Konfigurationen"
+    },
+    "OD3_Maintenance_ticket_QR_Code": {
+      "fields": {
+        "code": "Code",
+        "name": "Name"
+      },
+      "label": "QR-Code",
+      "label_plural": "QR-Codes"
+    },
+    "issuecategory": {
+      "catchall": {
+        "error": "Es exisitert bereits eine standard Fehlerkategorie."
+      },
+      "deleting": {
+        "error": "Fehler beim Deaktivieren der Fehlerkategorie.",
+        "loading": "Fehlerkategorie wird deaktiviert...",
+        "success": "Fehlerkategorie erfolgeich deaktiviert"
+      }
+    }
+  },
+  "contact": {
+    "create": {
+      "headline": "Neuen Kontakt hinzufügen",
+      "save": {
+        "error": {
+          "description": "Kontakt konnte nicht angelegt werden."
+        }
+      }
+    },
+    "form": {
+      "city": {
+        "label": "Stadt"
+      },
+      "company": {
+        "label": "Zugehöriges Unternehmen"
+      },
+      "department": {
+        "label": "Abteilung"
+      },
+      "description": {
+        "label": "Notiz"
+      },
+      "email": {
+        "label": "E-Mail Adresse"
+      },
+      "firstname": {
+        "label": "Vorname"
+      },
+      "lastname": {
+        "label": "Nachname"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "phone": {
+        "label": "Telefon-Nr."
+      },
+      "position": {
+        "label": "Position"
+      },
+      "postal": {
+        "label": "PLZ"
+      },
+      "street": {
+        "label": "Straße"
+      },
+      "username": {
+        "label": "Anzeigename"
+      },
+      "website": {
+        "label": "Internetseite"
+      }
+    },
+    "page": {
+      "create": {
+        "label": "Kontakt hinzufügen"
+      },
+      "headline": "Kontakte verwalten"
+    },
+    "table": {
+      "company": {
+        "label": "Unternehmen"
+      },
+      "department": {
+        "label": "Abteilung"
+      },
+      "description": {
+        "label": "Notiz"
+      },
+      "email": {
+        "label": "E-Mail"
+      },
+      "firstname": {
+        "label": "Vorname"
+      },
+      "lastname": {
+        "label": "Nachname"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "phone": {
+        "label": "Telefon-Nr."
+      },
+      "position": {
+        "label": "Position"
+      },
+      "username": {
+        "label": "Nutzername"
+      }
+    }
+  },
+  "cron": {
+    "display": {
+      "cron": {
+        "label": "Cron: {{cron}}"
+      },
+      "enddate": {
+        "label": "Ende: {{date}}",
+        "notset": {
+          "label": "Kein Enddatum"
+        }
+      },
+      "startdate": {
+        "label": "Start: {{date}}",
+        "notset": {
+          "label": "Kein Startdatum"
+        }
+      }
+    }
+  },
+  "daily_schedule": {
+    "print": {
+      "button": "Druckvorschau anzeigen"
+    },
+    "select": {
+      "placeholder": "Wähle einen Tagesplan"
+    }
+  },
+  "date": {
+    "lastWeekday": "letzten {{weekday}}",
+    "nextWeekday": "nächsten {{weekday}}",
+    "thisWeekday": "diesen {{weekday}}",
+    "today": "heute"
+  },
+  "duedate": {
+    "select": {
+      "form": {
+        "active": {
+          "label": "Fälligkeit aktiv"
+        },
+        "duedate": {
+          "label": "Fälligkeitsdatum wählen",
+          "rules": {
+            "required": "Bitte Fälligkeitsdatum angeben."
+          }
+        },
+        "duedateend": {
+          "label": "Enddatum",
+          "rules": {
+            "required": "Bitte wählen Sie ein Datum aus."
+          }
+        },
+        "duedatestart": {
+          "label": "Startdatum",
+          "rules": {
+            "required": "Bitte wählen Sie ein Datum aus."
+          }
+        },
+        "isRange": {
+          "label": "Bereich auswählen"
+        },
+        "label": "Fälligkeitsdatum",
+        "onlyweeks": {
+          "label": "Nur Kalenderwochen benutzen"
+        },
+        "withHours": {
+          "label": "Mit Zeitangabe (Stunden/Minuten)"
+        }
+      }
+    }
+  },
+  "export": {
+    "excel": {
+      "file": {
+        "attr": {
+          "message": "Nachricht",
+          "schedule": "Wartung",
+          "ticket": "Aufgabe"
+        },
+        "cols": {
+          "date": "Datum",
+          "description": "Beschreibung",
+          "issue": "Fehlerkategorie",
+          "material": "Artikel",
+          "prio": "Priorität",
+          "status": "Status",
+          "steps": "Arbeitsschritte",
+          "title": "Titel",
+          "type": "Typ"
+        },
+        "name": "Maschinenbuch - {{source}}"
+      },
+      "sheet": "Smart-Home-Historie"
+    }
+  },
+  "general": {
+    "all": "Alle",
+    "label": {
+      "description": "Beschreibung",
+      "project": "Projekt",
+      "source": "Bereich",
+      "sourceNotFound": "Keine Anlage",
+      "state": "Status"
+    },
+    "required_field": "Pflichtfeld",
+    "ticket": {
+      "assignedTo": "Zugewiesen an",
+      "dailySchedule": "Tagesplan",
+      "downtime": "Ausfall-Zeit",
+      "duedate": "Fälligkeitsdatum",
+      "frequency": "Fehler-Frequenz",
+      "issuecategory": "Fehlerkategorie",
+      "material": "Artikel",
+      "messages": "Nachrichten",
+      "priority": "Priorität",
+      "restriction": "Einschränkung",
+      "source": "Bereich",
+      "state": "Status",
+      "ticket": "Aufgabe",
+      "todos": "Todos"
+    }
+  },
+  "global": {
+    "User": "Benutzer",
+    "button": {
+      "add_label": "Hinzufügen",
+      "back_label": "Zurück",
+      "cancel_label": "Abbrechen",
+      "close_label": "Schließen",
+      "continue_label": "Weiter",
+      "create": {
+        "title": "Erstellen"
+      },
+      "create_label": "Erstellen",
+      "create_label_error": "Keine Aufgaben verfügbar",
+      "delete_label": "Löschen",
+      "export_label": "Exportieren",
+      "ok_label": "OK",
+      "save_label": "Speichern",
+      "send_anyways_label": "Trotzdem absenden",
+      "send_label": "Abschicken",
+      "update_label": "Bearbeiten"
+    },
+    "date_preposition": "vom",
+    "days": {
+      "friday": "Freitag",
+      "monday": "Montag",
+      "saturday": "Samstag",
+      "sunday": "Sonntag",
+      "thursday": "Donnerstag",
+      "tuesday": "Dienstag",
+      "wednesday": "Mittwoch"
+    },
+    "loading": "Bitte warten",
+    "message": {
+      "create": {
+        "error": "Fehler beim Speichern",
+        "success": "Erfolgreich gespeichert"
+      }
+    },
+    "messages": {
+      "changes": {
+        "nochanges": "Nichts geändert."
+      },
+      "delete": {
+        "error": "Fehler beim Löschen!",
+        "success": "Erfolgreich gelöscht"
+      },
+      "save": {
+        "error": "Fehler beim Speichern!",
+        "success": "Erfolgreich gespeichert"
+      }
+    },
+    "no": "Nein",
+    "no_data": "Keine Daten vorhanden",
+    "notifications": {
+      "changes": {
+        "nochanges": "Nichts geändert."
+      },
+      "delete": {
+        "error": {
+          "description": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+          "title": "Fehler beim Löschen!"
+        },
+        "success": "Erfolgreich gelöscht"
+      },
+      "form": {
+        "error": {
+          "description": "Bitte beheben Sie die Fehler im Formular.",
+          "title": "Fehler im Formular"
+        }
+      },
+      "save": {
+        "error": {
+          "description": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+          "title": "Fehler beim Speichern!"
+        },
+        "success": "Erfolgreich gespeichert"
+      }
+    },
+    "switch": {
+      "done": "Erledigt",
+      "not_done": "Nicht erledigt",
+      "off": "Nein",
+      "on": "Ja"
+    },
+    "yes": "Ja"
+  },
+  "groups": {
+    "assignedgroups": {
+      "headline": "Übergeordnete Gruppe festlegen"
+    },
+    "select": {
+      "form": {
+        "groups": {
+          "label": "Gruppe auswählen"
+        },
+        "optgroup": {
+          "label": "Gruppen"
+        }
+      }
+    }
+  },
+  "home": {
+    "buttons": {
+      "settings": {
+        "label": "Einstellungen"
+      }
+    },
+    "empty": "Noch kein Aufgabe vorhanden!",
+    "empty_action_call": "Direkt ein Aufgabe ausfüllen",
+    "headline": "Übersicht über Ihre Aufgaben"
+  },
+  "issuecategory": {
+    "all": "Alle Fehlerkategorien",
+    "create": {
+      "form": {
+        "catchall": {
+          "enabled": "Aktiviert",
+          "help": "Setzen Sie die Kategorie als \"Andere\" der Aufgaben zugeordnet werden, die nicht anderweitig eingeordnet werden können.",
+          "label": "Catchall",
+          "not_enabled": "Deaktiviert"
+        },
+        "code": {
+          "label": "Code"
+        },
+        "enabled": {
+          "enabled": "Aktiviert",
+          "label": "Status",
+          "not_enabled": "Deaktiviert"
+        },
+        "parent": {
+          "label": "Übergeordnete Fehlerkategorie"
+        },
+        "title": {
+          "label": "Titel",
+          "rules": {
+            "required": "Bitte geben Sie einen Titel an."
+          }
+        }
+      },
+      "headline": "Neue Fehlerkategorie erstellen"
+    },
+    "manage": {
+      "add": "Neue Fehlerkategorie",
+      "headline": "Fehlerkategorie",
+      "table": {
+        "columns": {
+          "actions": {
+            "delete": {
+              "confirm": {
+                "content": "Alle untergeordneten Fehlerkategorie werden in die höherliegende Kategorie verschoben.",
+                "title": "Wollen Sie die Fehlerkategorie wirklich löschen?"
+              },
+              "tooltip": "Löschen"
+            },
+            "label": "Aktionen",
+            "update": {
+              "confirm": {
+                "content": "Alle untergeordneten Fehlerkategorie werden in die höherliegende Kategorie verschoben.",
+                "title": "Wollen Sie die Fehlerkategorie wirklich löschen?"
+              },
+              "tooltip": "Bearbeiten"
+            }
+          },
+          "catchall": {
+            "label": "Catchall"
+          },
+          "code": {
+            "label": "Code"
+          },
+          "enabled": {
+            "label": "Aktiviert"
+          },
+          "name": {
+            "label": "Name"
+          }
+        }
+      }
+    },
+    "select": {
+      "form": {
+        "issuecategory": {
+          "label": "Fehlerkategorie wählen",
+          "rules": {
+            "required": "Bitte wählen Sie eine Fehlerkategorie aus."
+          }
+        },
+        "message": {
+          "help": "Detaillierte Informationen zum Problem, die der Instandhaltung helfen könnten.",
+          "label": "Weitere Informationen",
+          "rules": {
+            "required": "Bitte geben Sie eine Beschreibung des Problems an."
+          }
+        },
+        "title": {
+          "help": "Beispiel: \"Kabel ist gebrochen\" oder \"Stutzen verbogen\"",
+          "label": "Kurze Beschreibung",
+          "rules": {
+            "required": "Bitte geben Sie eine Beschreibung an."
+          }
+        }
+      }
+    },
+    "update": {
+      "form": {
+        "catchall": {
+          "enabled": "Aktiviert",
+          "help": "Setzen Sie die Kategorie als \"Andere\" der Aufgaben zugeordnet werden, die nicht anderweitig eingeordnet werden können.",
+          "label": "Catchall",
+          "not_enabled": "Deaktiviert"
+        },
+        "code": {
+          "label": "Code"
+        },
+        "enabled": {
+          "enabled": "Aktiviert",
+          "label": "Status",
+          "not_enabled": "Deaktiviert"
+        },
+        "issuecode": {
+          "label": "Code",
+          "rules": {
+            "required": "Bitte geben Sie einen Code an."
+          }
+        },
+        "parent": {
+          "label": "Übergeordnete Fehlerkategorie"
+        },
+        "title": {
+          "label": "Titel",
+          "rules": {
+            "required": "Bitte geben Sie einen Titel an."
+          }
+        }
+      },
+      "headline": "Fehlerkategorie bearbeiten"
+    }
+  },
+  "item": {
+    "table": {
+      "config": {
+        "error": "Fehler beim Speichern der Konfiguration",
+        "success": "Konfiguration gespeichert"
+      },
+      "label": {
+        "actions": "Aktionen",
+        "category": "Kategorie",
+        "description": "Beschreibung",
+        "internalNumber": "Interne Nummer",
+        "name": "Name",
+        "orderNumber": "Bestellnr.",
+        "price": "Preis",
+        "sources": "Bereiche",
+        "stock": "Bestand",
+        "stock_alarm": "Bestand niedrig!",
+        "storageLocation": "Lagerort",
+        "supplier": "Lieferant"
+      },
+      "select_columns": "Spalten für die Tabelle:"
+    }
+  },
+  "items": {
+    "create": {
+      "form": {
+        "category": {
+          "label": "Kategorie"
+        },
+        "description": {
+          "label": "Beschreibung"
+        },
+        "internalNumber": {
+          "label": "Interne Nummer"
+        },
+        "orderNumber": {
+          "label": "Bestellnummer"
+        },
+        "price": {
+          "label": "Preis"
+        },
+        "source": {
+          "label": "Datenquelle"
+        },
+        "stock": {
+          "label": "Bestand"
+        },
+        "stockAlarmAt": {
+          "label": "Alarmierung bei Bestandsunterschreitung"
+        },
+        "stockUnit": {
+          "label": "Bestandseinheit"
+        },
+        "storageLocation": {
+          "label": "Lagerort"
+        },
+        "supplier": {
+          "label": "Lieferant"
+        },
+        "title": {
+          "label": "Titel",
+          "rules": {
+            "required": "Bitte geben Sie einen Titel an."
+          }
+        }
+      },
+      "headline": "Neues Artikel hinzufügen",
+      "save": {
+        "error": {
+          "description": "Das Artikel konnte nicht angelegt werden."
+        }
+      }
+    },
+    "edit": {
+      "form": {
+        "description": {
+          "label": "Beschreibung"
+        },
+        "source": {
+          "label": "Datenquelle"
+        },
+        "title": {
+          "label": "Titel",
+          "rules": {
+            "required": "Bitte geben Sie einen Titel an."
+          }
+        }
+      },
+      "headline": "Material bearbeiten",
+      "save": {
+        "error": {
+          "description": "Das Material konnte nicht aktualisiert werden."
+        }
+      }
+    },
+    "manage": {
+      "add": "Material hinzufügen",
+      "headline": "Artikel verwalten",
+      "table": {
+        "columns": {
+          "actions": {
+            "delete": {
+              "confirm": {
+                "content": "Möchten Sie den Eintrag wirklich löschen?",
+                "title": "Artikel löschen"
+              },
+              "tooltip": "Löschen"
+            },
+            "edit": {
+              "tooltip": "Bearbeiten"
+            }
+          }
+        }
+      }
+    },
+    "select": {
+      "form": {
+        "items": {
+          "help": "Wählen Sie die Bauteile aus, die betroffen sind.",
+          "label": "Zugehöriger Artikel",
+          "rules": {
+            "required": "Bitte wählen Sie einen Artikel aus."
+          }
+        }
+      }
+    },
+    "view": {
+      "headline": "Artikel zu"
+    }
+  },
+  "kanban": {
+    "state": {
+      "notenabled": "Status nicht gefunden!",
+      "notset": "Kein Status"
+    }
+  },
+  "knowledge": {
+    "admin": {
+      "modal": {
+        "upload": {
+          "drag": {
+            "description": "Es werden nur Datein im PDF-Format unterstützt.",
+            "title": "Hier Anleitungen hinziehen oder klicken."
+          },
+          "title": "Anleitung speichern"
+        }
+      },
+      "table": {
+        "action": {
+          "delete": {
+            "confirm": {
+              "title": "Möchten Sie wirklich alle Dateien für diese Anlage löschen?"
+            }
+          }
+        },
+        "actions": {
+          "file": {
+            "delete": {
+              "title": "Möchten Sie diese Datei wirklich entfernen?"
+            }
+          },
+          "label": "Aktionen"
+        },
+        "description": {
+          "label": "Notiz"
+        },
+        "file": {
+          "label": "Datei"
+        },
+        "fileCount": {
+          "label": "Gefundene Dateien"
+        },
+        "source": {
+          "label": "Anlage"
+        }
+      },
+      "title": "Maschinenunterlagen für {{source}} verwalten",
+      "upload": {
+        "button": {
+          "title": "Anleitung anlegen"
+        }
+      }
+    },
+    "files": {
+      "modal": {
+        "title": "Maschinenunterlagen für {{source}}"
+      }
+    },
+    "modal": {
+      "upload": {
+        "label": {
+          "description": "Notiz für '{{name}}' angeben"
+        }
+      }
+    },
+    "overview": {
+      "title": "Maschinenunterlagen für {{source}}"
+    },
+    "table": {
+      "filter": {
+        "source": {
+          "label": "Nach Anlage filtern"
+        }
+      }
+    }
+  },
+  "machinelog": {
+    "buttons": {
+      "create": "Eintrag hinzufügen"
+    },
+    "create": {
+      "form": {
+        "datetime": {
+          "errors": {
+            "required": "Bitte geben Sie Datum und Uhrzeit an."
+          },
+          "label": "Datum und Uhrzeit"
+        },
+        "message": {
+          "errors": {
+            "required": "Bitte geben Sie eine Nachricht an."
+          },
+          "label": "Nachricht"
+        },
+        "title": {
+          "errors": {
+            "required": "Bitte geben Sie einen Titel an."
+          },
+          "label": "Titel"
+        }
+      },
+      "headline": "Fügen Sie einen neuen Eintrag hinzu",
+      "message": "Nachricht",
+      "schedule": "Direkte Wartung",
+      "ticket": "Aufgabe"
+    },
+    "entry": {
+      "button": {
+        "delete": {
+          "description": "Wollen Sie den Eintrag wirklich löschen?",
+          "title": "Löschen?"
+        }
+      }
+    },
+    "filter": {
+      "all": "Alle",
+      "message": "Nachrichten",
+      "schedule": "Wartungen",
+      "ticket": "Aufgabe"
+    },
+    "headercards": {
+      "numberofschedules": "Durchgeführte Wartungen",
+      "numberoftickets": "Anzahl der Aufgaben"
+    },
+    "headline": "Historie für",
+    "message": {
+      "downtime": {
+        "changed": {
+          "content": "'{{username}}' hat den Wert der Ausfallzeit des Aufgaben auf '{{new}}' gesetzt.",
+          "title": "Ausfallzeit geändert: '{{AufgabeName}}'"
+        }
+      },
+      "duedate": {
+        "changed": {
+          "content": "'{{username}}' hat das Fälligkeitsdatum auf '{{newstart}} bis {{newend}}' gesetzt.",
+          "title": "Fälligkeitsdatum geändert: '{{AufgabeName}}'"
+        }
+      },
+      "frequency": {
+        "changed": {
+          "content": "'{{username}}' hat den Wert der Feherhäufigkeit des Aufgaben auf '{{new}}' gesetzt.",
+          "title": "Fehlerhäufigkeit geändert: '{{AufgabeName}}'"
+        }
+      },
+      "issuecategory": {
+        "changed": {
+          "content": "'{{username}}' hat die Fehlerkategorie des Aufgaben auf '{{new}}' gesetzt.",
+          "title": "Fehlerkategorie geändert: '{{AufgabeName}}'"
+        }
+      },
+      "kanbanstate": {
+        "changed": {
+          "content": "'{{username}}' hat den Status des Aufgaben auf '{{new}}' gesetzt.",
+          "title": "Status geändert: '{{AufgabeName}}'"
+        }
+      },
+      "material": {
+        "changed": {
+          "content": "'{{username}}' hat den zugewiesenen Artikel des Aufgaben auf '{{new}}' gesetzt.",
+          "title": "Artikel geändert: '{{AufgabeName}}'"
+        }
+      },
+      "priority": {
+        "changed": {
+          "content": "'{{username}}' hat die Priorität des Aufgaben auf '{{new}}' gesetzt.",
+          "title": "Priorität geändert: '{{AufgabeName}}'"
+        }
+      },
+      "project": {
+        "changed": {
+          "content": "'{{username}}' hat das Projekt von '{{old}}' auf '{{new}}' geändert.",
+          "title": "Projekt geändert: '{{Aufgabe}}' "
+        }
+      },
+      "restriction": {
+        "changed": {
+          "content": "'{{username}}' hat den Wert der Einschränkung des Aufgaben auf '{{new}}' gesetzt.",
+          "title": "Einschränkung geändert: '{{AufgabeName}}'"
+        }
+      },
+      "source": {
+        "changed": {
+          "content": "'{{username}}' hat das Aufgabe der Anlage '{{new}}' zugewiesen.",
+          "title": "Zuweisung: '{{AufgabeName}}'"
+        }
+      },
+      "title": {
+        "changed": {
+          "content": "'{{username}}' hat das Aufgaben von '{{old}}' in '{{new}}' umbenannt.",
+          "title": "Name geändert: '{{new}}'"
+        }
+      }
+    },
+    "scheduleexecutiondetails": {
+      "comment": "Kommentar",
+      "description": "Details",
+      "finishedAt": "Abgeschlossen am",
+      "material": "Verwendeter Artikel",
+      "media": "Dokumente und Medien",
+      "notfinished": "Befindet sich in Ausführung",
+      "steps": "Wartungsschritte",
+      "title": "Kurzinfo"
+    },
+    "table": {
+      "actions": {
+        "view": "Anzeigen"
+      }
+    },
+    "view": {
+      "card": "Kacheln",
+      "label": "Ansicht",
+      "timeline": "Zeitachse"
+    }
+  },
+  "media": {
+    "empty": "Keine Dateien vorhanden",
+    "select": {
+      "form": {
+        "button": {
+          "label": "Auswählen"
+        },
+        "media": {
+          "label": "Bilder auswählen",
+          "rules": {
+            "required": "Bitte fügen Sie dem Aufgabe Bilder hinzu."
+          }
+        }
+      }
+    },
+    "wrapper": {
+      "less": "Weniger Bilder",
+      "more": "Mehr Bilder"
+    }
+  },
+  "menu": {
+    "admin": {
+      "qrcode_label": "QR-Codes",
+      "ticket_creation": "Aufgabe-Formular"
+    },
+    "administration": {
+      "contacts": {
+        "label": "Kontakte"
+      },
+      "group_label": "Service",
+      "groups_label": "Gruppen",
+      "issuecategory_label": "Fehlerkategorien",
+      "items_label": "Artikelliste",
+      "monitorstate_label": "Fehlerstatus",
+      "permissions_label": "Berechtigungen",
+      "projects": "Projekte",
+      "schedule": {
+        "step_label": "Arbeitsschritte",
+        "template_label": "Wartungsplan-Vorlagen"
+      },
+      "schedules": {
+        "label": "Wartungspläne"
+      },
+      "schedules_subgroup_label": "Wartungssystem",
+      "tickets_subgroup_label": "Aufgabenystem"
+    },
+    "general": {
+      "title": "Allgemeine Optionen"
+    },
+    "inventory": {
+      "group_label": "Inventar",
+      "items_label": "Artikel",
+      "manual_label": "Maschinenunterlagen"
+    },
+    "kanban": {
+      "column": {
+        "create_label": "Neue Spalte"
+      }
+    },
+    "overview": {
+      "overview_label": "Übersicht"
+    },
+    "schedules": {
+      "calendar_label": "Kalender",
+      "group_label": "Wartungen",
+      "schedule_label": "Wartungshistorie",
+      "sourcemeta": {
+        "label": "Geräte durchsuchen"
+      }
+    },
+    "statistics": {
+      "group_label": "Statistiken",
+      "machinelog_label": "Smart-Home-Historie",
+      "monitoring_label": "Monitoring",
+      "news_label": "Mitteilungen",
+      "statistics_label": "Auswertungen"
+    },
+    "tickets": {
+      "create_label": "Neue Aufgabe",
+      "create_qr_label": "QR-Code scannen",
+      "dailyschedule_label": "Tagespläne",
+      "group_label": "Störungsverwaltung",
+      "monitor_label": "Alle Aufgaben",
+      "project_label": "Projekt: {{project}}",
+      "projects_label": "Projekte",
+      "tickets_label": "Meine Aufgaben"
+    }
+  },
+  "message": {
+    "input": {
+      "date": {
+        "label": "Anzeige-Datum:"
+      },
+      "description": {
+        "label": "Beschreibung:"
+      },
+      "media": {
+        "label": "Medien:"
+      },
+      "title": {
+        "label": "Titel:"
+      }
+    }
+  },
+  "monitor": {
+    "column": {
+      "empty": "Aufgabe hier ablegen",
+      "loadMore": "Mehr Aufgaben anzeigen",
+      "ticketcount": {
+        "label": "Aufgaben"
+      }
+    },
+    "create": {
+      "form": {
+        "color": {
+          "label": "Farbe"
+        },
+        "description": {
+          "label": "Beschreibung"
+        },
+        "isFinished": {
+          "checked": "Als Ausgangsbox ausgewählt",
+          "label": "Spalte für fertige Aufgaben",
+          "unchecked": "Nicht als Ausgangsbox ausgewählt"
+        },
+        "isInbox": {
+          "checked": "Als Eingangsbox ausgewählt",
+          "label": "Spalte für neue Aufgaben",
+          "unchecked": "Nicht als Eingangsbox ausgewählt"
+        },
+        "label": {
+          "label": "Titel",
+          "rules": {
+            "required": "Bitte geben Sie einen Titel an."
+          }
+        }
+      },
+      "headline": "Spalte erstellen"
+    },
+    "daily_schedule": {
+      "config": "Einstellungen",
+      "create": "Tagesplan erstellen",
+      "create_schedule": {
+        "duedate": "Fälligkeitsdatum",
+        "notification": {
+          "save_success_description": "Der Tagesplan wurde erfolgreich gespeichert.",
+          "save_success_title": "Erfolgreich gespeichert",
+          "ticket_error_description": "Es wurden Aufgaben gefunden, die bereits einem Tagesplan zugeordnet sind.\nDiese Aufgaben wurden entfernt.",
+          "ticket_error_title": "Speichern fehlgeschlagen"
+        },
+        "open_modal_btn": "Tagesplan speichern",
+        "open_modal_title": "Aufgabe '{{name}}' einem Tagesplan zuweisen",
+        "schedule_state": "Tagesplan als abgeschlossen markieren?",
+        "select": {
+          "label": "Wählen Sie einen Tagesplan"
+        },
+        "ticket_state_update_label": "Ausgewählte Aufgaben auf diesen Status setzen",
+        "ticket_state_update_placeholder": "Status nicht ändern",
+        "title": "Name des Tagesplans",
+        "title_message": "Bitte geben Sie einen Titel an.",
+        "update_ticket_state": "Aufgabe-Status auf \"In Bearbeitung\" setzen"
+      },
+      "headline": "Tagesplan",
+      "modal_current_user_only": "Nur meine Aufgaben",
+      "modal_header": "Tagesplan - Einstellungen",
+      "modal_include_deleted_tickets": "Aus Tabelle gelöschte Aufgaben in die Suche einbinden",
+      "modal_kanban_states": "Nur Aufgaben aus diesen Status verwenden",
+      "modal_kanban_states_all_label": "Jeden Status durchsuchen",
+      "modal_kanban_states_all_states": "Alle Status",
+      "modal_kanban_states_all_states_title": "Alle oben aufgelisteten Status werden verwendet.",
+      "modal_kanban_states_none": "Bitte wählen Sie einen oder mehrere Status",
+      "modal_number_tickets": "Anzahl der Aufgaben",
+      "modal_sources": "Bereiche wählen",
+      "modal_sources_all_label": "Alle Bereiche auswählen",
+      "modal_specific_tickets": "Vorauswahl an Aufgaben",
+      "modal_specific_tickets_count": "{{ticket_count}} gefunden",
+      "notification": {
+        "no_state_change_detected": "Keine Statusänderung erkannt",
+        "state_not_updated": "Aufgabentatus wurde nicht aktualisiert"
+      },
+      "notifications": {
+        "filter": {
+          "empty": {
+            "description": "Alle Tagespläne werden nun wieder angezeigt.",
+            "title": "Keine Tagespläne für den {{date}} gefunden"
+          }
+        }
+      },
+      "overview": {
+        "filter": "Filterung nach Fälligkeit:",
+        "notification": {
+          "error": "Tagesplan konnte nicht gelöscht werden!"
+        },
+        "prio": {
+          "high": "Hoch",
+          "low": "Niedrig",
+          "mid": "Mittel",
+          "ultra": "Sehr hoch",
+          "verylow": "Sehr niedrig"
+        },
+        "table": {
+          "action": {
+            "delete": "Tagesplan löschen",
+            "delete_cancel": "Nein",
+            "delete_confirm": "Löschen",
+            "delete_description": "Durch das Löschen des Tagesplans werden \n die darin enthaltenen Aufgaben wieder freigegeben.",
+            "edit": "Tagesplan bearbeiten",
+            "open_files": "Alle Maschinenunterlagen anzeigen",
+            "print": "Tagesplan drucken"
+          },
+          "col0": "Name",
+          "col1": "Benutzer",
+          "col2": "Fälligkeitsdatum",
+          "col3": "Abgeschlossen",
+          "col4": "Aktionen"
+        },
+        "ticket": {
+          "files": "Maschinenunterlagen",
+          "issue": "Fehlerkategorie",
+          "name": "Name",
+          "priority": "Priorität",
+          "source": "Bereich",
+          "state": "Status"
+        }
+      },
+      "print": {
+        "label": "Drucken",
+        "ticket": {
+          "message": {
+            "all_title": "Nachrichtenverlauf",
+            "hide": "Wird im Druck nicht angezeigt",
+            "show": "Wird im Druck angezeigt"
+          },
+          "priority": "Priorität",
+          "source": "Bereich",
+          "title": "Name der Aufgaben",
+          "user_notice": {
+            "label": "Eigene Notiz",
+            "placeholder": "Hier können Sie eine eigene Notiz vor dem Drucken anlegen"
+          }
+        }
+      },
+      "table_col0": "Titel",
+      "table_col1": "Bereich",
+      "table_col2": "Priorität",
+      "table_col3": "Mitarbeiter",
+      "table_col4": "Aktionen",
+      "table_col5": "Fehlerkategorie",
+      "table_loading": "Aufgaben werden geladen...",
+      "view_calendar": "zum Kalender",
+      "view_table": "zur Tabelle"
+    },
+    "emptycolumns": {
+      "label": "Leere {{view}} anzeigen"
+    },
+    "manage": {
+      "add": "Spalte hinzufügen",
+      "delete": {
+        "confirm": {
+          "content": {
+            "1": "In welche Spalte sollen die zugehörigen Aufgaben verschoben werden?",
+            "isInbox": "Dies ist die einzige Eingangsspalte. Die ausgewählte Spalte wird als Eingang markiert.",
+            "isOutbox": "Dies ist die einzige Ausgangsspalte. Die ausgewählte Spalte wird als Ausgang markiert."
+          },
+          "form": {
+            "destination": {
+              "rules": {
+                "required": "Bitte geben Sie die Zielspalte an."
+              }
+            }
+          },
+          "title": "Wollen Sie die Spalte wirklich löschen?"
+        }
+      },
+      "form": {
+        "color": {
+          "label": "Farbe"
+        },
+        "description": {
+          "label": "Beschreibung"
+        },
+        "isFinished": {
+          "checked": "Als Ausgangsbox ausgewählt",
+          "disabled": "Die Ausgangsbox kann nicht deaktiviert werden, weil Sie keine andere Spalte als Ausgangsbox festgelegt haben.",
+          "label": "Ist Ausgangsbox",
+          "unchecked": "Nicht als Ausgangsbox ausgewählt"
+        },
+        "isInbox": {
+          "checked": "Als Eingangsbox ausgewählt",
+          "disabled": "Die Eingangsbox kann nicht deaktiviert werden, weil Sie keine andere Spalte als Eingangsbox festgelegt haben.",
+          "label": "Ist Eingangsbox",
+          "unchecked": "Nicht als Eingangsbox ausgewählt"
+        },
+        "label": {
+          "label": "Titel"
+        }
+      },
+      "headline": "Fehlerstatus",
+      "moveleft": "Nach links verschieben",
+      "moveright": "Nach rechts verschieben"
+    },
+    "view": {
+      "headline": "Aufgabeverwaltung",
+      "label": "Ansicht",
+      "project": {
+        "label": "Projekte"
+      },
+      "role": {
+        "label": "Rolle"
+      },
+      "state": {
+        "label": "Status"
+      },
+      "user": {
+        "label": "Nutzer"
+      }
+    },
+    "viewgrouping": {
+      "label": "Gruppierung"
+    }
+  },
+  "monitoring": {
+    "view": {
+      "headline": "Kennzahlen und Auswertungen"
+    }
+  },
+  "navigation": {
+    "schedule": {
+      "overview": {
+        "title": "Wartungsübersicht"
+      }
+    }
+  },
+  "notification": {
+    "schedule_due": {
+      "description": "Legt fest, welche Nutzer benachrichtigt werden, wenn ein Wartungsplan fällig ist. Diese Benutzer werden zusätzlich zu den Berechtigungen auf dem Wartungsplan benachrichtigt.",
+      "label": "Wartungsplan fällig"
+    }
+  },
+  "notifications": {
+    "administration": {
+      "description": "Die Benachrichtigungen werden über alle eingerichteten Kanäle (z.B. WebPush, E-Mail, Teams-Kanal) an die ausgewählten Rollen oder Personen gesendet. Zusätzlich werden diese oben rechts im Profil angezeigt.",
+      "table": {
+        "columns": {
+          "assignedto": "Zustellung an",
+          "description": "Beschreibung",
+          "name": "Name"
+        }
+      }
+    }
+  },
+  "order": {
+    "headline": "Aufträge"
+  },
+  "overview": {
+    "actions": {
+      "hide_empty_columns": "Leere Kacheln verstecken",
+      "show_empty_columns": "Leere Kacheln anzeigen"
+    },
+    "headline": "Übersicht",
+    "statistics": {
+      "assigendtome": {
+        "title": "Mir zugewiesene "
+      },
+      "mytickets": {
+        "title": "Meine Aufgaben"
+      },
+      "openclosedtickets": {
+        "title1": "Offene / Geschlossene Aufgaben",
+        "title2": "Geschlossene / Offene Aufgaben"
+      }
+    }
+  },
+  "parse": {
+    "company": "Unternehmen"
+  },
+  "priority": {
+    "select": {
+      "downtime": {
+        "slider": {
+          "0": "Minuten",
+          "25": "Stunden",
+          "50": "Schichten",
+          "75": "Tage",
+          "100": "Wochen",
+          "label": "Vermutete Dauer bis zur Störungsbehebung"
+        }
+      },
+      "form": {
+        "priority": {
+          "label": "Priorität angeben",
+          "rules": {
+            "required": "Bitte eine Priorität angeben."
+          }
+        }
+      },
+      "frequency": {
+        "slider": {
+          "0": "Nie",
+          "25": "Selten",
+          "50": "Regelmäßig",
+          "75": "Häufig",
+          "100": "Immer",
+          "label": "Häufigkeit des Problems"
+        }
+      },
+      "restriction": {
+        "slider": {
+          "0": "Keine Einschränkung",
+          "50": "Vorerst in Ordnung",
+          "100": "Ich kann nicht mehr arbeiten",
+          "label": "Einschränkung der täglichen Arbeit"
+        }
+      }
+    },
+    "selectvalue": {
+      "form": {
+        "priority": {
+          "label": "Priorität"
+        }
+      },
+      "suggestion": {
+        "button": {
+          "label": "Vorgeschlagene Priorität übernehmen: "
+        }
+      }
+    }
+  },
+  "project": {
+    "assigned": "Ihre Projekte",
+    "assignedUserAndRoles": "Mitarbeiter",
+    "date_end": "bis {{end}}",
+    "date_start": "ab {{start}}",
+    "date_start_end": "von {{start}} bis {{end}}",
+    "empty": "Es wurden keine Projekte gefunden, denen Sie zugewiesen sind.",
+    "filter": {
+      "assignedToMe": "Direkt zugewiesen",
+      "noResults": "Keine Projekte gefunden",
+      "showFinished": "Abgeschlossene Projekte"
+    },
+    "filtered": "Gefilterte Projekte",
+    "finished": "Projekt ist abgeschlossen",
+    "navigate": {
+      "back": "Zurück zu {{project}}",
+      "single": "Zur Projektseite",
+      "sub": "Übersicht anzeigen"
+    },
+    "overdue": "Das Projekt ist überfällig!",
+    "overview": {
+      "view": {
+        "card": "Kacheln",
+        "list": "Liste"
+      }
+    },
+    "root": "Hauptprojekte"
+  },
+  "sampledata": {
+    "button": {
+      "label": "Beispieldaten erzeugen"
+    },
+    "confirmation": {
+      "description": "Sollen die Daten wirklich im System gespeichert werden?",
+      "title": "Wirklich erzeugen?"
+    },
+    "introduction": "Hier können Sie Beispieldaten erstellen lassen. Es werden dann mehrere hundert Aufgaben und Wartungspläne erzeugt. Bitte nutzen Sie die Funktion mit Vorsicht."
+  },
+  "schedule": {
+    "calendar": {
+      "title": "Kalenderansicht für {{name}}"
+    },
+    "calendarweek": {
+      "abbreviation": "KW",
+      "select": {
+        "label": "Auswahl von Kalenderwochen"
+      }
+    },
+    "create": {
+      "button": {
+        "modal": "Neuen Wartungsplan anlegen",
+        "save": "Wartungsplan speichern"
+      },
+      "error": "Wartungsplan konnte nicht angelegt werden",
+      "form": {
+        "collapse": {
+          "calendar": "Visuelle Ansicht",
+          "configuration": "Konfiguration",
+          "cron": "CRON",
+          "nextdates": "Nächste Ausführungszeiten",
+          "noconfiguration": "Keine Konfiguration möglich."
+        },
+        "enddate": {
+          "label": "Enddatum"
+        },
+        "message": {
+          "label": "Beschreibung"
+        },
+        "save": {
+          "error": "Fehler beim Speicher!"
+        },
+        "seriespattern": {
+          "button": {
+            "reset": "Konfiguration zurücksetzen"
+          },
+          "daily": {
+            "rules": {
+              "required": "Bitte geben Sie eine Nummer an."
+            }
+          },
+          "monthly": {
+            "date": {
+              "rules": {
+                "required": "Bitte geben Sie eine Nummer an."
+              }
+            },
+            "day": {
+              "index": {
+                "rules": {
+                  "required": "Bitte wählen Sie einen Wert aus."
+                }
+              },
+              "rules": {
+                "required": "Bitte wählen Sie einen Tag aus."
+              }
+            },
+            "input": {
+              "rules": {
+                "required": "Bitte geben Sie eine Nummer an."
+              }
+            },
+            "value1": "Tag im Monat",
+            "value2": "Wochentage"
+          },
+          "once": {
+            "rules": {
+              "required": "Bitte geben Sie ein Datum an."
+            }
+          },
+          "weekly": {
+            "input": {
+              "rules": {
+                "required": "Bitte geben Sie eine Nummer an."
+              }
+            },
+            "rules": {
+              "required": "Bitte geben Sie einen Wochentag an."
+            }
+          },
+          "yearly": {
+            "input": {
+              "rules": {
+                "required": "Bitte geben Sie eine Nummer an."
+              }
+            },
+            "rules": {
+              "required": "Bitte geben Sie ein Datum an."
+            }
+          }
+        },
+        "startdate": {
+          "label": "Startdatum",
+          "rules": {
+            "required": "Bitte wählen Sie ein Datum aus."
+          }
+        },
+        "timeseries": {
+          "label": "Serienmuster",
+          "rules": {
+            "required": "Bitte geben Sie ein Serienmuster an."
+          }
+        },
+        "title": {
+          "label": "Titel",
+          "rules": {
+            "required": "Bitte geben Sie einen Titel an."
+          }
+        }
+      },
+      "headline": "Wartungsplan erstellen",
+      "loading": "Warungsplan wird angelegt...",
+      "success": "Wartungsplan angelegt"
+    },
+    "execute": {
+      "ticket": {
+        "create": "Aufgabe erstellen",
+        "description": "Problem bei Schritt '{{currentStep}}':\n\n",
+        "title": "Wartung: {{title}}"
+      }
+    },
+    "executetable": {
+      "columns": {
+        "action": {
+          "label": "Typ"
+        },
+        "actions": {
+          "delete": {
+            "confirm": {
+              "content": "Wirklich löschen?",
+              "title": "Wollen Sie diesen Schritt wirklich löschen?"
+            },
+            "tooltip": "Löschen"
+          },
+          "label": "Aktionen"
+        },
+        "description": {
+          "label": "Beschreibung"
+        },
+        "group": {
+          "label": "Ausführende Stelle"
+        },
+        "location": {
+          "label": "Position"
+        },
+        "material": {
+          "label": "Artikel"
+        },
+        "protection": {
+          "label": "PSA"
+        }
+      }
+    },
+    "execution": {
+      "columns": {
+        "action": {
+          "continue": {
+            "confirm": {
+              "content": "Wollen Sie die Ausführung fortsetzen?",
+              "title": "Fortsetzen"
+            },
+            "label": "Ausführung fortsetzen"
+          },
+          "delete": {
+            "confirm": {
+              "description": "Wollen Sie die Ausführung des Wartungsplans wirklich löschen?",
+              "title": "Ausführung löschen?"
+            }
+          },
+          "label": "Aktionen",
+          "source": {
+            "label": "Zugehörige Quelle: {{source}}"
+          }
+        },
+        "createdAt": {
+          "tag": "Ausgeführt: {{createdAt}}"
+        },
+        "finishedAt": {
+          "tag": "Abgeschlossen"
+        },
+        "notfinished": {
+          "tag": "Noch nicht abgeschlossen!"
+        }
+      },
+      "message": {
+        "execution": {
+          "content": "'{{username}}' hat diese Durchführung erstellt.\n\n{{description}}"
+        }
+      },
+      "nextschedule": {
+        "actions": {
+          "moveandsave": "Bestätigen und Plan verschieben"
+        },
+        "description": "Legen Sie fest, wann die nächste Wartung für diesen Plan erfolgen soll. ",
+        "individual": {
+          "description": "Legen Sie ein komplett neues Ausführungsintervall fest."
+        },
+        "newinterval": {
+          "description": "Das Intervall wird um die Differenz verschoben. Als Ausgangszeitpunkt wird das aktuelle Ausführungsdatum genutzt. ",
+          "ininterval": "Die Ausführung ist im Plan und kann nicht geändert werden.",
+          "radio": {
+            "label": "Ausführung nach neuem Intervall"
+          },
+          "shifting": {
+            "days": "Die Ausführung liegt {{days}} Tage hinter dem Plan.",
+            "weeks": "Die Ausführung liegt {{weeks}} Wochen hinter dem Plan."
+          }
+        },
+        "nextexecution": "Nächste Ausführung: {{date}}",
+        "oldinterval": {
+          "description": "Das Intervall wird beibehalten. Die nächste Ausführung wird ab dem geplanten Ausführungsdatum berechnet.",
+          "radio": {
+            "label": "Ausführung nach aktuellem Plan"
+          }
+        },
+        "summary": {
+          "current": "Aktuelle Ausführung: {{date}}",
+          "last": "Letzte Ausführung: {{date}}",
+          "next": "Nächste Ausführung",
+          "title": "Historie der Ausführungen"
+        },
+        "title": "Ausführungstermin der nächsten Wartung"
+      },
+      "page": {
+        "subheader": {
+          "documents": "Dokumente und Medien",
+          "material": "Material",
+          "nextexecution": "Nächste Ausführung"
+        },
+        "title": "Wartungsquittierung"
+      },
+      "result": {
+        "subtitle": {
+          "done": "Sie haben diesen Wartungsschritt erfolgreich quittiert.",
+          "pending": "Bitte führen Sie die Arbeiten durch und markieren Sie diesen Schritt als erledigt."
+        },
+        "title": {
+          "done": "Arbeiten durchgeführt",
+          "pending": "Arbeiten ausstehend"
+        }
+      },
+      "save": {
+        "error": "Fehler beim Speichern der Durchführung",
+        "loading": "Speichere Durchführung...",
+        "success": "Durchführung gespeichert"
+      },
+      "send": {
+        "anyways": "Möchten Sie wirklich trotzdem absenden?",
+        "confirmation": "Bitte bestätigen"
+      },
+      "steps": {
+        "button": {
+          "send": {
+            "tooltip": "Die einzelnen Arbeitsschritte müssen als erledigt markiert werden."
+          }
+        }
+      }
+    },
+    "header": {
+      "extra": "Wenn eine Vorlage gewählt wurde, übernimmt das System deren Attribute, außer der Wartungsplan überschreibt sie. Die Benachrichtigung von Benutzern kann über die Berechttigungen eingestellt werden. Sieht ein Nutzer den Wartungsplan, wird er zur Fälligkeit benachrichtigt, falls eingerichtet."
+    },
+    "headline": "Wartungsarbeiten verwalten",
+    "loading": "Lade Wartungspläne",
+    "message": {
+      "execution": {
+        "content": "'{{username}}' hat diese Durchführung erstellt.\n\n{{description}}",
+        "title": "{{title}}"
+      }
+    },
+    "meta": {
+      "input": {
+        "error": {
+          "required": "{{field}} ist ein Pflichtfeld."
+        },
+        "linked": {
+          "OD3_Company": "Unternehmen: {{name}}",
+          "OD3_Contact": "Kontakt: {{firstname}} {{lastname}}",
+          "OD3_Maintenance_Item": "{{name}}",
+          "OD3_Maintenance_Ticket": "{{title}}"
+        }
+      }
+    },
+    "overview": {
+      "info": {
+        "description": "Jede Zeile zeigt einen Wartungsplan zu der ausgewählten Anlage an. Die Tabelle ist nach fälliger Wartung sortiert.",
+        "title": "Anstehende Wartungen auf einen Blick"
+      },
+      "selectInfo": "Untergeordnete Anlagen werden berücksichtigt",
+      "selectPlaceholder": "Nach Anlage filtern",
+      "table": {
+        "col": {
+          "actions": "Aktionen",
+          "lastExecution": "Letzte Ausführung",
+          "name": "Wartung",
+          "nextExecution": "Nächste Fälligkeit",
+          "source": "Anlage",
+          "sources": "Anlagen"
+        },
+        "entry": {
+          "continue": "Fortführen",
+          "execute": "Ausführen",
+          "lastExecution": {
+            "none": "Nie"
+          },
+          "rerun": "Abbrechen und erneut ausführen"
+        }
+      },
+      "title": "Wartungsübersicht für {{source}}"
+    },
+    "source": {
+      "actions": {
+        "filter": {
+          "children": "Untergeordnete Quellen einschließen",
+          "groupByTemplate": "Nach Vorlagen gruppieren"
+        }
+      },
+      "add_schedule": "Plan hinzufügen",
+      "columns": {
+        "action": {
+          "delete": {
+            "confirm": {
+              "content": "Wirklich löschen?",
+              "title": "Wollen Sie diesen Plan wirklich löschen?"
+            },
+            "tooltip": "Löschen"
+          },
+          "execute": {
+            "confirm": {
+              "content": "Wirklich ausführen?",
+              "title": "Wollen Sie diesen Plan wirklich ausführen?"
+            },
+            "tooltip": "Ausführen"
+          },
+          "label": "Aktionen",
+          "lastexecution": {
+            "label": "Letzte Ausführung: {{date}}",
+            "never": "Nie"
+          },
+          "nextexecution": {
+            "label": "Nächste Ausführung: {{date}}",
+            "never": "Nächste Ausführung: Nie"
+          },
+          "source": {
+            "label": "Zugehörige Quelle: {{source}}"
+          },
+          "update": {
+            "tooltip": "Bearbeiten"
+          }
+        },
+        "description": {
+          "label": "Beschreibung"
+        },
+        "enddate": {
+          "label": "Ende",
+          "never": "Kein Enddatum"
+        },
+        "finishedAt": {
+          "label": "Abgeschlossen"
+        },
+        "name": {
+          "label": "Name"
+        },
+        "startdate": {
+          "label": "Start"
+        }
+      },
+      "detail": {
+        "execution": {
+          "button": "Ausführen",
+          "last": {
+            "label": "Letzte Ausführung",
+            "none": "Nie"
+          },
+          "next": {
+            "label": "Nächste Fälligkeit",
+            "none": "Nie"
+          },
+          "running": "Laufende Ausführung"
+        }
+      },
+      "executions": {
+        "headline": "Vorangegangene Wartungen"
+      },
+      "headline": "Alle Pläne für ",
+      "templates": {
+        "headline": "Zugeordnete Vorlagen"
+      }
+    },
+    "step": {
+      "create": {
+        "form": {
+          "action": {
+            "label": "Welche Aktion soll ausgeführt werden?",
+            "rules": {
+              "required": "Bitte geben Sie die Aktion an, die ausgeführt werden soll."
+            },
+            "select": {
+              "options": {
+                "action": "Aktion",
+                "empty": "Entlüften/Leeren",
+                "fill": "Auffüllen",
+                "switch": "Austauschen",
+                "visual": "Visuell"
+              }
+            }
+          },
+          "description": {
+            "label": "Beschreibung",
+            "rules": {
+              "required": "Bitte beschreiben Sie, was zu tun ist."
+            }
+          },
+          "group": {
+            "label": "Wer ist die ausführende Stelle?",
+            "rules": {
+              "required": "Bitte geben Sie die ausführende Stelle an."
+            }
+          },
+          "location": {
+            "add": {
+              "placeholder": "Neu hinzufügen"
+            },
+            "dropdown": {
+              "addeditems": "Eigene Positionen",
+              "saveditems": "Zugeordnetes Material der Kostenstelle"
+            },
+            "label": "Wo muss der Schritt ausgeführt werden?",
+            "rules": {
+              "required": "Bitte geben Sie eine Stelle an."
+            }
+          },
+          "material": {
+            "label": "Welcher Artikel wird gebraucht?",
+            "rules": {
+              "required": "Bitte geben Sie an, welcher Artikel gebraucht wird."
+            }
+          },
+          "protection": {
+            "label": "Welche Schutzausrüstung (PSA) wird gebraucht?",
+            "rules": {
+              "required": "Bitte geben Sie die Schutzausrüstung an."
+            }
+          }
+        },
+        "headline": "Schritt hinzufügen"
+      },
+      "execute": {
+        "next_schedule": "Nächste Ausführung: {{date}}",
+        "next_schedule_changed": "Ausführung geändert auf {{date}}",
+        "next_schedule_edit": "Anpassen"
+      },
+      "media": {
+        "headline": "Zugehörige Bilder"
+      },
+      "meta": {
+        "create": {
+          "label": "Kopfdaten bearbeiten"
+        }
+      },
+      "steps": {
+        "headline": "Zugehörige Arbeitsschritte"
+      }
+    },
+    "steps": {
+      "meta": {
+        "preview": {
+          "title": "Vorschau der Kopfdateneingabe"
+        },
+        "submit": "Zusätzliche Felder speichern",
+        "title": "Kopfdaten konfigurieren"
+      }
+    },
+    "table": {
+      "actions": {
+        "add": {
+          "label": "Schritt hinzufügen"
+        }
+      },
+      "columns": {
+        "action": {
+          "label": "Typ"
+        },
+        "actions": {
+          "delete": {
+            "confirm": {
+              "content": "Wirklich löschen?",
+              "title": "Wollen Sie diesen Schritt wirklich löschen?"
+            },
+            "tooltip": "Löschen"
+          },
+          "label": "Aktionen"
+        },
+        "description": {
+          "label": "Beschreibung"
+        },
+        "done": {
+          "label": "Erledigt"
+        },
+        "group": {
+          "label": "Ausführende Stelle"
+        },
+        "location": {
+          "label": "Position"
+        },
+        "material": {
+          "label": "Artikel"
+        },
+        "protection": {
+          "label": "PSA"
+        }
+      }
+    },
+    "template": {
+      "contacts": {
+        "drawer": {
+          "title": "Kontakte für den Wartungsplan {{schedule}}"
+        },
+        "table": {
+          "department": "Unternehmen",
+          "email": "E-Mail",
+          "name": "Name",
+          "phone": "Tel.-Nr."
+        }
+      },
+      "detail": {
+        "drawer": {
+          "entries": {
+            "description": "Beschreibung",
+            "sources": "Datenquellen",
+            "steps": "Schritte",
+            "title": "Titel"
+          },
+          "title": "Details zu {{date}}"
+        }
+      },
+      "used": "Aus Template übernommen"
+    },
+    "update": {
+      "form": {
+        "message": {
+          "label": "Beschreibung"
+        },
+        "title": {
+          "label": "Titel",
+          "rules": {
+            "required": "Bitte geben Sie einen Titel an."
+          }
+        }
+      },
+      "headline": "Wartungsplan bearbeiten"
+    }
+  },
+  "schedules": {
+    "admin": {
+      "headerextra": "Wartungsplan-Vorlagen helfen Ihnen, Wartungspläne zu entwerfen. Die Vorlagen können mehreren Datenquellen hinzugefügt werden und werden dann für diese Datenquellen aktiv. Das System erstellt für die Zuordnung von Vorlage zu Datenquelle automatisch einen Wartungsplan."
+    },
+    "multi-source-schedule-modal": {
+      "date": {
+        "label": "Bitte geben Sie das Datum der Ausführung an",
+        "title": "Datum"
+      },
+      "description": "Erklärung",
+      "details": "Details",
+      "header": "Direkte Wartung speichern",
+      "items": {
+        "add": "Artikel hinzufügen",
+        "count": "Menge",
+        "label": "Bitte geben Sie die verwendeten Artikel an für '{{source}}'",
+        "selected": "Artikel",
+        "title": "Verwendetes Artikel"
+      },
+      "media": {
+        "title": "Medien"
+      },
+      "sources": {
+        "label": "Bitte wählen Sie die gewünschten Geräte aus",
+        "title": "Ausgewählte Geräte"
+      },
+      "steps": {
+        "button": {
+          "add": "Bitte wählen Sie die ausgeführten Schritte"
+        },
+        "count_index": "Schritt {{index}}",
+        "label": "Ausgeführte Schritte"
+      },
+      "title": "Art der Wartung"
+    },
+    "save-success": "Durchgeführte Wartung erfolgreich gespeichert",
+    "steps": {
+      "table": {
+        "execute": {
+          "form": {
+            "comment": "Kommentar"
+          }
+        }
+      }
+    },
+    "update-success": "Durchgeführte Wartung erfolgreich bearbeitet"
+  },
+  "schema": {
+    "OD3_Maintenance_Downtime": "Ausfallzeit",
+    "OD3_Maintenance_Frequency": "Häufigkeit",
+    "OD3_Maintenance_Message": "Nachricht",
+    "OD3_Maintenance_Restriction": "Einschränkung",
+    "OD3_Maintenance_Schedule": "Wartungsarbeit",
+    "OD3_Maintenance_Schedule_Execution": "Durchgeführte Wartung",
+    "OD3_Maintenance_Schedule_Execution_progress": "Laufende Wartung",
+    "OD3_Maintenance_Ticket": "Aufgabe"
+  },
+  "settings": {
+    "button": {
+      "reset": {
+        "label": "Filter zurücksetzen"
+      }
+    },
+    "displayCreatedUserTickets": {
+      "label": "Erstellte Aufgaben anzeigen"
+    },
+    "displayGroupTickets": {
+      "checked": "GruppenAufgaben angezeigt",
+      "label": "GruppenAufgaben anzeigen",
+      "unchecked": "GruppenAufgaben versteckt"
+    },
+    "displaySubordinateTickets": {
+      "checked": "Untergeordnete Aufgaben angezeigt",
+      "label": "Untergeordnete Aufgaben anzeigen",
+      "unchecked": "Untergeordnete Aufgaben versteckt"
+    },
+    "drawer": {
+      "headline": "Aufgaben filtern und sortieren",
+      "title": "Einstellungen"
+    },
+    "filter": {
+      "labels": {
+        "category": "Fehlerkategorie",
+        "duedate": "Fälligkeitsdatum",
+        "workplace": "Arbeitsplatz"
+      }
+    },
+    "filterby": {
+      "issuecategory": {
+        "label": "Fehlerkategorie"
+      },
+      "label": "Filterung",
+      "select": {
+        "placeholder": "Wonach soll gefiltert werden?"
+      },
+      "source": {
+        "label": "Datenquelle"
+      },
+      "state": {
+        "label": "Status"
+      },
+      "status": {
+        "label": "Status"
+      }
+    },
+    "sortby": {
+      "label": "Sortierung",
+      "options": {
+        "createdAt": "Erstelldatum",
+        "latestPriorityValue": "Priorität",
+        "priority": {
+          "value": "Priorität"
+        },
+        "ticket": {
+          "createdAt": "Erstellt am",
+          "title": "Titel"
+        },
+        "title": "Titel"
+      }
+    },
+    "sorter": {
+      "labels": {
+        "createdAt": "Erstellt am",
+        "down": "Absteingend",
+        "priority": "Priorität",
+        "title": "Titel",
+        "up": "Aufsteigend",
+        "updatedAt": "Aktualisiert am"
+      }
+    }
+  },
+  "source": {
+    "select": {
+      "form": {
+        "source": {
+          "label": "Anlage wählen",
+          "rules": {
+            "required": "Bitte wählen Sie eine Anlage."
+          }
+        }
+      }
+    }
+  },
+  "sourcemeta": {
+    "view": {
+      "create_plan": {
+        "button": {
+          "label": "Direkte Wartung"
+        }
+      },
+      "create_template": {
+        "button": {
+          "label": "Wartungsplan-Vorlage anlegen"
+        },
+        "newschedule": {
+          "description": "Wartungspläne erstellt für selektierte Quellen: {{sources}}",
+          "title": "Wartungsplan-Vorlage erstellt aus selektierten Datenquellen"
+        },
+        "success": "Vorlage und Wartungspläne erstellt"
+      },
+      "description": "Kinder-Elemente werden bei der Suche mit berücksichtigt",
+      "info": {
+        "description": "Sie können Filter anwenden, um zu sehen, in welchen Feldern der gesuchte Wert vorkommt.",
+        "label": "In diesem Bereich werden alle Metadaten zu Anlagen angezeigt."
+      },
+      "meta": {
+        "label": {
+          "category": "Anlage"
+        }
+      },
+      "search": {
+        "label": "Nach Metafeldern filtern",
+        "placeholder": "Tippe hier um zu suchen..."
+      },
+      "table": {
+        "meta": "Metadaten",
+        "source_name": "Datenquelle"
+      },
+      "title": "Geräte-Kopfdaten für {{source}} durchsuchen"
+    }
+  },
+  "stats": {
+    "headline": "Statistiken",
+    "issuecategory": {
+      "select": "Welche Fehlerkategorien sollen berücksichtig werden?"
+    },
+    "mean_time_before_failure": {
+      "statistic": {
+        "title": "MTBF (mean-time-before-failure)"
+      }
+    },
+    "mean_time_to_recovery": {
+      "statistic": {
+        "format": {
+          "days": "{{days}} Tage und {{hours}} Stunden",
+          "hours": "{{hours}} Stunden und {{minutes}} Minuten",
+          "minutes": "{{minutes}} Minuten und {{seconds}} Sekunden",
+          "seconds": "{{seconds}} Sekunden"
+        },
+        "title": "MTTR2 (mean-time-to-recovery)"
+      }
+    },
+    "mean_time_to_repair": {
+      "state": {
+        "select": "Wählen Sie den Bearbeitungsstatus"
+      },
+      "statistic": {
+        "title": "MTTR1 (mean-time-to-repair)"
+      }
+    }
+  },
+  "stepmetafields": {
+    "display": {
+      "value": {
+        "label": "{{label}}: {{value}}"
+      }
+    }
+  },
+  "ticket": {
+    "assignment": {
+      "error": "Zuweisung des Aufgaben konnte nicht geändert werden",
+      "loading": "Zuweisung des Aufgaben wird geändert...",
+      "success": "Zuweisung erfolgreich geändert"
+    },
+    "assignrole": {
+      "notification": {
+        "description": "{{username}} hat das Aufgabe {{AufgabeName}} der Rolle {{role}} zugewiesen.",
+        "title": "Ein Aufgabe wurde Ihrer Rolle zugewiesen."
+      }
+    },
+    "assignuser": {
+      "headline": "Benutzer zum Aufgabe '{{Aufgabe}}' zuweisen",
+      "notification": {
+        "description": "{{username}} hat Sie dem Aufgabe {{AufgabeName}} zugeordnet.",
+        "title": "Sie wurden einem Aufgabe zugewiesen."
+      }
+    },
+    "create": {
+      "assignedTo": {
+        "error": {
+          "empty": "Bitte weißen Sie das Problem jemanden zu."
+        },
+        "label": "Zuweisung"
+      },
+      "assignment": {
+        "placeholder": "Zuweisung",
+        "roles": "Rollen",
+        "users": "Mitarbeiter"
+      },
+      "config": {
+        "button": "Konfiguration bearbeiten",
+        "form": {
+          "submit": "Übernehmen",
+          "title": "Konfiguration bearbeiten"
+        },
+        "general": {
+          "help": {
+            "help": "Der Hilfstext wird unter dem Eingabefeld angezeigt.",
+            "label": "Hilfstext"
+          },
+          "hidden": {
+            "checkedChildren": "Versteckt",
+            "label": "Feld verstecken (hidden)",
+            "unCheckedChildren": "Sichtbar"
+          },
+          "label": {
+            "help": "Wird keine Eingabe gemacht, wird ein Standardwert genutzt. Wird ein \"-\" eingetragen, wird kein Label angezeigt.",
+            "label": "Label des Felds"
+          },
+          "placeholder": {
+            "help": "Wird keine Eingabe gemacht, wird ein Standardwert genutzt. Wird ein \"-\" eingetragen, wird kein Platzhalter angezeigt.",
+            "label": "Platzhalter im Eingabefeld"
+          },
+          "required": {
+            "checkedChildren": "Erforderlich",
+            "help": "Gibt an, ob das Feld erforderlich ist, um das Aufgabe speichern zu können.",
+            "label": "Erforderlich (required)",
+            "unCheckedChildren": "Nicht erforderlich"
+          }
+        },
+        "priority": {
+          "customLabels": {
+            "value": {
+              "placeholder": "Benutzerdefiniertes Label"
+            }
+          },
+          "downtime": {
+            "label": "Felder in Ausfallzeit"
+          },
+          "frequency": {
+            "label": "Felder in Fehlerhäufigkeit"
+          },
+          "priority": {
+            "label": "Felder in Priorität"
+          },
+          "restriction": {
+            "label": "Felder in Einschränkung"
+          }
+        }
+      },
+      "database": {
+        "default": {
+          "subject": "Neues Aufgabe"
+        },
+        "subject": {
+          "1": "Aufgabe erstellt: '{{AufgabeName}}'"
+        }
+      },
+      "description": {
+        "error": {
+          "empty": "Bitte geben Sie eine Beshreibung an."
+        },
+        "label": "Beschreibung",
+        "placeholder": "Beschreibung des Problems"
+      },
+      "duedate": {
+        "error": {
+          "empty": "Bitte geben Sie ein Fälligkeitsdatum an."
+        },
+        "label": "Fälligkeitsdatum"
+      },
+      "error": "Fehler beim Speichern des Aufgaben!",
+      "form": {
+        "noSaveConfig": "Es ist kein Formular zum Anlegen eines Aufgaben für Sie freigegeben. Bitte kontaktieren Sie Ihre Instandhaltung.",
+        "overview": {
+          "downtime": "Ausfallzeit",
+          "duedate": "Fälligkeitsdatum",
+          "frequency": "Häufigkeit der Störung",
+          "issuecategory": "Fehlerkategorie",
+          "item": "Artikel",
+          "media": "Medien",
+          "metaDescription": "Fehlerbeschreibung",
+          "metaTitle": "Titel",
+          "priority": "Priorität",
+          "restriction": "Einschränkung",
+          "source": "Anlage"
+        }
+      },
+      "issue": {
+        "label": "Fehlerkategorie"
+      },
+      "issuecategory": {
+        "error": {
+          "empty": "Bitte geben Sie eine Fehlerkategorie an."
+        },
+        "placeholder": "Fehlerkategorie"
+      },
+      "material": {
+        "error": {
+          "empty": "Bitte geben Sie ein Artikel an."
+        },
+        "label": "Artikel",
+        "placeholder": "Artikel",
+        "tooltip": "Bitte vorher Anlage auswählen"
+      },
+      "media": {
+        "error": {
+          "empty": "Bitte wählen Sie Medien aus."
+        },
+        "label": "Medien"
+      },
+      "meta": {
+        "button": {
+          "open": "Kopfdaten festlegen"
+        },
+        "label": "Weitere Daten"
+      },
+      "priority": {
+        "downtime": {
+          "label": "Ausfallzeit"
+        },
+        "error": {
+          "empty": "Bitte geben Sie eine Priorität an."
+        },
+        "frequency": {
+          "label": "Fehlerhäufigkeit"
+        },
+        "label": "Priorität",
+        "restriction": {
+          "label": "Einschränkung"
+        }
+      },
+      "project": {
+        "error": {
+          "empty": "Bitte geben Sie ein Projekt an."
+        },
+        "label": "Projekt",
+        "placeholder": "Projekt"
+      },
+      "qr": {
+        "print": {
+          "btn": "Code drucken",
+          "title": "QR-Code drucken"
+        },
+        "scan": {
+          "btn": "QR-Code scannen",
+          "manual": {
+            "description": "Suche den Namen des Codes in der unteren Auswahl.",
+            "info": "Wird der QR-Code nicht erkannt?"
+          },
+          "modal": {
+            "info": "Halte den QR-Code in den rot markierten Bereich."
+          },
+          "select": "Hier QR-Code Name wählen:",
+          "title": "Aufgabe über QR Code erstellen"
+        }
+      },
+      "saved": "Aufgabe gespeichert",
+      "saving": "Aufgabe wird gespeichert",
+      "source": {
+        "error": {
+          "empty": "Bitte geben Sie eine Datenquelle an."
+        },
+        "label": "Anlage",
+        "placeholder": "Anlage"
+      },
+      "state": {
+        "error": {
+          "empty": "Bitte geben Sie einen Status an."
+        },
+        "label": "Status"
+      },
+      "step": {
+        "selectissue_label": "Fehlerkategorie auswählen",
+        "selectitems_label": "Artikel auswählen",
+        "selectmedia_label": "Bilder und Audio hinzufügen",
+        "selectpriority_label": "Prioritäten festlegen"
+      },
+      "title": {
+        "error": {
+          "empty": "Geben Sie einen Titel an. Beispiel: \"Kabel ist gebrochen\" oder \"Stutzen verbogen\""
+        },
+        "label": "Titel",
+        "placeholder": "Name der Aufgaben"
+      }
+    },
+    "creation": {
+      "config": {
+        "form": {
+          "field": {
+            "className": "Tabellen-Name",
+            "display": "Anzeige-Feld",
+            "label": {
+              "assignedTo": "Zuweisung",
+              "customLabel": "Benutzerdefinierte Labels",
+              "description": "Beschreibung",
+              "duedate": "Fälligkeitsdatum",
+              "issuecategory": "Fehlerkategorie",
+              "material": "Artikel",
+              "media": "Media",
+              "meta": "Kopfdaten",
+              "priority": "Priorität",
+              "project": "Projekt",
+              "source": "Quelle",
+              "state": "Status",
+              "title": "Titel"
+            },
+            "max": "Max. Wert",
+            "meta": {
+              "error": {
+                "duplicate": "Die Feld-ID sollte einzigartig sein. Diese Konfiguration kann unerwartetes Verhalten auslösen."
+              },
+              "title": "Kopfdaten-Felder"
+            },
+            "min": "Min. Wert",
+            "multiple": "Mehrfachauswahl zulassen",
+            "onlyChildren": "Nur untergeordnete Anlagen anzeigen",
+            "options": "Auswahl-Optionen",
+            "placeholder": "Feld-Konfiguration hinzufügen"
+          },
+          "view": {
+            "for": {
+              "label": "Gültig für Rollen"
+            },
+            "label": "Ansicht",
+            "type": {
+              "label": {
+                "compact": "Kompakt",
+                "formular": "Formular",
+                "steps": "Schritte"
+              }
+            }
+          }
+        }
+      },
+      "priority": {
+        "downtime": {
+          "tooltip": "Ausfallzeit"
+        },
+        "frequency": {
+          "tooltip": "Fehlerhäufigkeit"
+        },
+        "restriction": {
+          "tooltip": "Einschränkung"
+        },
+        "tooltip": "Priorität"
+      },
+      "state": {
+        "tooltip": "Status"
+      }
+    },
+    "data": {
+      "noProject": "Kein Projekt",
+      "project": "Projekt: {{project}}"
+    },
+    "delete": {
+      "content": {
+        "1": "Möchten Sie das Aufgabe ",
+        "2": " wirklich löschen?"
+      },
+      "headline": "Aufgabe löschen"
+    },
+    "description": {
+      "button": {
+        "show_manuals": "Maschinenunterlagen anzeigen"
+      },
+      "buttons": {
+        "assignuser": "Mitarbeiter zuweisen",
+        "markasdone": "Als erledigt markieren"
+      },
+      "details": "Details",
+      "items": {
+        "assigned": "Zugewiesene Mitarbeiter",
+        "category": {
+          "notenabled": "Fehlerkategorie nicht gefunden!"
+        },
+        "createdAt": "Erstellt am",
+        "createdBy": "Erstellt von",
+        "issuecategory": "Fehlerkategorie",
+        "nocategory": "Keine Kategorie",
+        "priority": "Priorität",
+        "updatedAt": "Aktualisiert am",
+        "workplace": "Arbeitsplatz"
+      },
+      "overview": "Übersicht"
+    },
+    "edit": {
+      "link": "Zu den Aufgabedetails"
+    },
+    "eventlist": {
+      "OD3_Maintenance_Downtime": "'{{username}}' hat die 'Ausfallzeit' auf '{{value}}' gesetzt.",
+      "OD3_Maintenance_Duedate": "'{{username}}' hat das 'Fälligkeitsdatum' auf '{{value}}' gesetzt.",
+      "OD3_Maintenance_Frequency": "'{{username}}' hat die 'Fehlerhäufigkeit' auf '{{value}}' gesetzt.",
+      "OD3_Maintenance_Priority": "'{{username}}' hat die 'Priorität' auf '{{value}}' gesetzt.",
+      "OD3_Maintenance_Restriction": "'{{username}}' hat die 'Einschränkung' auf '{{value}}' gesetzt.",
+      "OD3_Maintenance_Ticket": "'{{username}}' hat das Aufgabe erstellt.",
+      "OD3_Maintenance_Ticket_Assignment": {
+        "both": "'{{username}}' hat die 'Zuweisung' auf die Nutzer {{userList}} und die Rollen {{roleList}} gesetzt.",
+        "none": "'{{username}}' hat jegliche 'Zuweisung' entfernt.",
+        "role": "'{{username}}' hat die 'Zuweisung' auf die Rollen {{roleList}} gesetzt.",
+        "user": "'{{username}}' hat die 'Zuweisung' auf die Nutzer {{userList}} gesetzt."
+      },
+      "OD3_Maintenance_Ticket_Issuecategory": "'{{username}}' hat die 'Fehlerkategorie' auf '{{issuecategory}}' gesetzt.",
+      "OD3_Maintenance_Ticket_Kanban_State": "'{{username}}' hat den 'Status' auf '{{state}}' gesetzt.",
+      "OD3_Maintenance_Ticket_Source": "'{{username}}' hat den 'Bereich' auf '{{source}}' gesetzt.",
+      "OD3_Maintenance_Ticket_Title": "'{{username}}' hat das Aufgabe auf '{{title}}' umbenannt.",
+      "headline": "Alle Ereignisse",
+      "message": {
+        "changed_by": "Bearbeitet von '{{username}}'."
+      },
+      "other_data": {
+        "text": "'{{dataName}}' auf Wert '{{value}}' gesetzt von '{{username}}'."
+      },
+      "table": {
+        "columns": {
+          "date": {
+            "label": "Datum"
+          },
+          "description": {
+            "label": "Bezeichnung"
+          },
+          "user": {
+            "label": "Benutzer"
+          },
+          "value": {
+            "label": "Wert"
+          }
+        }
+      }
+    },
+    "eventtimeline": {
+      "headline": "Alle Ereignisse"
+    },
+    "filter": {
+      "source": "Nach '{{source}}' filtern"
+    },
+    "input": {
+      "form": {
+        "date": {
+          "help": "Bitte nennen Sie das Datum, an dem das Problem aufgetreten ist",
+          "label": "Zeitpunkt des Fehlers"
+        },
+        "description": {
+          "label": "Fehlerbeschreibung"
+        },
+        "title": {
+          "label": "Titel des Aufgaben"
+        }
+      }
+    },
+    "message": {
+      "assignment": {
+        "changed": {
+          "title": "Zuweisung geändert"
+        }
+      },
+      "downtime": {
+        "changed": {
+          "content": "'{{username}}' hat den Wert der 'Ausfallzeit' von '{{old}}' auf '{{new}}' gesetzt.",
+          "title": "Ausfallzeit geändert"
+        }
+      },
+      "duedate": {
+        "changed": {
+          "content": "'{{username}}' hat das 'Fälligkeitsdatum' von '{{oldstart}} bis {{oldend}}' auf '{{newstart}} bis {{newend}}' gesetzt.",
+          "title": "Fälligkeitsdatum geändert"
+        }
+      },
+      "frequency": {
+        "changed": {
+          "content": "'{{username}}' hat den Wert der 'Fehlerhäufigkeit' von '{{old}}' auf '{{new}}' gesetzt.",
+          "title": "Fehlerhäufigkeit geändert"
+        }
+      },
+      "issuecategory": {
+        "changed": {
+          "content": "'{{username}}' hat die 'Fehlerkategorie' von '{{old}}' zu '{{new}}' geändert.",
+          "title": "Fehlerkategorie geändert"
+        }
+      },
+      "kanbanstate": {
+        "changed": {
+          "content": "'{{username}}' hat den 'Status' von '{{old}}' auf '{{new}}' geändert.",
+          "title": "Status geändert"
+        }
+      },
+      "material": {
+        "changed": {
+          "content": "'{{username}}' hat den 'Artikel' geändert auf: '{{new}}'",
+          "title": "Artikel geändert"
+        }
+      },
+      "priority": {
+        "changed": {
+          "content": "'{{username}}' hat die 'Priorität' von '{{old}}' auf '{{new}}' gesetzt.",
+          "title": "Priorität geändert"
+        }
+      },
+      "project": {
+        "changed": {
+          "content": "'{{username}}' hat das Projekt zu '{{new}}' geändert.",
+          "title": "Projekt geändert"
+        }
+      },
+      "restriction": {
+        "changed": {
+          "content": "'{{username}}' hat den Wert der 'Einschränkung' von '{{old}}' auf '{{new}}' geändert.",
+          "title": "Einschränkung geändert"
+        }
+      },
+      "source": {
+        "changed": {
+          "content": "'{{username}}' hat das Aufgabe von der 'Anlage' '{{old}}' zu '{{new}}' neu zugewiesen.",
+          "title": "Anlage geändert"
+        }
+      },
+      "title": {
+        "changed": {
+          "content": "'{{username}}' hat den 'Namen' von '{{old}}' zu '{{new}}' geändert.",
+          "title": "Name geändert"
+        }
+      }
+    },
+    "meta": {
+      "boolean": {
+        "false": "Nein",
+        "true": "Ja"
+      },
+      "title": "Kopfdaten"
+    },
+    "move": {
+      "database": {
+        "batch_moved": "Status von '{{lastStateName}}' zu '{{stateName}}' durch Tagesplan '{{scheduleName}}' geändert.",
+        "moved": {
+          "1": "Aufgabe verschoben von",
+          "2": "nach",
+          "full": "Status des Aufgaben '{{AufgabeName}}' von '{{lastStateName}}' zu '{{stateName}}' geändert."
+        },
+        "priority": {
+          "1": "Priorität wurde geändert nach:"
+        },
+        "subject": {
+          "1": "Aufgabe aktualisiert"
+        }
+      },
+      "form": {
+        "description": {
+          "label": "Erklärung"
+        }
+      },
+      "headline": "Aufgabe verschieben",
+      "state": {
+        "message": {
+          "title": "Anhang: Status geändert"
+        }
+      }
+    },
+    "overview": {
+      "columnView": "Spalten",
+      "listView": "Liste"
+    },
+    "priority": {
+      "error": "Priorität des Aufgaben konnte nicht geändert werden",
+      "invalid": "Priorität konnte nicht geändert werden",
+      "loading": "Priorität des Aufgaben wird geändert...",
+      "modal": {
+        "priority": "Priorität",
+        "title": "Priorität vom Ticket '{{ticket}}' ändern"
+      },
+      "success": "Priorität erfolgreich geändert"
+    },
+    "project": {
+      "error": "Aufgabe konnte nicht zugewiesen werden",
+      "loading": "Aufgabe wird dem Projekt zugewiesen...",
+      "statistics": "Übersicht",
+      "subprojects": "Untergeordnete Projekte",
+      "success": "Aufgabe erfolgreich zugewiesen"
+    },
+    "recentmessage": {
+      "headline": "Letzte Nachrichten"
+    },
+    "source": {
+      "change": {
+        "error": "Anlage konnte nicht zugewiesen werden",
+        "loading": "Anlage wird zugewiesen...",
+        "modal": {
+          "ok": "Anlage wechseln",
+          "title": "Anlage wechseln für '{{ticket}}'"
+        },
+        "success": "Anlage zugewiesen",
+        "tooltip": "Anlage wechseln"
+      }
+    },
+    "state": {
+      "default": "Aufgabe liegt im Zeitrahmen",
+      "duedate": "Fälligkeit",
+      "invalid": "Status konnte nicht geändert werden",
+      "loading": "Status des Aufgaben wird geändert...",
+      "overdue": "Aufgabe ist überfällig.",
+      "select": {
+        "label": "Wähle einen neuen Status",
+        "title": "Aufgabentatus ändern"
+      },
+      "success": "Status erfolgreich geändert",
+      "week": "Woche"
+    },
+    "statistic": {
+      "loading": "Lade Aufgabe-Statistik...",
+      "noTickets": "Keine Aufgaben gefunden",
+      "overview": {
+        "states": "Aufgaben pro Status"
+      },
+      "state": {
+        "inbox": "Offene Aufgaben",
+        "outbox": "Geschlossene Aufgaben",
+        "process": "Aufgaben in Bearbeitung"
+      },
+      "total": "Aufgaben gesamt: {{count}}"
+    },
+    "tile": {
+      "createdAt": "Erstellt: {{date}}",
+      "issuecategory": "Fehlerkategorie: {{category}}",
+      "priority": "Priorität",
+      "progress": {
+        "priority": "Priorität"
+      },
+      "tooltips": {
+        "moreinfo": "Mehr Informationen"
+      },
+      "username": "Erstellt von"
+    },
+    "tilemonitor": {
+      "add_to_schedule": {
+        "error": "Aufgabe konnte dem Tagesplan nicht hinzugefügt werden",
+        "label": "Zu einem Tagesplan hinzufügen",
+        "success": "Aufgabe erfolgreich zum Tagesplan hinzugefügt"
+      },
+      "assignedusers": {
+        "both": "Rollen: {{roles}} \n Nutzer: {{users}}",
+        "none": "Nicht zugewiesen",
+        "roles": "Rollen: {{roles}}",
+        "users": "Nutzer: {{users}}"
+      },
+      "createdAt": "Erstellt",
+      "no_schedule_selected": {
+        "label": "Wähle einen Tagesplan aus, bevor du Aufgaben hinzufügst."
+      },
+      "priority": "Priorität",
+      "schedule": {
+        "label": "Im Tagesplan '{{name}}' enthalten"
+      },
+      "workplace": "Anlage:"
+    },
+    "todos": {
+      "add": {
+        "title": "Todo hinzufügen"
+      },
+      "change": {
+        "error": "Todo konnte nicht aktualisiert werden",
+        "loading": "Aktualisiere Todo...",
+        "success": "Todo aktulaisiert"
+      },
+      "label": "Todos"
+    },
+    "update": {
+      "author": "Autor",
+      "database": {
+        "assignuser": {
+          "body": "Neue Mitarbeiter zugewiesen."
+        },
+        "body": {
+          "1": "Das Aufgabe wurde aktualisiert. Folgende Werte wurden geändert.\n"
+        },
+        "downtime": {
+          "1": "Dauer der Störungsbehebung"
+        },
+        "duedateend": {
+          "1": "Enddatum"
+        },
+        "duedatestart": {
+          "1": "Startdatum"
+        },
+        "frequency": {
+          "1": "Häufigkeit des Problems"
+        },
+        "isrange": {
+          "1": "Bereich ausgewählt"
+        },
+        "issuecategory": {
+          "1": "Fehlerkategorie"
+        },
+        "onlyweeks": {
+          "1": "Nur Kalenderwochen"
+        },
+        "priority": {
+          "1": "Priorität"
+        },
+        "restriction": {
+          "1": "Einschränkung der täglichen Arbeit"
+        },
+        "subject": {
+          "1": "Aufgabe aktualisiert"
+        },
+        "title": {
+          "1": "Titel"
+        },
+        "workplace": {
+          "1": "Arbeitsplatz"
+        }
+      },
+      "form": {
+        "divider": {
+          "duedate": "Fälligkeitsdatum",
+          "estimation": "Einschätzungen",
+          "priority": "Priorität",
+          "workplace": "Arbeitsplatz/Kostenstelle"
+        }
+      },
+      "headline": "Aufgabe bearbeiten",
+      "message": {
+        "title": "Aufgabe bearbeitet"
+      }
+    }
+  },
+  "ticket_creation": {
+    "fields": {
+      "meta": {
+        "fields": {
+          "description": "Feldbeschreibung",
+          "label": "Feldname",
+          "name": "Feld-ID: {{name}}",
+          "type": "Feldtyp"
+        },
+        "types": {
+          "boolean": "Wahrheitswert (ja/nein)",
+          "date": "Datum",
+          "number": "Zahl",
+          "select": "Auswahl",
+          "select_parse": "Datengebundene Auswahl",
+          "string": "Freitext"
+        }
+      }
+    }
+  },
+  "timeseries": {
+    "daily": {
+      "addon": {
+        "after": {
+          "1": "Tag",
+          "multiple": "Tage"
+        },
+        "before": {
+          "1": "Jeden",
+          "multiple": "Alle"
+        }
+      }
+    },
+    "monthly": {
+      "addon": {
+        "after": {
+          "1": "Monat",
+          "multiple": "Monate"
+        },
+        "before": {
+          "1": "Jeden",
+          "multiple": "Alle"
+        }
+      },
+      "date": {
+        "addon": {
+          "after": {
+            "day": ". Tag"
+          },
+          "before": {
+            "at": "Am"
+          }
+        }
+      },
+      "day": {
+        "first": "erster",
+        "fourth": "vierter",
+        "last": "letzter",
+        "second": "zweiter",
+        "third": "dritter"
+      }
+    },
+    "pattern": {
+      "radio": {
+        "daily": "Täglich",
+        "monthly": "Monatlich",
+        "once": "Einmalig",
+        "weekly": "Wöchentlich",
+        "yearly": "Jährlich"
+      }
+    },
+    "weekly": {
+      "addon": {
+        "after": {
+          "1": "Woche",
+          "multiple": "Wochen"
+        },
+        "before": {
+          "1": "Jede",
+          "multiple": "Alle"
+        }
+      }
+    },
+    "yearly": {
+      "addon": {
+        "after": {
+          "1": "Jahr",
+          "multiple": "Jahre"
+        },
+        "before": {
+          "1": "Jedes",
+          "multiple": "Alle"
+        }
+      }
+    }
+  },
+  "tours": {
+    "items": {
+      "step": {
+        "1": {
+          "description": "In dieser Tabelle werden alle Artikel angezeigt zur aktuellen Anlage.",
+          "title": "Artikel-Tabelle"
+        }
+      }
+    },
+    "projects": {
+      "step": {
+        "1": {
+          "description": "Auf dieser Seite bekommen Sie eine Übersicht über aktuelle und anstehende Projeke.",
+          "title": "Willkommen auf der Projekt-Seite!"
+        }
+      }
+    }
+  },
+  "users": {
+    "select": {
+      "form": {
+        "optgroup": {
+          "label": "Benutzer"
+        },
+        "users": {
+          "label": "Benutzer auswählen"
+        }
+      }
+    }
+  },
+  "widgets": {
+    "numberofissues": {
+      "explorer": {
+        "description": "Gibt die Anzahl der Aufgaben im Intervall an.",
+        "title": "Anzahl der Störungen"
+      },
+      "name": "Anzahl der Aufgaben: {{name}}",
+      "settings": {
+        "onlytrue_label": "Anzahl ermitteln, wenn eine Störung anliegt",
+        "sizeByPriority": "Größe nach Priorität anpassen",
+        "type_select": {
+          "description": "Bitte wählen Sie eine Darstellungsform",
+          "title": "Visualisierungsart festlegen"
+        },
+        "types": {
+          "bar": "Balkendiagramm",
+          "pie": "Kuchendiagramm"
+        }
+      },
+      "total": "Anzahl der Aufgaben: {{count}}"
+    }
+  },
+  "workplace": {
+    "select": {
+      "form": {
+        "workplace": {
+          "label": "Arbeitsplatz/Kostenstelle",
+          "rules": {
+            "required": "Bitte geben Sie einen Arbeitsplatz/eine Kostenstelle an."
+          }
+        }
+      }
+    }
+  }
+}

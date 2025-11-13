@@ -1,0 +1,2073 @@
+{
+  "admin": {
+    "general": {
+      "sampledata": {
+        "label": "Create sample data"
+      },
+      "schedule": {
+        "meta": {
+          "add": {
+            "label": "Add metafield"
+          },
+          "item": {
+            "label": {
+              "allowedValues": "Allowed entries",
+              "label": "Field name",
+              "onlyOneAllowedValue": "Only one entry selectable?",
+              "required": "Is this metafield required?"
+            }
+          },
+          "title": "Create metafields for schedules"
+        }
+      }
+    },
+    "task": {
+      "qr": {
+        "config": {
+          "btn": "Define defaults"
+        },
+        "tooltip": "Print code"
+      }
+    }
+  },
+  "administration": {
+    "create_task_form": {
+      "headline": "Edit task form",
+      "preview": {
+        "title": "Form preview"
+      }
+    },
+    "general": {
+      "createtaskonschedule": {
+        "label": "Create task when maintenance is due."
+      },
+      "headline": "General options",
+      "task_lifetime": {
+        "label": "Lifetime of a finished task",
+        "time_scale": {
+          "days": "Days",
+          "hours": "Hours",
+          "weeks": "Weeks"
+        }
+      }
+    },
+    "ticket": {
+      "create": {
+        "form": {
+          "duedate": {
+            "description": "Add a date to show when the task should be resolved.",
+            "title": "Duedate"
+          },
+          "issuecategory": {
+            "description": "Assign an issue category to the task.",
+            "title": "Issue category"
+          },
+          "material": {
+            "description": "Assign a article to the task.",
+            "title": "Article"
+          },
+          "media": {
+            "description": "Add pictures to the task.",
+            "title": "Media"
+          },
+          "meta": {
+            "description": "Meta data of the task like title.",
+            "title": "Description"
+          },
+          "overview": {
+            "description": "Presents an overview for the entered values.",
+            "title": "Overview"
+          },
+          "priority": {
+            "description": "Assign a priority to the task to determine the urgency of the task.",
+            "title": "Priority"
+          },
+          "source": {
+            "description": "Assign a source to the task",
+            "title": "Source"
+          }
+        }
+      }
+    }
+  },
+  "article": {
+    "collapsable": {
+      "form": {
+        "asTodo": {
+          "label": "As todo"
+        },
+        "date": {
+          "help": "Enter a date to be used as the creation date. If you do not enter a date, the current date will be used.",
+          "label": "Creation date"
+        }
+      }
+    },
+    "create": {
+      "default_subject": {
+        "todo": "Todo",
+        "userinput": "New message"
+      }
+    }
+  },
+  "can-access-admin": {
+    "description": "Can access the administration for open.SERVICE.",
+    "label": "open.SERVICE: Administration access"
+  },
+  "can-access-dailySchedule": {
+    "description": "Manages the access to daily schedules of tasks",
+    "label": "open.SERVICE: Access to daily schedules"
+  },
+  "can-access-global": {
+    "label": "open.SERVICE: Global access to Plugin"
+  },
+  "can-access-knowledge": {
+    "description": "Can access the knowledge management plugin.",
+    "label": "open.SERVICE: Knowledge plugin"
+  },
+  "can-access-material": {
+    "label": "open.SERVICE: Access to article"
+  },
+  "can-access-monitor": {
+    "description": "Manages the access to the task system. Also allows admins to create additional task states."
+  },
+  "can-access-monitoring": {
+    "description": "Checks the access to the monitoring feature - currently not availabale.",
+    "label": "open.SERVICE: task manager - Access"
+  },
+  "can-create-machinelog-message": {
+    "description": "Checks if custom messages can be added to the machinelog",
+    "label": "open.SERVICE: Machinelog - Can add custom messages"
+  },
+  "can-create-machinelog-schedule": {
+    "description": "Checks if schedules can be created in the machinelog",
+    "label": "open.SERVICE: Machinelog - Add schedule"
+  },
+  "can-create-machinelog-task": {
+    "description": "Checks if tasks can be added to the machinelog",
+    "label": "open.SERVICE: Machinelog - Add tasks"
+  },
+  "can-create-message": {
+    "description": "Checks if messages can be created (e.g. to a task)",
+    "label": "open.SERVICE: Messages - Creation"
+  },
+  "can-create-schedule": {
+    "description": "Checks if schedules can be created.",
+    "label": "open.SERVICE: Schedules - Creation"
+  },
+  "can-create-ticket": {
+    "description": "Checks if tasks can be created.",
+    "label": "open.SERVICE: task - Creation"
+  },
+  "can-update-kanban-view": {
+    "description": "Checks if the view can be changed in the task manager.",
+    "label": "open.SERVICE: task-Management - Change view"
+  },
+  "classes": {
+    "OD3_Company": {
+      "fields": {
+        "contacts": "Contacts",
+        "name": "Name",
+        "sources": "Data sources"
+      },
+      "label": "Company",
+      "label_plural": "Companies"
+    },
+    "OD3_Contact": {
+      "fields": {
+        "city": "City",
+        "department": "Department",
+        "description": "Description",
+        "email": "Email",
+        "firstname": "Firstname",
+        "lastname": "Surname",
+        "phone": "Phone",
+        "position": "Position",
+        "postal": "ZIP",
+        "street": "Street",
+        "website": "Website"
+      },
+      "label": "Contact",
+      "label_plural": "Contacts"
+    },
+    "OD3_Maintenance_Issuecategory": {
+      "fields": {
+        "catchall": "Catchall",
+        "enabled": "Enabled",
+        "icon": "Icon",
+        "issuecode": "Issue code",
+        "name": "Name",
+        "parent": "Parent category",
+        "source": "Source"
+      },
+      "label": "Issue category",
+      "label_plural": "Issue categories"
+    },
+    "OD3_Maintenance_Item": {
+      "fields": {
+        "category": "Category",
+        "description": "Description",
+        "internalNumber": "Internal number",
+        "name": "Name",
+        "orderNumber": "Order number",
+        "price": "Price",
+        "sources": "Sources",
+        "stock": "Stock",
+        "stockAlarmAt": "Stock alarm",
+        "stockUnit": "Unit of Stock",
+        "storageLocation": "Location in storage",
+        "supplier": "Supplier"
+      },
+      "label": "Article",
+      "label_plural": "Article"
+    },
+    "OD3_Maintenance_Kanban_State": {
+      "fields": {
+        "color": "Color",
+        "description": "Description",
+        "enabled": "Active",
+        "isFinished": "Outbox",
+        "isInbox": "Inbox",
+        "label": "Name",
+        "order": "Order"
+      }
+    },
+    "OD3_Maintenance_Project": {
+      "fields": {
+        "assignedRoles": "Roles",
+        "assignedUsers": "Users",
+        "color": "Color",
+        "description": "Description",
+        "end": "Deadline",
+        "finished": "Completed",
+        "icon": "Icon",
+        "name": "Name",
+        "parent": "Parent project",
+        "start": "Start"
+      }
+    },
+    "OD3_Maintenance_Schedule": {
+      "fields": {
+        "color": "Color",
+        "cron": "Time interval",
+        "description": "Description",
+        "enabled": "Enabled",
+        "notifyBeforeDue": "Notification before execution",
+        "source": "Source",
+        "steps": "Steps",
+        "template": "Template",
+        "title": "Title"
+      },
+      "label": "Maintenance Schedule",
+      "label_plural": "Maintenance Schedules"
+    },
+    "OD3_Maintenance_Schedule_Step": {
+      "fields": {
+        "data": "Data",
+        "description": "Description",
+        "fields": "Additional Fields",
+        "order": "Order",
+        "roles": "Roles",
+        "title": "Title"
+      },
+      "label": "Work step",
+      "label_plural": "Work steps"
+    },
+    "OD3_Maintenance_Schedule_Template": {
+      "fields": {
+        "color": "Color",
+        "contacts": "Contacts",
+        "cron": "Time interval",
+        "description": "Description",
+        "enabled": "Active",
+        "notifyBeforeDue": "Notification before execution",
+        "run_cron": "Interval",
+        "run_enddate": "End date",
+        "run_startdate": "Start date",
+        "sources": "Data Sources",
+        "steps": "Work steps",
+        "title": "Title"
+      },
+      "label": "Schedule Preset",
+      "label_plural": "Schedule Presets"
+    },
+    "OD3_Maintenance_Ticket_FormConfig": {
+      "fields": {
+        "config": "Configuration",
+        "roles": "Roles",
+        "view": "View"
+      },
+      "label": "Form configuration",
+      "label_plural": "Form configurations"
+    },
+    "OD3_Maintenance_Ticket_QR_Code": {
+      "fields": {
+        "code": "Code",
+        "name": "Name"
+      },
+      "label": "QR-Code",
+      "label_plural": "QR-Codes"
+    },
+    "issuecategory": {
+      "catchall": {
+        "error": "Default issuecategory already exists."
+      },
+      "deleting": {
+        "error": "Error while disabling the issuecategory.",
+        "loading": "Disabling issuecategory...",
+        "success": "Disabled issuecategory successfull."
+      }
+    }
+  },
+  "contact": {
+    "create": {
+      "headline": "Add new contact",
+      "save": {
+        "error": {
+          "description": "Contact could not be saved."
+        }
+      }
+    },
+    "form": {
+      "city": {
+        "label": "City"
+      },
+      "company": {
+        "label": "Related company"
+      },
+      "department": {
+        "label": "Department"
+      },
+      "description": {
+        "label": "Note"
+      },
+      "email": {
+        "label": "E-mail address"
+      },
+      "firstname": {
+        "label": "Firstname"
+      },
+      "lastname": {
+        "label": "Lastname"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "phone": {
+        "label": "Phone number"
+      },
+      "position": {
+        "label": "Position"
+      },
+      "postal": {
+        "label": "Postal code"
+      },
+      "street": {
+        "label": "Street"
+      },
+      "username": {
+        "label": "Displayed name"
+      },
+      "website": {
+        "label": "Webseite"
+      }
+    },
+    "page": {
+      "create": {
+        "label": "Add contact"
+      },
+      "headline": "Manage contacts"
+    },
+    "table": {
+      "company": {
+        "label": "Company"
+      },
+      "department": {
+        "label": "Department"
+      },
+      "description": {
+        "label": "Note"
+      },
+      "email": {
+        "label": "E-mail"
+      },
+      "firstname": {
+        "label": "Firstname"
+      },
+      "lastname": {
+        "label": "Lastname"
+      },
+      "name": {
+        "label": "Name"
+      },
+      "phone": {
+        "label": "Phone"
+      },
+      "position": {
+        "label": "Position"
+      },
+      "username": {
+        "label": "Username"
+      }
+    }
+  },
+  "cron": {
+    "display": {
+      "cron": {
+        "label": "Cron: {{cron}}"
+      },
+      "enddate": {
+        "label": "End: {{date}}",
+        "notset": {
+          "label": "No end date"
+        }
+      },
+      "startdate": {
+        "label": "Start: {{date}}",
+        "notset": {
+          "label": "No start date"
+        }
+      }
+    }
+  },
+  "daily_schedule": {
+    "print": {
+      "button": "Show print preview"
+    },
+    "select": {
+      "placeholder": "Select a daily schedule"
+    }
+  },
+  "date": {
+    "lastWeekday": "last {{weekday}}",
+    "nextWeekday": "next {{weekday}}",
+    "thisWeekday": "this {{weekday}}",
+    "today": "today"
+  },
+  "duedate": {
+    "select": {
+      "form": {
+        "duedate": {
+          "label": "Choose Duedate",
+          "rules": {
+            "required": "Please choose a duedate."
+          }
+        }
+      }
+    }
+  },
+  "export": {
+    "excel": {
+      "file": {
+        "attr": {
+          "message": "Message",
+          "schedule": "Maintenance",
+          "ticket": "task"
+        },
+        "cols": {
+          "date": "Date",
+          "description": "Description",
+          "issue": "Issuecategory",
+          "material": "Article",
+          "prio": "Priority",
+          "status": "Status",
+          "steps": "Execution steps",
+          "title": "Title",
+          "type": "Type"
+        },
+        "name": "Machinelog - {{source}}"
+      },
+      "sheet": "Smart-Home history"
+    }
+  },
+  "general": {
+    "all": "All",
+    "label": {
+      "description": "Description",
+      "project": "Project",
+      "source": "Source",
+      "sourceNotFound": "No source",
+      "state": "State"
+    },
+    "required_field": "Required Field",
+    "ticket": {
+      "assignedTo": "Assigned to",
+      "dailySchedule": "Daily schedule",
+      "downtime": "Downtime",
+      "duedate": "Duedate",
+      "frequency": "Frequency",
+      "issuecategory": "Issuecategory",
+      "material": "Article",
+      "messages": "Messages",
+      "priority": "Priority",
+      "restriction": "Restriction",
+      "source": "Source",
+      "state": "State",
+      "ticket": "task",
+      "todos": "Todos"
+    }
+  },
+  "global": {
+    "button": {
+      "create": {
+        "title": "Create"
+      },
+      "create_label": "Create",
+      "save_label": "Save"
+    },
+    "loading": "Please wait",
+    "message": {
+      "create": {
+        "error": "Error while saving",
+        "success": "Created successfully"
+      }
+    },
+    "no": "No",
+    "no_data": "No data available",
+    "switch": {
+      "done": "Done",
+      "not_done": "Not done",
+      "off": "No",
+      "on": "Yes"
+    },
+    "yes": "Yes"
+  },
+  "issuecategory": {
+    "all": "All issue categories"
+  },
+  "item": {
+    "table": {
+      "config": {
+        "error": "An error accured on saving config",
+        "success": "Config saved"
+      },
+      "label": {
+        "actions": "Actions",
+        "category": "Category",
+        "description": "Description",
+        "internalNumber": "Internal number",
+        "name": "Name",
+        "orderNumber": "Order number",
+        "price": "Price",
+        "sources": "Sources",
+        "stock": "Stock",
+        "stock_alarm": "Low stock!",
+        "storageLocation": "Storage location",
+        "supplier": "Supplier"
+      },
+      "select_columns": "Columns for the table:"
+    }
+  },
+  "items": {
+    "create": {
+      "form": {
+        "category": {
+          "label": "Category"
+        },
+        "internalNumber": {
+          "label": "Internal number"
+        },
+        "orderNumber": {
+          "label": "Order number"
+        },
+        "price": {
+          "label": "Price"
+        },
+        "stock": {
+          "label": "Stock"
+        },
+        "stockAlarmAt": {
+          "label": "Alarm at Stock"
+        },
+        "stockUnit": {
+          "label": "Stock Unit"
+        },
+        "storageLocation": {
+          "label": "Storage location"
+        },
+        "supplier": {
+          "label": "Supplier"
+        }
+      },
+      "headline": "Add new article",
+      "save": {
+        "error": {
+          "description": "Cannot create article"
+        }
+      }
+    },
+    "manage": {
+      "headline": "Manage articles",
+      "table": {
+        "columns": {
+          "actions": {
+            "delete": {
+              "confirm": {
+                "title": "Remove article"
+              }
+            }
+          }
+        }
+      }
+    },
+    "select": {
+      "form": {
+        "items": {
+          "label": "Article",
+          "rules": {
+            "required": "Please select an article"
+          }
+        }
+      }
+    },
+    "view": {
+      "headline": "Items for"
+    }
+  },
+  "kanban": {
+    "state": {
+      "notenabled": "State not found!",
+      "notset": "No state"
+    }
+  },
+  "knowledge": {
+    "admin": {
+      "modal": {
+        "upload": {
+          "drag": {
+            "description": "Only PDF-Files supported.",
+            "title": "Drag manuals here or click."
+          },
+          "title": "Save manual"
+        }
+      },
+      "table": {
+        "action": {
+          "delete": {
+            "confirm": {
+              "title": "Do you really want to delete all files assigned to this source?"
+            }
+          }
+        },
+        "actions": {
+          "file": {
+            "delete": {
+              "title": "Dou you really want to remove this file?"
+            }
+          },
+          "label": "Actions"
+        },
+        "description": {
+          "label": "Notice"
+        },
+        "file": {
+          "label": "File"
+        },
+        "fileCount": {
+          "label": "Files found"
+        },
+        "source": {
+          "label": "Source"
+        }
+      },
+      "title": "Manage manuals for {{source}}",
+      "upload": {
+        "button": {
+          "title": "Add manual"
+        }
+      }
+    },
+    "files": {
+      "modal": {
+        "title": "Manuals for {{source}}"
+      }
+    },
+    "modal": {
+      "upload": {
+        "label": {
+          "description": "Add notice to '{{name}}'"
+        }
+      }
+    },
+    "overview": {
+      "title": "Manuals for {{source}}"
+    },
+    "table": {
+      "filter": {
+        "source": {
+          "label": "Filter by source"
+        }
+      }
+    }
+  },
+  "machinelog": {
+    "create": {
+      "form": {
+        "datetime": {
+          "errors": {
+            "required": "Please add date and time."
+          },
+          "label": "Date and time"
+        },
+        "message": {
+          "errors": {
+            "required": "Please add a message."
+          },
+          "label": "Message"
+        },
+        "title": {
+          "errors": {
+            "required": "Please add a title."
+          },
+          "label": "Title"
+        }
+      },
+      "headline": "Create a new entry",
+      "message": "Message",
+      "schedule": "Spontaneous maintenance",
+      "ticket": "task"
+    },
+    "filter": {
+      "all": "All",
+      "message": "Messages",
+      "schedule": "Schedules",
+      "ticket": "task"
+    },
+    "message": {
+      "downtime": {
+        "changed": {
+          "content": "'{{username}}' changed the downtime value of the task to '{{new}}'.",
+          "title": "Downtime changed: '{{taskName}}'"
+        }
+      },
+      "duedate": {
+        "changed": {
+          "content": "'{{username}}' changed the duedate to '{{newstart}} until {{newend}}'.",
+          "title": "Duedate changed: '{{taskName}}'"
+        }
+      },
+      "frequency": {
+        "changed": {
+          "content": "'{{username}}' changed the error frequency value of the task to '{{new}}'.",
+          "title": "Error frequency changed: '{{taskName}}'"
+        }
+      },
+      "issuecategory": {
+        "changed": {
+          "content": "'{{username}}' changed the issuecategory of the task to '{{new}}'.",
+          "title": "Issuecategory changed: '{{taskName}}'"
+        }
+      },
+      "kanbanstate": {
+        "changed": {
+          "content": "'{{username}}' changed the state of the task to '{{new}}'.",
+          "title": "State changed: '{{taskName}}'"
+        }
+      },
+      "material": {
+        "changed": {
+          "content": "'{{username}}' changed the assigned article of the task to '{{new}}'.",
+          "title": "Article changed: '{{taskName}}'"
+        }
+      },
+      "priority": {
+        "changed": {
+          "content": "'{{username}}' changed the downtime value of the task to '{{new}}'.",
+          "title": "Priority changed: '{{taskName}}'"
+        }
+      },
+      "project": {
+        "changed": {
+          "content": "'{{username}}' changed the project from '{{old}}' to '{{new}}'.",
+          "title": "Project changed: '{{task}}'"
+        }
+      },
+      "restriction": {
+        "changed": {
+          "content": "'{{username}}' changed the restriction value of the task to '{{new}}'.",
+          "title": "Restriction changed: '{{taskName}}'"
+        }
+      },
+      "source": {
+        "changed": {
+          "content": "'{{username}}' assigned the task to the source '{{new}}'.",
+          "title": "Assigned: '{{taskName}}'"
+        }
+      },
+      "title": {
+        "changed": {
+          "content": "'{{username}}' changed the title of the task from '{{old}}' to '{{new}}'."
+        }
+      }
+    },
+    "scheduleexecutiondetails": {
+      "comment": "Comment",
+      "description": "Details",
+      "finishedAt": "Finished at",
+      "material": "Used article",
+      "media": "Documents and media",
+      "notfinished": "Schedule is currently worked on",
+      "steps": "Schedule steps",
+      "title": "Information"
+    },
+    "view": {
+      "card": "Card",
+      "label": "View",
+      "timeline": "Timeline"
+    }
+  },
+  "media": {
+    "select": {
+      "form": {
+        "media": {
+          "rules": {
+            "required": "Please assign images to the task."
+          }
+        }
+      }
+    }
+  },
+  "menu": {
+    "admin": {
+      "qrcode_label": "QR-Codes"
+    },
+    "administration": {
+      "contacts": {
+        "label": "Contacts"
+      },
+      "items_label": "Article list",
+      "projects": "Projects",
+      "schedule": {
+        "step_label": "Work steps",
+        "template_label": "Schedule-Presets"
+      },
+      "schedules": {
+        "label": "Maintenance Schedules"
+      },
+      "schedules_subgroup_label": "Schedule manager",
+      "tickets_subgroup_label": "task manager"
+    },
+    "general": {
+      "title": "General options"
+    },
+    "inventory": {
+      "group_label": "Inventory",
+      "items_label": "Article",
+      "manual_label": "Manuals"
+    },
+    "kanban": {
+      "column": {
+        "create_label": "Add column"
+      }
+    },
+    "overview": {
+      "overview_label": "Overview"
+    },
+    "schedules": {
+      "schedule_label": "Schedule history"
+    },
+    "statistics": {
+      "monitoring_label": "Monitoring"
+    },
+    "tickets": {
+      "create_label": "New task",
+      "create_qr_label": "Scan QR-Code",
+      "monitor_label": "All tasks",
+      "project_label": "Project: {{project}}",
+      "projects_label": "Projects",
+      "tickets_label": "My tasks"
+    }
+  },
+  "message": {
+    "input": {
+      "date": {
+        "label": "Display date:"
+      },
+      "description": {
+        "label": "Description:"
+      },
+      "media": {
+        "label": "Media:"
+      },
+      "title": {
+        "label": "Title:"
+      }
+    }
+  },
+  "monitor": {
+    "column": {
+      "loadMore": "Show more tasks",
+      "taskcount": {
+        "label": "tasks"
+      }
+    },
+    "daily_schedule": {
+      "config": "Settings",
+      "create": "Create daily schedule",
+      "create_schedule": {
+        "open_modal_title": "Add task '{{name}}' to daily schedule",
+        "select": {
+          "label": "Choose a daily schedule"
+        }
+      },
+      "headline": "Daily schedule",
+      "modal_header": "Daily Schedule - Settings",
+      "modal_kanban_states_none": "Please choose one or more states",
+      "modal_number_tickets": "Number of tasks",
+      "modal_sources": "Select Unit",
+      "overview": {
+        "prio": {
+          "high": "high",
+          "low": "low",
+          "mid": "medium",
+          "ultra": "very high",
+          "verylow": "very low"
+        },
+        "table": {
+          "action": {
+            "open_files": "Show all manuals"
+          }
+        },
+        "ticket": {
+          "files": "Manuals"
+        }
+      },
+      "print": {
+        "ticket": {
+          "user_notice": {
+            "label": "Notice",
+            "placeholder": "Add a notice for yourself before printing"
+          }
+        }
+      }
+    },
+    "emptycolumns": {
+      "label": "Show empty {{view}}"
+    },
+    "view": {
+      "label": "View",
+      "project": {
+        "label": "Projects"
+      },
+      "role": {
+        "label": "Role"
+      },
+      "state": {
+        "label": "State"
+      },
+      "user": {
+        "label": "User"
+      }
+    },
+    "viewgrouping": {
+      "label": "Grouping"
+    }
+  },
+  "monitoring": {
+    "view": {
+      "headline": "Key figures and analyses"
+    }
+  },
+  "navigation": {
+    "schedule": {
+      "overview": {
+        "title": "Schedule overview"
+      }
+    }
+  },
+  "notification": {
+    "schedule_due": {
+      "description": "Specifies which users are notified when a maintenance plan is due. These users are notified in addition to the permissions on the maintenance plan.",
+      "label": "Maintenance schedule due"
+    }
+  },
+  "notifications": {
+    "administration": {
+      "description": "The notifications are sent to the selected roles or persons via all configured channels (e.g. WebPush, e-mail, Teams channel). They are also displayed at the top right of the profile.",
+      "table": {
+        "columns": {
+          "assignedto": "Send to",
+          "description": "Description",
+          "name": "Name"
+        }
+      }
+    }
+  },
+  "overview": {
+    "actions": {
+      "hide_empty_columns": "Hide empty states",
+      "show_empty_columns": "Show empty states"
+    },
+    "headline": "Overview",
+    "statistics": {
+      "assigendtome": {
+        "title": "Assigned to me"
+      },
+      "mytickets": {
+        "title": "My tasks"
+      },
+      "openclosedtickets": {
+        "title1": "Open / closed tasks",
+        "title2": "Closed / open tasks"
+      }
+    }
+  },
+  "parse": {
+    "company": "Company"
+  },
+  "priority": {
+    "select": {
+      "form": {
+        "priority": {
+          "label": "Declare Priority",
+          "rules": {
+            "required": "Please assign a priority."
+          }
+        }
+      }
+    }
+  },
+  "project": {
+    "assigned": "Your projects",
+    "assignedUserAndRoles": "Coworkers",
+    "date_end": "until {{end}}",
+    "date_start": "from {{start}}",
+    "date_start_end": "from {{start}} until {{end}}",
+    "filter": {
+      "assignedToMe": "directly assigned",
+      "noResults": "No projects found",
+      "showFinished": "Finished projects"
+    },
+    "filtered": "Filtered projects",
+    "finished": "Project is finished",
+    "navigate": {
+      "back": "Back to {{project}}",
+      "single": "To project",
+      "sub": "Show overview"
+    },
+    "overdue": "The project is overdue!",
+    "overview": {
+      "view": {
+        "card": "Cards",
+        "list": "List"
+      }
+    },
+    "root": "Main projects"
+  },
+  "sampledata": {
+    "button": {
+      "label": "Create sample data"
+    },
+    "confirmation": {
+      "description": "Should the data really be stored in the system?",
+      "title": "Really generate?"
+    },
+    "introduction": "You can have sample data created here. Several hundred tasks and maintenance plans are then generated. Please use this function with caution."
+  },
+  "schedule": {
+    "calendar": {
+      "title": "Calendar view for {{name}}"
+    },
+    "calendarweek": {
+      "abbreviation": "CW",
+      "select": {
+        "label": "Selection of calendar weeks"
+      }
+    },
+    "create": {
+      "button": {
+        "modal": "Add new schedule",
+        "save": "Save schedule"
+      },
+      "error": "Schedule could not be saved",
+      "form": {
+        "collapse": {
+          "nextdates": "Next execution dates"
+        },
+        "seriespattern": {
+          "button": {
+            "reset": "Reset configuration"
+          },
+          "monthly": {
+            "value1": "Day in month",
+            "value2": "Day of week"
+          }
+        }
+      },
+      "loading": "Saving schedule...",
+      "success": "Schedule saved"
+    },
+    "execute": {
+      "ticket": {
+        "create": "Create task",
+        "description": "Problem at step '{{currentStep}}':\n\n",
+        "title": "Schedule: {{title}}"
+      }
+    },
+    "executetable": {
+      "columns": {
+        "material": {
+          "label": "Article"
+        }
+      }
+    },
+    "execution": {
+      "columns": {
+        "action": {
+          "continue": {
+            "confirm": {
+              "content": "Do you want to continue the execution?",
+              "title": "Continue"
+            },
+            "label": "Continue execution"
+          },
+          "delete": {
+            "confirm": {
+              "description": "Do you really want to delete the execution of the maintenance plan?",
+              "title": "Delete execution?"
+            }
+          },
+          "label": "Actions",
+          "source": {
+            "label": "Related source: {{source}}"
+          }
+        },
+        "createdAt": {
+          "tag": "Executed: {{createdAt}}"
+        },
+        "finishedAt": {
+          "tag": "Finished"
+        },
+        "notfinished": {
+          "tag": "Not finished yet!"
+        }
+      },
+      "nextschedule": {
+        "actions": {
+          "moveandsave": "Confirm and reschedule plan"
+        },
+        "description": "Specify when the next maintenance for this plan should take place. ",
+        "individual": {
+          "description": "Set a completely new execution interval."
+        },
+        "newinterval": {
+          "description": "The interval is shifted by the difference. The current execution date is used as the starting time. ",
+          "ininterval": "The design is in the plan and cannot be changed.",
+          "radio": {
+            "label": "Execution according to new interval"
+          },
+          "shifting": {
+            "days": "The execution is {{days}} days behind schedule.",
+            "weeks": "The execution is {{weeks}} weeks behind schedule."
+          }
+        },
+        "nextexecution": "Next execution: {{date}}",
+        "oldinterval": {
+          "description": "The interval is retained. The next execution is calculated from the planned execution date.",
+          "radio": {
+            "label": "Execution according to current plan"
+          }
+        },
+        "summary": {
+          "current": "Current execution: {{date}}",
+          "last": "Last execution: {{date}",
+          "next": "Next execution",
+          "title": "History of executions"
+        },
+        "title": "Executiondate of next schedule event"
+      },
+      "page": {
+        "subheader": {
+          "documents": "Documents and media",
+          "material": "Material",
+          "nextexecution": "Next execution"
+        },
+        "title": "Maintenance confirmation"
+      },
+      "result": {
+        "subtitle": {
+          "done": "You have successfully acknowledged this maintenance step."
+        },
+        "title": {
+          "done": "Work done",
+          "pending": "Work pending"
+        }
+      },
+      "save": {
+        "error": "Error on saving execution",
+        "loading": "Saving execution...",
+        "success": "Execution saved"
+      },
+      "send": {
+        "anyways": "Are you sure you want to send it anyway?",
+        "confirmation": "Please confirm"
+      },
+      "steps": {
+        "button": {
+          "send": {
+            "tooltip": "The individual work steps must be marked as completed."
+          }
+        }
+      }
+    },
+    "header": {
+      "extra": "When a template is selected, the system adopts its attributes unless the maintenance plan overrides them. User notifications can be configured via permissions. If a user views the maintenance plan, they will be notified when it is due, if configured."
+    },
+    "loading": "Loading schedules",
+    "message": {
+      "execution": {
+        "title": "{{title}}"
+      }
+    },
+    "meta": {
+      "input": {
+        "error": {
+          "required": "{{field}} is required."
+        },
+        "linked": {
+          "OD3_Company": "Company: {{name}}",
+          "OD3_Contact": "Contact: {{firstname}} {{lastname}}"
+        }
+      }
+    },
+    "overview": {
+      "info": {
+        "description": "Each row shows a schedule for the selected source. The table is sorted by the next execution time.",
+        "title": "Overview of Upcoming Maintenance"
+      },
+      "selectInfo": "Subordinate sources are taken into account",
+      "selectPlaceholder": "Filter by source",
+      "table": {
+        "col": {
+          "actions": "Actions",
+          "lastExecution": "Last execution",
+          "name": "Schedule",
+          "nextExecution": "Next duedate",
+          "source": "Source",
+          "sources": "Sources"
+        },
+        "entry": {
+          "continue": "Continue",
+          "execute": "Execute",
+          "lastExecution": {
+            "none": "Never"
+          },
+          "rerun": "Cancel and rerun"
+        }
+      },
+      "title": "Schedule overview for {{source}}"
+    },
+    "source": {
+      "actions": {
+        "filter": {
+          "children": "Include subordinate sources",
+          "groupByTemplate": "Group by template"
+        }
+      },
+      "columns": {
+        "action": {
+          "nextexecution": {
+            "label": "Next execution: {{date}}",
+            "never": "Nächste Ausführung: Never"
+          },
+          "source": {
+            "label": "Related source: {{source}}"
+          }
+        },
+        "enddate": {
+          "label": "End",
+          "never": "No enddate"
+        },
+        "finishedAt": {
+          "label": "Finished"
+        },
+        "startdate": {
+          "label": "Start"
+        }
+      },
+      "detail": {
+        "execution": {
+          "button": "Execute",
+          "last": {
+            "label": "Last execution",
+            "none": "Never"
+          },
+          "next": {
+            "label": "Next due",
+            "none": "Never"
+          },
+          "running": "Running execution"
+        }
+      },
+      "executions": {
+        "headline": "Previous maintenance"
+      },
+      "headline": "All Schedules for ",
+      "templates": {
+        "headline": "Assigned templates"
+      }
+    },
+    "step": {
+      "execute": {
+        "next_schedule": "Next execution: {{date}}",
+        "next_schedule_changed": "Execution changed to {{date}}",
+        "next_schedule_edit": "Change"
+      },
+      "media": {
+        "headline": "Assigned images"
+      },
+      "meta": {
+        "create": {
+          "label": "Edit meta data"
+        }
+      },
+      "steps": {
+        "headline": "Assigned work steps"
+      }
+    },
+    "steps": {
+      "meta": {
+        "preview": {
+          "title": "Preview of the meta form"
+        },
+        "submit": "Save additional fields",
+        "title": "Configure meta"
+      }
+    },
+    "table": {
+      "columns": {
+        "done": {
+          "label": "Done"
+        }
+      }
+    },
+    "template": {
+      "contacts": {
+        "drawer": {
+          "title": "Contacts for schedule {{schedule}}"
+        },
+        "table": {
+          "department": "Company",
+          "email": "E-mail",
+          "name": "Name",
+          "phone": "Phone-Nr."
+        }
+      },
+      "detail": {
+        "drawer": {
+          "entries": {
+            "description": "Description",
+            "sources": "Data sources",
+            "steps": "Steps",
+            "title": "Title"
+          },
+          "title": "Details for {{date}}"
+        }
+      },
+      "used": "Used from template"
+    }
+  },
+  "schedules": {
+    "admin": {
+      "headerextra": "Maintenance plan templates help you to design maintenance plans. The templates can be added to multiple data sources and then become active for these data sources. The system automatically creates a maintenance plan for the assignment of template to data source."
+    },
+    "multi-source-schedule-modal": {
+      "date": {
+        "label": "Please enter the date of execution",
+        "title": "Date"
+      },
+      "description": "Explanation",
+      "details": "Details",
+      "header": "Save spontaneous maintenance",
+      "items": {
+        "add": "Add article",
+        "count": "Amount",
+        "label": "Please select the used article for '{{source}}'",
+        "selected": "Article",
+        "title": "Used article"
+      },
+      "media": {
+        "title": "Media"
+      },
+      "sources": {
+        "label": "Please select the devices",
+        "title": "Selected devices"
+      },
+      "steps": {
+        "button": {
+          "add": "Please select the executed steps"
+        },
+        "count_index": "Step {{index}}",
+        "label": "Executed steps"
+      },
+      "title": "Schedule type"
+    },
+    "steps": {
+      "table": {
+        "execute": {
+          "form": {
+            "comment": "Comment"
+          }
+        }
+      }
+    }
+  },
+  "schema": {
+    "OD3_Maintenance_Schedule_Execution_progress": "Active schedule"
+  },
+  "settings": {
+    "displayCreatedUsertickets": {
+      "label": "Show created tasks"
+    },
+    "filterby": {
+      "issuecategory": {
+        "label": "Issue category"
+      },
+      "source": {
+        "label": "Data source"
+      },
+      "state": {
+        "label": "State"
+      },
+      "status": {
+        "label": "Status"
+      }
+    },
+    "sortby": {
+      "options": {
+        "createdAt": "Creation date",
+        "latestPriorityValue": "Priority",
+        "priority": {
+          "value": "Priority"
+        },
+        "ticket": {
+          "createdAt": "Created at",
+          "title": "Title"
+        },
+        "title": "Title"
+      }
+    }
+  },
+  "source": {
+    "select": {
+      "form": {
+        "source": {
+          "label": "Choose Source",
+          "rules": {
+            "required": "Please choose a source"
+          }
+        }
+      }
+    }
+  },
+  "sourcemeta": {
+    "view": {
+      "create_template": {
+        "button": {
+          "label": "Create schedule template"
+        },
+        "newschedule": {
+          "description": "Maintenance schedules created for selected sources: {{sources}}",
+          "title": "Maintenance schedule template created from selected data sources"
+        },
+        "success": "Template and Schedules created"
+      },
+      "info": {
+        "description": "You can apply filters to see which fields contain the matching value.",
+        "label": "This section displays all metadata related to attachments."
+      },
+      "search": {
+        "placeholder": "Type here to search..."
+      },
+      "table": {
+        "meta": "Meta Data",
+        "source_name": "Data Source"
+      },
+      "title": "Search device header data for {{source}}"
+    }
+  },
+  "stats": {
+    "headline": "Statistics",
+    "issuecategory": {
+      "select": "Wich issue categories should be considered?"
+    },
+    "mean_time_before_failure": {
+      "statistic": {
+        "title": "MTBF (mean-time-before-failure)"
+      }
+    },
+    "mean_time_to_recovery": {
+      "statistic": {
+        "title": "MTTR2 (mean-time-to-recovery)"
+      }
+    },
+    "mean_time_to_repair": {
+      "state": {
+        "select": "Select the 'in progress'-state"
+      },
+      "statistic": {
+        "title": "MTTR1 (mean-time-to-repair)"
+      }
+    }
+  },
+  "stepmetafields": {
+    "display": {
+      "value": {
+        "label": "{{label}}: {{value}}s"
+      }
+    }
+  },
+  "ticket": {
+    "assignment": {
+      "error": "Could not change task assignment",
+      "loading": "Changing task assignment...",
+      "success": "Assignment changed"
+    },
+    "assignrole": {
+      "notification": {
+        "description": "{{username}} assigned task {{taskName}} to the role {{role}}.",
+        "title": "A task was assigned to your role."
+      }
+    },
+    "assignuser": {
+      "notification": {
+        "description": "{{username}} assigned you to the task {{taskName}}.",
+        "title": "You've been assigned to a task."
+      }
+    },
+    "create": {
+      "assignedTo": {
+        "error": {
+          "empty": "Please assign the issue to someone."
+        },
+        "label": "Assignment"
+      },
+      "assignment": {
+        "placeholder": "Assignment",
+        "roles": "Roles",
+        "users": "Users"
+      },
+      "config": {
+        "button": "Edit configuration",
+        "form": {
+          "submit": "Apply",
+          "title": "Edit configuration"
+        },
+        "general": {
+          "help": {
+            "help": "The help text is displayed below the input field.",
+            "label": "Help text"
+          },
+          "hidden": {
+            "checkedChildren": "Hidden",
+            "label": "Hide field (hidden)",
+            "unCheckedChildren": "Visible"
+          },
+          "label": {
+            "help": "If no entry is made, a default value is used. If a '-' is entered, no label is displayed.",
+            "label": "Label of the field"
+          },
+          "placeholder": {
+            "help": "If no entry is made, a default value is used. If a '-' is entered, no placeholder is displayed.",
+            "label": "Placeholder in input field"
+          },
+          "required": {
+            "checkedChildren": "Required",
+            "help": "Indicates whether the field is required to be able to save the task.",
+            "label": "Required",
+            "unCheckedChildren": "Not required"
+          }
+        },
+        "priority": {
+          "customLabels": {
+            "value": {
+              "placeholder": "Custom label"
+            }
+          },
+          "downtime": {
+            "label": "Fields in downtime"
+          },
+          "frequency": {
+            "label": "Fields in frequency"
+          },
+          "priority": {
+            "label": "Fields in priority"
+          },
+          "restriction": {
+            "label": "Fields in restriction"
+          }
+        }
+      },
+      "database": {
+        "default": {
+          "subject": "New task"
+        }
+      },
+      "description": {
+        "error": {
+          "empty": "Please enter a description."
+        },
+        "label": "Description",
+        "placeholder": "Error description"
+      },
+      "duedate": {
+        "error": {
+          "empty": "Please enter a due date."
+        },
+        "label": "Duedate"
+      },
+      "error": "Saving task failed",
+      "form": {
+        "noSaveConfig": "There is no form available for you to create a task. Please contact your maintenance department.",
+        "overview": {
+          "downtime": "Downtime",
+          "duedate": "Duedate",
+          "frequency": "Issue frequency",
+          "issuecategory": "Issue category",
+          "item": "Article",
+          "media": "Media",
+          "metaDescription": "Description",
+          "metaTitle": "Title",
+          "priority": "Priority",
+          "restriction": "Restriction",
+          "source": "Source"
+        }
+      },
+      "issue": {
+        "label": "Issue category"
+      },
+      "issuecategory": {
+        "error": {
+          "empty": "Please enter a issue category."
+        },
+        "placeholder": "Issue category"
+      },
+      "material": {
+        "error": {
+          "empty": "Please enter an article."
+        },
+        "label": "Article",
+        "placeholder": "Article",
+        "tooltip": "Please select a source first"
+      },
+      "media": {
+        "error": {
+          "empty": "Please enter media."
+        },
+        "label": "Media"
+      },
+      "meta": {
+        "button": {
+          "open": "Add meta data"
+        },
+        "label": "More data"
+      },
+      "priority": {
+        "downtime": {
+          "label": "Downtime"
+        },
+        "error": {
+          "empty": "Please enter a priority."
+        },
+        "frequency": {
+          "label": "Frequency"
+        },
+        "label": "Priority",
+        "restriction": {
+          "label": "Restriction"
+        }
+      },
+      "project": {
+        "error": {
+          "empty": "Please enter a project."
+        },
+        "label": "Project",
+        "placeholder": "Project"
+      },
+      "qr": {
+        "print": {
+          "btn": "Print code",
+          "title": "Print QR-Code"
+        },
+        "scan": {
+          "btn": "Scan QR-Code",
+          "manual": {
+            "description": "Search the code name in the selection underneath.",
+            "info": "QR-Code not working?"
+          },
+          "modal": {
+            "info": "Keep the code in the red marked area."
+          },
+          "select": "Select code name here:",
+          "title": "Create task with QR-Code"
+        }
+      },
+      "saved": "Saved task",
+      "saving": "Saving task",
+      "source": {
+        "error": {
+          "empty": "Please enter a data source."
+        },
+        "label": "Source",
+        "placeholder": "Source"
+      },
+      "state": {
+        "error": {
+          "empty": "Please enter a state."
+        },
+        "label": "State"
+      },
+      "step": {
+        "selectitems_label": "Select article"
+      },
+      "title": {
+        "error": {
+          "empty": "Enter a title. Example: \"Cable broken\" or \"Pillars bended\""
+        },
+        "label": "Title",
+        "placeholder": "Name of the task"
+      }
+    },
+    "creation": {
+      "config": {
+        "form": {
+          "field": {
+            "className": "Table name",
+            "display": "Display field",
+            "label": {
+              "assignedTo": "Assignment",
+              "customLabel": "Custom labels",
+              "description": "Description",
+              "duedate": "Duedate",
+              "issuecategory": "Issue category",
+              "material": "Article",
+              "media": "Media",
+              "meta": "Meta data",
+              "priority": "Priority",
+              "project": "Project",
+              "source": "Source",
+              "state": "State",
+              "title": "Title"
+            },
+            "max": "Max. value",
+            "meta": {
+              "error": {
+                "duplicate": "The field id should be unique. This config could lead to unexpected behaviour."
+              },
+              "title": "Meta fields"
+            },
+            "min": "Min. value",
+            "multiple": "Allow multiple selection",
+            "onlyChildren": "Only show child sources",
+            "options": "Selection options",
+            "placeholder": "Add field configuration"
+          },
+          "view": {
+            "for": {
+              "label": "Applied for Roles"
+            },
+            "label": "View",
+            "type": {
+              "label": {
+                "compact": "Compact",
+                "formular": "Formular",
+                "steps": "Steps"
+              }
+            }
+          }
+        }
+      },
+      "priority": {
+        "downtime": {
+          "tooltip": "Downtime"
+        },
+        "frequency": {
+          "tooltip": "Frequency"
+        },
+        "restriction": {
+          "tooltip": "Restriction"
+        },
+        "tooltip": "Priority"
+      },
+      "state": {
+        "tooltip": "State"
+      }
+    },
+    "data": {
+      "noProject": "No project",
+      "project": "Project: {{project}}"
+    },
+    "description": {
+      "button": {
+        "show_manuals": "Show manuals"
+      },
+      "details": "Details",
+      "items": {
+        "category": {
+          "notenabled": "Issuecategory not found!"
+        }
+      },
+      "overview": "Overview"
+    },
+    "edit": {
+      "link": "To the task details"
+    },
+    "filter": {
+      "source": "Filter by '{{source}}'"
+    },
+    "input": {
+      "form": {
+        "date": {
+          "help": "Please enter the date when the problem occured",
+          "label": "Time of error"
+        },
+        "description": {
+          "label": "Issue-Description"
+        },
+        "title": {
+          "label": "task-Title"
+        }
+      }
+    },
+    "message": {
+      "assignment": {
+        "changed": {
+          "title": "Assignment changed"
+        }
+      },
+      "downtime": {
+        "changed": {
+          "content": "'{{username}}' changed the value of the 'downtime' from '{{old}}' to '{{new}}'.",
+          "title": "Downtime changed"
+        }
+      },
+      "duedate": {
+        "changed": {
+          "content": "'{{username}}' changed the 'duedate' from '{{oldstart}} until {{oldend}}' to '{{newstart}} until {{newend}}'.",
+          "title": "Duedate changed"
+        }
+      },
+      "frequency": {
+        "changed": {
+          "content": "'{{username}}' changed the value of the 'frequency' from '{{old}}' to '{{new}}'.",
+          "title": "Frequency changed"
+        }
+      },
+      "issuecategory": {
+        "changed": {
+          "content": "'{{username}}' changed the 'issuecategory' from '{{old}}' to '{{new}}'.",
+          "title": "Issuecategory changed"
+        }
+      },
+      "kanbanstate": {
+        "changed": {
+          "content": "'{{username}}' changed the 'state' from '{{old}}' to '{{new}}'.",
+          "title": "State changed"
+        }
+      },
+      "material": {
+        "changed": {
+          "title": "Article changed"
+        }
+      },
+      "priority": {
+        "changed": {
+          "content": "'{{username}}' changed the 'priority' from '{{old}}' to '{{new}}'.",
+          "title": "Priority changed"
+        }
+      },
+      "project": {
+        "changed": {
+          "content": "'{{username}}' changed the project to '{{new}}'.",
+          "title": "Changed project"
+        }
+      },
+      "restriction": {
+        "changed": {
+          "content": "'{{username}}' changed the value of the 'restriction' from '{{old}}' to '{{new}}'.",
+          "title": "Restriction changed"
+        }
+      },
+      "source": {
+        "changed": {
+          "content": "'{{username}}' reassigned the task from the 'source' '{{old}}' to '{{new}}'.",
+          "title": "Source changed"
+        }
+      },
+      "title": {
+        "changed": {
+          "content": "'{{username}}' changed the 'name' from '{{old}}' to '{{new}}'.",
+          "title": "Name changed"
+        }
+      }
+    },
+    "meta": {
+      "boolean": {
+        "false": "No",
+        "true": "Yes"
+      },
+      "title": "Meta data"
+    },
+    "move": {
+      "state": {
+        "message": {
+          "title": "Notice: State changed"
+        }
+      }
+    },
+    "overview": {
+      "columnView": "Columns",
+      "listView": "List"
+    },
+    "priority": {
+      "error": "Could not change task priority",
+      "invalid": "Priority could not be set",
+      "loading": "Changing task priority...",
+      "modal": {
+        "priority": "Priority",
+        "title": "Change priority of task '{{task}}'"
+      },
+      "success": "Priority successfully changed"
+    },
+    "project": {
+      "error": "Could not assign task",
+      "loading": "Assigning task to project...",
+      "statistics": "Overview",
+      "subprojects": "Subprojects",
+      "success": "task successfully assigned"
+    },
+    "source": {
+      "change": {
+        "error": "Failed assigning source",
+        "loading": "Assigning source...",
+        "modal": {
+          "ok": "Change source",
+          "title": "Change source for '{{task}}'"
+        },
+        "success": "Source assigned",
+        "tooltip": "Change source"
+      }
+    },
+    "state": {
+      "invalid": "State could not be changed",
+      "loading": "Changing task state...",
+      "select": {
+        "label": "Select a new state",
+        "title": "Change task state"
+      },
+      "success": "State successfully changed"
+    },
+    "statistic": {
+      "loading": "Loading task statistics",
+      "notickets": "No tasks found",
+      "overview": {
+        "states": "task per state"
+      },
+      "state": {
+        "inbox": "Open tasks",
+        "outbox": "Closed tasks",
+        "process": "tasks in Bearbeitung"
+      },
+      "total": "Total tasks: {{count}}"
+    },
+    "tile": {
+      "createdAt": "Created at: {{date}}",
+      "issuecategory": "Issue category: {{category}}"
+    },
+    "tilemonitor": {
+      "add_to_schedule": {
+        "error": "task could not be added to daily schedule",
+        "label": "Add to a daily schedule",
+        "success": "task added to daily schedule"
+      },
+      "assignedusers": {
+        "both": "Roles: {{roles}} \n Users: {{users}}",
+        "none": "Not assigned",
+        "roles": "Roles: {{roles}}",
+        "users": "Users: {{users}}"
+      },
+      "no_schedule_selected": {
+        "label": "Select a daily schedule before adding a task."
+      },
+      "schedule": {
+        "label": "Contained in daily schedule: {{name}}"
+      },
+      "workplace": "Source:"
+    },
+    "todos": {
+      "add": {
+        "title": "Add todo"
+      },
+      "change": {
+        "error": "Updating todo failed",
+        "loading": "Updating Todo...",
+        "success": "Todo updated"
+      },
+      "label": "Todos"
+    },
+    "update": {
+      "message": {
+        "title": "Updated task"
+      }
+    }
+  },
+  "task_creation": {
+    "fields": {
+      "meta": {
+        "fields": {
+          "description": "Field description",
+          "label": "Field name",
+          "name": "Field id: {{name}}",
+          "type": "Field type"
+        },
+        "types": {
+          "boolean": "Boolean (true/false)",
+          "date": "Date",
+          "number": "Number input",
+          "select": "Selection",
+          "select_parse": "Databound selection",
+          "string": "Text input"
+        }
+      }
+    }
+  },
+  "tours": {
+    "items": {
+      "step": {
+        "1": {
+          "description": "All articles to the selected source is displayed in this table.",
+          "title": "Article table"
+        }
+      }
+    },
+    "projects": {
+      "step": {
+        "1": {
+          "description": "On this page you can get an overview of all the pending and upcoming projects.",
+          "title": "Welcome to the projects page!"
+        }
+      }
+    }
+  },
+  "widgets": {
+    "numberofissues": {
+      "explorer": {
+        "description": "Displays the number of tasks in the selected interval.",
+        "title": "Number of Issues"
+      },
+      "name": "Number of tasks: {{name}}",
+      "settings": {
+        "onlytrue_label": "Determine the number when a fault is present",
+        "sizeByPriority": "Size by priority",
+        "type_select": {
+          "description": "Please select the type of visualisation",
+          "title": "Type settings"
+        },
+        "types": {
+          "bar": "Bar chart",
+          "pie": "Pie chart"
+        }
+      },
+      "total": "Total tasks: {{count}}"
+    }
+  }
+}
