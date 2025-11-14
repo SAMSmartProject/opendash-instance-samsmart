@@ -168,6 +168,20 @@ init("opendash", async (factory) => {
   });
 
   factory.registerStaticNavigationItem({
+    id: "pentest_guide",
+    group: "pentest",
+    place: "frontpage",
+    order: 20,
+    label: "Zum Pentest-Leitfaden",
+    icon: "fa:comments",
+    permission: "",
+    link: "https://pentest.samsmart.hosts.openinc.de/intro/intro",
+    routeCondition: "",
+    activeCondition: "",
+    color: "#1950be",
+  });
+
+  factory.registerStaticNavigationItem({
     id: "ticket_create",
     group: "service",
     place: "frontpage",

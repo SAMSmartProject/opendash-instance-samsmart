@@ -6,7 +6,7 @@
     "build": "opendash build",
     "dev": "opendash dev",
     "deploy": "opendash deploy",
-    "schema-ts": "parse-server-schema typescript --prefix OD3_Maintenance_ --resolve-referenced-classes ./src/js/parsegenerated"
+    "schema-ts": "parse-server-schema typescript --prefix OD3_ --resolve-referenced-classes ./src/js/parsegenerated"
   },
   "dependencies": {
     "@ant-design/pro-layout": "^7.22.7",
